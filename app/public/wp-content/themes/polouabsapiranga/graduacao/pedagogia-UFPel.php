@@ -68,11 +68,11 @@
             <!--------------------- Pedagogia UFRGS ------------------->
             <!-- tittle -->
             <div class="title-section courses">
-                <h4> Pedagogia UFRGS</h4>
+                <h4>Pedagogia - UFPel</h4>
                 <ul>
                     <li>
                         <span>
-                            Curso de licenciatura em Pedagogia - UFRGS.
+                            Curso de licenciatura em Pedagogia - UFPel.
                         </span>
                     </li>
                 </ul>

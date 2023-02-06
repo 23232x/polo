@@ -1,6 +1,10 @@
 <?php //Template Name: Pedagogia-UFRGS
 ?>
 
+
+<?php get_header(); ?>
+
+
 <?php if (have_posts()) {
     while (have_posts()) {
         the_post(); ?>
@@ -62,7 +66,7 @@
 
             <!-- tittle -->
             <div class="title-section courses">
-                <h4>Física - UFSM</h4>
+                <h4>Pedagogia - UFRGS</h4>
                 <ul>
                     <li>
                         <span>

@@ -1,4 +1,5 @@
-<?php //Template Name: Letras-Ingles-UFRGS
+<?php
+// Template Name: Letras-Espanhol-UFPel
 ?>
 
 
@@ -7,6 +8,7 @@
 <?php if (have_posts()) {
     while (have_posts()) {
         the_post(); ?>
+
 
         <!-- social medias top side bar -->
         <div class="section container">
@@ -63,15 +65,16 @@
 
             <!-- tittle -->
             <div class="title-section courses">
-                <h4>Letras Inglês - UFRGS </h4>
+                <h4>Letras Espanhol - UFPel</h4>
                 <ul>
                     <li>
                         <span>
-                            Curso de graduação em Letras Inglês - UFRGS.
+                            Curso de licenciatura em Letras Espanhol - UFPel.
                         </span>
                     </li>
                 </ul>
             </div>
+
 
             <section class="main-page">
                 <div class="container contend-section-course">
@@ -93,9 +96,9 @@
                         mas também à inovação no processo de formação docente, ao utilizar uma plataforma de EAD – Educação à Distância, potencializando o espaço e o tempo, permitindo a experiência e a formação em ambientes digitais.
                     </p>
                     <p class="text" style="padding-left: 6rem;">Acesse o <a href="google.com" target="_blank">Site </a> Oficial do curso e veja a grade curricular completa.</p>
+
             </section>
         </div>
-
 
 <?php
     }

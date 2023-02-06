@@ -65,11 +65,11 @@
 
             <!-- tittle -->
             <div class="title-section courses">
-                <h4>Tecnologia em Sistemas para a Internet - IFSUL </h4>
+                <h4>Linguagens/Letras - IFSUL </h4>
                 <ul>
                     <li>
                         <span>
-                            Curso de graduação em Tecnologia em Sistemas para a Internet - IFSUL
+                            Curso de graduação em Linguagens/Letras - IFSUL.
                         </span>
                     </li>
                 </ul>

@@ -1,4 +1,4 @@
-<?php  // Template Name: Licenciatura-em-História-IFSUL 
+<?php  // Licenciatura-em-Historia-UFPel
 ?>
 
 
