@@ -1,4 +1,4 @@
-<?php //Template Name: Forma-professores-edu-profissional-UFSM
+<?php //Template Name: Forma-professores-edu-profissional-UFSM 
 ?>
 
 
@@ -64,11 +64,11 @@
 
             <!-- tittle -->
             <div class="title-section courses">
-                <h4>Tecnologia em Sistemas para a Internet - IFSUL </h4>
+                <h4>Formação de Professores para a Educação Profissional - UFSM</h4>
                 <ul>
                     <li>
                         <span>
-                            Curso de graduação em Tecnologia em Sistemas para a Internet - IFSUL
+                            Formação de Professores para a Educação Profissional - UFSM
                         </span>
                     </li>
                 </ul>

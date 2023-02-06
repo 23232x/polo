@@ -63,11 +63,11 @@
 
             <!-- tittle -->
             <div class="title-section courses">
-                <h4> Matemática - FURG</h4>
+                <h4>Matemática - UFPel</h4>
                 <ul>
                     <li>
                         <span>
-                            Curso de licenciatura em Matemática - FURG.
+                            Curso de licenciatura em Matemática - UFPel.
                         </span>
                     </li>
                 </ul>
