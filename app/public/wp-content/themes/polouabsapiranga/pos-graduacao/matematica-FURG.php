@@ -1,5 +1,5 @@
 <?php
-// Template Name: RS-sociedade-política-cultura-FURG
+// Template Name: Matematica-FURG
 ?>
 
 
@@ -65,11 +65,11 @@
 
             <!-- tittle -->
             <div class="title-section courses">
-                <h4>Rio Grande do Sul: sociedade, política e cultura</h4>
+                <h4>Matemática</h4>
                 <ul>
                     <li>
                         <span>
-                            Curso de Pós Graduação em Rio Grande do Sul: sociedade, política e cultura - FURG.
+                            Curso de Pós Graduação em Matemática - FURG.
                         </span>
                     </li>
                 </ul>

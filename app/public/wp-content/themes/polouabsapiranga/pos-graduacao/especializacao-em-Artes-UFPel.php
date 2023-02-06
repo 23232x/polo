@@ -1,9 +1,9 @@
-<?php
-// Template Name: Gestao Publica Municipal
+<?php //Template Name: Especializacao-em-artes-UFPel 
 ?>
 
 
 <?php get_header(); ?>
+
 
 <?php if (have_posts()) {
     while (have_posts()) {
@@ -65,11 +65,11 @@
 
             <!-- tittle -->
             <div class="title-section courses">
-                <h4>Gestão Pública Municipal - UFRGS</h4>
+                <h4>Especialização em Artes - UFPel</h4>
                 <ul>
                     <li>
                         <span>
-                            Curso de Pós Graduação em Gestão Pública Municipal.
+                            Curso de Pós Graduação em Especialização em Artes - UFPel
                         </span>
                     </li>
                 </ul>
@@ -97,8 +97,13 @@
                     <p class="text" style="padding-left: 6rem;">Acesse o <a href="google.com" target="_blank">Site </a> Oficial do curso e veja a grade curricular completa.</p>
             </section>
         </div>
+
+
+
+
 <?php
     }
-}
-?>
+} ?>
+
+
 <?php get_footer(); ?>

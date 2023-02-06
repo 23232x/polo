@@ -1,5 +1,5 @@
 <?php
-// Template Name: Gestao-publica-Municipal-UFRGS 
+// Template Name: Gestao-Publica-Municipal-UFRGS
 ?>
 
 
@@ -65,11 +65,11 @@
 
             <!-- tittle -->
             <div class="title-section courses">
-                <h4>Gestão Pública - UFRGS</h4>
+                <h4>Gestão Pública Municipal - UFRGS</h4>
                 <ul>
                     <li>
                         <span>
-                            Curso de Pós Graduação em Gestão Pública.
+                            Curso de Pós Graduação em Gestão Pública Municipal.
                         </span>
                     </li>
                 </ul>

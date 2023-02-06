@@ -1,5 +1,5 @@
 <?php
-// Template Name: Matematica-Midias Digitais e Didática - UFRGS
+// Template Name: Matematica-Midias-Digitais-e-Didática-UFRGS
 ?>
 
 

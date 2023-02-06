@@ -1,5 +1,5 @@
 <?php
-// Template Name: Educacao Fisica Anos Iniciais
+// Template Name: Educacao-fisica-e-anos-iniciais-UFSM
 ?>
 
 

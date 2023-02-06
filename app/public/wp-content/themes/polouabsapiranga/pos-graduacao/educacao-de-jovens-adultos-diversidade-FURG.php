@@ -1,5 +1,5 @@
 <?php
-// Template Name: Educacao-jovens-adultos-na-diversidade-FURG
+// Template Name: Educacao-de-jovens-e-adultos-na-diversidade-FURG
 ?>
 
 

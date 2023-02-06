@@ -1,5 +1,5 @@
 <?php
-// Template Name: Aplicacoes para a Web
+// Template Name: Gestao-Publica-UFRGS
 ?>
 
 
@@ -65,11 +65,11 @@
 
             <!-- tittle -->
             <div class="title-section courses">
-                <h4>Aplicações para a Web</h4>
+                <h4>Gestão Pública - UFRGS</h4>
                 <ul>
                     <li>
                         <span>
-                            Curso de Pós Graduação em Aplicações para a Web - FURG.
+                            Curso de Pós Graduação em Gestão Pública.
                         </span>
                     </li>
                 </ul>

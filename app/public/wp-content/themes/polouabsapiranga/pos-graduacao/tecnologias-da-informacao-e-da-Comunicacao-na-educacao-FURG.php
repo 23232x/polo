@@ -1,4 +1,4 @@
-<?php // Template Name: Educacao-de-jovens-e-adultos-na-diversidade-FURG
+<?php // Template Name: Tecnologias-da-Informacao-e-da-Comunicacao-na-Educacao-FURG
 ?>
 
 

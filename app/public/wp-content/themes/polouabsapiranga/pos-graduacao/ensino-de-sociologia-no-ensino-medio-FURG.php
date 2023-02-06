@@ -1,5 +1,5 @@
 <?php
-// Template Name: Ensino de Sociologia no Ensino Médio
+// Template Name: Ensino-de-Sociologia-no-ensino-medio-FURG
 ?>
 
 
