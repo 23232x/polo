@@ -1,5 +1,5 @@
 <?php
-// Template Name: Educacao-do-campo
+// Template Name: Educacao-do-Campo-UFPel
 ?>
 
 <?php get_header(); ?>
