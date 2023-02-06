@@ -1,7 +1,6 @@
 <?php
-// Template Name: EPPEC
+// Template Name: Ensino-de-Filosofia-no-ensino-Medio-UFSM
 ?>
-<!--template : EPPEC= Espacos e possibilidades para a educacao continuada  -->
 
 
 <?php get_header(); ?>
@@ -66,11 +65,11 @@
 
             <!-- tittle -->
             <div class="title-section courses">
-                <h4>Espaços e possibilidades para a educação continuada</h4>
+                <h4>Ensino de Filosofia no ensino Médio - UFSM</h4>
                 <ul>
                     <li>
                         <span>
-                            Curso de Pós Graduação em Espaços e possibilidades para a educação continuada - IFSUL.
+                            Curso de Pós Graduação Ensino de Filosofia no ensino Médio - UFSM.
                         </span>
                     </li>
                 </ul>

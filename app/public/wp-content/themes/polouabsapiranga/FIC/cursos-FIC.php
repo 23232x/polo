@@ -1,7 +1,5 @@
-<?php
-// Template Name: EPPEC
+<?php //Template Name: Cursos-FIC-IFSUL
 ?>
-<!--template : EPPEC= Espacos e possibilidades para a educacao continuada  -->
 
 
 <?php get_header(); ?>
@@ -9,7 +7,6 @@
 <?php if (have_posts()) {
     while (have_posts()) {
         the_post(); ?>
-
 
         <!-- social medias top side bar -->
         <div class="section container">
@@ -66,11 +63,11 @@
 
             <!-- tittle -->
             <div class="title-section courses">
-                <h4>Espaços e possibilidades para a educação continuada</h4>
+                <h4>Cursos FIC - IFSUL</h4>
                 <ul>
                     <li>
                         <span>
-                            Curso de Pós Graduação em Espaços e possibilidades para a educação continuada - IFSUL.
+                            Lista de Cursos FIC - IFSUL
                         </span>
                     </li>
                 </ul>
@@ -80,7 +77,7 @@
                 <div class="container contend-section-course">
                     <h4 class="intro-curse-title">Sobre o Curso</h4>
                     <p class="text mininal-detail">
-                        <span class="vertical">Pós Graduação</span>
+                        <span class="vertical">Lista de Cursos</span>
 
                         O Curso proposto pela Universidade Federal de Pelotas
                         vem ao encontro da necessidade de formação de professores em língua estrangeira
@@ -98,8 +95,13 @@
                     <p class="text" style="padding-left: 6rem;">Acesse o <a href="google.com" target="_blank">Site </a> Oficial do curso e veja a grade curricular completa.</p>
             </section>
         </div>
+
+
+
 <?php
+
     }
 }
 ?>
+
 <?php get_footer(); ?>
