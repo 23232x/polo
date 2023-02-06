@@ -1,0 +1,44 @@
+/*
+Theme Name: Polo UAB Sapiranga
+Theme URI: --
+Author: Adriano Scheffer Amado
+Author URI: ----
+phone of author: +5551997498703
+Description: this theme was created for POlo UAB Sapiranga
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+
+
+/*
+@import url(assets/css/header.css);
+@import url(assets/css/page-section.css);
+@import url(assets/css/hero.css);
+@import url(assets/css/faq.css);
+@import url(assets/css/footer.css); */
+
+
+/* @import url(assets/css/teste.css); */
+
+@import url(assets/css/reset.css);
+@import url(assets/css/header.css);
+@import url(assets/css/responsive.css);
+@import url(assets/css/menu.css);
+@import url(assets/css/searchform.css);
+@import url(assets/css/sidebar.css);
+@import url(assets/css/search.css);
+@import url(assets/css/page-home.css);
+@import url(assets/css/page-section.css);
+@import url(assets/css/page-cursos.css);
+@import url(assets//css/biblioteca.css);
+@import url(assets/css/page-graduacao.css);
+@import url(assets/css/faq.css);
+@import url(assets/css/404.css);
+@import url(assets/css/swiper.css);
+@import url(assets/css/busca.css);
+@import url(assets/css/footer.css);
+
+.single .related-posts-after-content .related-thumb {
+    display: inline-block;
+    width: 32%;
+}

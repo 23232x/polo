@@ -1,0 +1,18 @@
+2023-01-18 asamado <23232x@gmail.com>
+    added changelog.log file.
+
+2023-01-18 asamado <23232x@gmail.com>
+    added the custom sidebar.php template in the root main theme.
+
+2023-01-23 asamado <23232x@gmail.com>
+    added the page-cursos.css file, its the stylesheet for the graduations and postgraduate pages courses.
+
+2023-01-24 asamado <23232x@gmail.com>
+    added breadcrumb functions, style and style.
+    concluded the courses template pages
+
+2023-01-25 asamado <23232x@gmail.com>
+    added individual courses page.
+
+2023-01-26 asamado <23232x@gmail.com>
+    added site map.

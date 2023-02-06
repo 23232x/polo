@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*******************BEGIN*********************/
+/******** The social media top paget style****/
+
+.social-medias-top-page {
+    align-self: flex-start;
+    margin: 2.5rem 0;
+    margin-bottom: 0px;
+}
+
+.social-medias-top-page ul {
+    display: flex
+}
+
+.social-medias-top-page ul li {
+    margin-right: 20px;
+    width: 1.8rem
+}
+
+/*END*/
+
+.main-page.bg {
+    /* background-color: #F3F0EC;  */
+    background-color: none;
+    display: flex;
+    padding: 5rem 0;
+    justify-content: center;
+}
+
+
+/********************BEGIN*********************/
+/*********** All pages has the style below*****/
+.section.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-content: center;
+}
+
+.title-section.e404 {
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+/* title */
+.title-section h4 {
+    font-family: 'Playfair Display', serif;
+    color: #241F20;
+    font-size: 4.5rem
+}
+
+/* subtitle */
+.title-section ul li span {
+    /* margin-top: 0.8rem; */
+    margin-bottom: 4rem;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    color: #241f20;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+.contend-section {
+    max-width: 65%;
+    background-color: #fff;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-wrapper {
+    max-width: 65%;
+    align-self: flex-end;
+    margin-bottom: 5rem
+}
+
+.text-wrapper p {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    color: #241F20;
+    line-height: 30px
+}
+
+
+/****************************************************************************** 
+Pages that contains the style below
+-page-graducao,
+-page-posgraduacao
+-page-cursos-previstos
+-page-editais
+-page-noticias
+-page-contato
+-page-biblioteca
+-page-faq
+*/
+
+
+.bg-gray {
+    background-color: #D9D9D9;
+    padding: 5rem 0
+}
+
+.bg-gray .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.midium-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.wraper-title {
+    flex: 1 1 25rem;
+    padding: 2rem 4rem 4rem 0;
+}
+
+ul.box {
+    flex: 2 1 38rem;
+}
+
+ul.wraper-title li h4.title {
+    font-size: 2.5rem;
+    color: #241F20;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+
+}
+
+span.sub-title {
+    display: block;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-top: 1rem
+}
+
+/* secound box style */
+ul.box li h4.title {
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: #002140;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem
+}
+
+ul.box li h4::after {
+    display: block;
+    content: url(../img/icons/plus-thin\ 1.svg);
+    /* display: inline-block; */
+    background-color: #241F20;
+    height: 100%;
+    padding: 1.3rem;
+    cursor: pointer
+}
+
+ul.bg-white {
+    background-color: #fff;
+    display: none;
+}
+
+ul.bg-white li {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #F3F0EC;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between
+}
+
+ul.bg-white li a {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    color: #241F20
+}
+
+/****** CONTATO ******/
+.main-page.bg-contato {
+    margin: 5rem 0;
+    padding: 5rem 0
+}
+
+.main-page.bg-contato {
+    background-color: #002140 !important;
+    width: 100%;
+    display: flex
+}
+
+.wrapper-address {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.polo-address {
+    flex: 1 1 15%;
+    padding: 4rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column
+}
+
+.item-address {
+    margin: 2rem 0
+}
+
+span.address-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 3rem
+}
+
+span.address-description {
+    display: block;
+    color: #241f20;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 24px;
+    margin-top: 1.3rem
+}
+
+.polo-map {
+    flex: 2 1 60rem;
+    display: block;
+    width: 100%
+}
+
+.polo-map iframe {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+
+/* this class is added when the "andamento" */
+.block {
+    display: block;
+}
+
+
+
+
+@media(max-width:735px) {
+    .polo-map {
+        height: 45rem
+    }
+}

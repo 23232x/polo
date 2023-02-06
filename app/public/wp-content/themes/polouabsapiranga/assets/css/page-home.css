@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.partners {
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+}
+
+/* override the reset.css */
+h4.title-section {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 3.3rem;
+    margin: 3.5rem 0;
+    font-weight: 200;
+    line-height: 4.5rem;
+    width: 45%;
+}
+
+.partners ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.partners ul li {
+    display: block;
+    width: 15rem;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem
+}
+
+.partners ul li a img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: gray scale(100%);
+}
+
+.partners ul li a img:hover {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: gray scale(0%);
+}
+
+/***** here starts the hero main styles *****/
+
+/* set img for the background */
+.main-hero {
+    height: 100vh;
+    /* width: 100vw; */
+    background-image: url('../img/hero/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end
+}
+
+/* turn the container as flexibel */
+.main-hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+/* intro text */
+p.text-intro {
+    font-family: 'Playfair Display', serif;
+    font-size: 6rem;
+    font-weight: 100;
+    color: #fff;
+    width: 65%
+}
+
+.pesquisa {
+    margin-top: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pesquisa span {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-right: 3rem
+}
+
+.busca form {
+    display: grid
+}
+
+.hidden {
+    display: none
+}
+
+.busca #s {
+    border: 2px solid #fff
+}

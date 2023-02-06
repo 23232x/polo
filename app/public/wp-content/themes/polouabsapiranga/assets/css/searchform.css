@@ -1,0 +1,49 @@
+/* 
+
+This stylesheet, costomize the search form template
+modified: 12/01/23 - asamado
+
+*/
+.custon_search_form form {
+    width: fit-content;
+}
+
+.custon_search_form form div {
+    display: flex;
+    /* background-color: blue; */
+    align-items: flex-end;
+}
+
+.screen-reader-text {
+    background-color: rebeccapurple;
+}
+
+#s {
+    all: unset;
+    border: 2px solid #002140;
+    background-color: #fff;
+    padding: 4px;
+}
+
+#s:focus {}
+
+
+/* styling the placeholder */
+#s::placeholder {
+    font-size: 1.4rem;
+    color: #717171;
+    padding-left: 5px;
+}
+
+#searchsubmit {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    padding: 6px 20px;
+    background: url('../img/icons/search.svg')no-repeat center;
+    background-color: #002140
+}
+
+input:placeholder-shown {
+    border: 3px dotted tomato;
+}

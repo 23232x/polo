@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+.main-page.bg.library {
+    flex-direction: column;
+}
+
+.container.wraper-contend-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.library-titles {
+    flex: 1 1 25rem;
+    margin: 1rem 1.8rem;
+}
+
+.library-titles p {
+    padding-right: 4rem;
+    line-height: 28px;
+    font-size: 1.6rem;
+}
+
+.library-titles h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 250;
+    margin-bottom: 1.5rem;
+}
+
+.contend-section.container {
+    margin: 1rem 0;
+}
+
+.link-item ul li {
+    border-bottom: 1px solid #F3F0EC;
+}
+
+.link-item ul li a {
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #241F20;
+    font-weight: 500;
+    display: flex;
+}
+
+/* .link-item ul li:hover {
+    background-color: aqua;
+} */
+
+@media(max-width:826px) {
+
+    .contend-section.container {
+        justify-content: flex-start;
+        min-width: 100%;
+    }
+
+    .library-titles p {
+        line-height: 19px;
+        padding-right: 0px;
+    }
+}

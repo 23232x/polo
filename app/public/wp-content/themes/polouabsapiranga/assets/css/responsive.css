@@ -1,0 +1,88 @@
+/* ****** GENERAL STYLE ******* */
+@media(max-width:1302px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+/********************BEGIN*********************/
+/*********** HEADER STYLE ********/
+@media(max-width:1302px) {
+    .second-column .container nav.menu ul li a {
+        /* padding: 0.25rem !important; */
+        margin: 1rem !important;
+        margin-right: 0.75rem !important;
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:877px) {
+    .second-column .container .menu.off {
+        display: none;
+    }
+
+    .second-column .container.on {
+        display: block;
+    }
+}
+
+/*END*/
+
+
+/********************BEGIN*********************/
+/*********** REDUCE THE ICONS ON 670px ********/
+@media(max-width:670px) {
+    .social-medias-top-page ul li a img {
+        width: 2.5rem;
+    }
+}
+
+/*END*/
+
+
+/********************BEGIN*********************/
+/******** CHANGE TO FLEX-START THE DIV*********/
+@media (max-width:1033px) {
+    .title-section {
+        align-self: flex-start;
+    }
+
+    .contend-section .text-wrapper {
+        align-self: flex-start;
+        max-width: 95%;
+    }
+}
+
+/*END*/
+
+
+
+/******************** SWIPER ********************/
+/******************** BEGIN *********************/
+@media(max-width: 700px) {
+    p.text-intro {
+        width: 75% !important;
+        font-size: 5vh !important;
+
+    }
+}
+
+
+
+
+/******************** TITLE  ********************/
+/* This section goeson the page home, it the title for the
+partner institutions*/
+/******************** BEGIN *********************/
+@media(max-width:939px) {
+    h4.title-section {
+        text-align: center;
+        width: 100% !important;
+    }
+}
+
+@media(max-width:521px) {
+    h4.title-section {
+        font-size: 3rem !important;
+    }
+}

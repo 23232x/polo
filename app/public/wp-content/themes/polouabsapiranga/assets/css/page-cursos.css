@@ -1,0 +1,67 @@
+/* 
+All styles includes in this templates referes only for the indiviaul courses.
+
+*/
+
+h4.intro-curse-title {
+    margin-left: 7rem;
+    width: 70%;
+    font-size: 3rem;
+    color: #fff;
+    background-color: #241f20;
+    margin-bottom: 2rem;
+    width: fit-content;
+    padding: 0.3rem 2rem;
+}
+
+p.text.mininal-detail {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    color: #241f20;
+}
+
+span.vertical {
+    writing-mode: vertical-rl;
+    direction: rtl;
+    padding: 0 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width:1033px) {
+    .title-section.courses {
+        margin-left: 7rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    p.text.mininal-detail {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .title-section.courses {
+        margin: 3rem auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    span.vertical {
+        padding-right: 0px;
+    }
+
+    h4.intro-curse-title {
+        margin-left: 5rem;
+    }
+}
