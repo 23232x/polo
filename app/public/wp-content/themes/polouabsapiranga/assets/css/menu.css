@@ -22,10 +22,11 @@ ul.menu-itens.container li {
 ul.menu-itens.container li a {
     display: block;
     padding: 1rem;
-    color: #B6B6B6;
+    color: #ffff;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 1.4rem;
+    font-weight: 500;
     /* border-bottom: 1px solid #002140; */
 }
 
@@ -35,14 +36,15 @@ ul.menu-itens.container li a {
 /* Style sub-menu */
 #toggle-menu {
     background-color: #fff;
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 
-.dash {
-    display: inline-block;
-    padding-top: 30px;
-    padding-left: 30px;
-    background-color: #0000;
+.column p.desc {
+    width: 35rem;
+    font-size: 1.6rem;
+    color: #423F3F;
+    line-height: 20px;
+    margin-top: 2rem;
 }
 
 h4.title-inner-menu {
@@ -58,10 +60,61 @@ h4.title-inner-menu {
 h4.title-inner-menu::before {
     display: block;
     content: " ";
-    background-color: rebeccapurple;
+    width: 40px;
+    padding-top: 1.5px;
+    margin-bottom: 5px;
+    background-color: rgb(92, 92, 92);
 }
 
 .container.sub-menu {
     display: flex;
     justify-content: space-between;
+}
+
+h4.degree {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+/* ul.menu-course-list {
+    border-left: 1.5px solid #000;
+    padding-left: 10px;
+
+} */
+
+
+ul.menu-course-list li a {
+    display: block;
+    color: #4D4D4D;
+    font-size: 1.6rem;
+    margin: 2px 0;
+    padding: 2px 0;
+}
+
+a.see-full-list {
+    display: block;
+    margin-top: 1.2rem;
+    font-style: italic;
+    font-size: 1.4rem;
+    color: #000;
+    border-bottom: 2px dotted #4D4D4D;
+
+}
+
+a.see-full-list:hover {
+    border-bottom: 2px dotted #4D4D4D;
+}
+
+
+/* styling the Wrapper-degree */
+
+.Wrapper-degree {
+    width: 65%;
+
+    display: flex;
+    justify-content: space-around;
+
 }
