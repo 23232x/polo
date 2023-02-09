@@ -1,11 +1,11 @@
 /* 4584 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 
 /* ❤️ */
-.degree h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-}
 
 nav.menu {
     background-color: #002140;
@@ -29,36 +29,39 @@ ul.menu-itens.container li a {
     /* border-bottom: 1px solid #002140; */
 }
 
-ul.menu-itens.container li a:hover {
-    /* border-bottom: 1px solid #fff; */
-    width: fit-content;
+
+
+
+/* Style sub-menu */
+#toggle-menu {
+    background-color: #fff;
+    padding: 3rem 0;
 }
 
-#toggle-menu {
-    background-color: rgb(141, 135, 135);
-    padding: 3rem 0;
+.dash {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: #0000;
+}
+
+h4.title-inner-menu {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    line-height: 20px;
+    /* letter-spacing: 0.1rem; */
+    font-weight: 400;
+    height: fit-content;
+}
+
+
+h4.title-inner-menu::before {
+    display: block;
+    content: " ";
+    background-color: rebeccapurple;
 }
 
 .container.sub-menu {
     display: flex;
     justify-content: space-between;
-}
-
-.degree ul {
-    margin-top: 2rem;
-}
-
-.degree ul li {
-    margin: 0.65rem 0;
-}
-
-.degree ul li:last-child {
-    border-bottom: 1px dotted red;
-    font-size: 1.2rem;
-    font-style: italic;
-}
-
-.degree ul li a {
-    display: block;
-    color: #4D4D4D;
 }
