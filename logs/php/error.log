@@ -42,3 +42,4 @@ Stack trace:
   thrown in /home/TI/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php on line 21
 [06-Feb-2023 20:04:49 UTC] PHP Warning:  Attempt to read property "title" on null in /home/TI/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-customize-widgets.php on line 900
 [06-Feb-2023 20:05:41 UTC] PHP Warning:  Attempt to read property "title" on null in /home/TI/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-customize-widgets.php on line 900
+[10-Feb-2023 17:03:48 UTC] Cron reschedule event error for hook: wp_https_detection, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}

@@ -6,9 +6,15 @@
 
 
 /* ❤️ */
+.top-header {
+    height: 5rem;
+}
 
 nav.menu {
     background-color: #002140;
+    display: flex;
+    align-items: center;
+    height: 6.5rem;
 }
 
 ul.menu-itens.container {
@@ -29,9 +35,6 @@ ul.menu-itens.container li a {
     font-weight: 500;
     /* border-bottom: 1px solid #002140; */
 }
-
-
-
 
 /* Style sub-menu */
 #toggle-menu {
@@ -100,14 +103,11 @@ a.see-full-list {
     font-style: italic;
     font-size: 1.4rem;
     color: #000;
-    border-bottom: 2px dotted #4D4D4D;
-
 }
 
 a.see-full-list:hover {
     border-bottom: 2px dotted #4D4D4D;
 }
-
 
 /* styling the Wrapper-degree */
 
