@@ -7,7 +7,27 @@
 
 /* ❤️ */
 .top-header {
-    height: 5rem;
+    padding: 5rem 0;
+    height: 9rem;
+    display: flex;
+    align-items: center;
+}
+
+.top-header a {
+    display: block;
+    display: flex;
+    line-height: 1px;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #002140;
+    font-family: 'Open Sans', sans-serif;
+    margin: 45px 0;
+}
+
+.top-header a img {
+    margin-right: 15px;
+    width: 8rem;
 }
 
 nav.menu {
@@ -36,11 +56,7 @@ ul.menu-itens.container li a {
     /* border-bottom: 1px solid #002140; */
 }
 
-/* Style sub-menu */
-#toggle-menu {
-    background-color: #fff;
-    padding: 5rem 0;
-}
+
 
 .column p.desc {
     width: 35rem;
