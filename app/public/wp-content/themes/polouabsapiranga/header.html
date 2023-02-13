@@ -4,7 +4,7 @@
 <head>
     <title>
         <!-- pega o nome do site -->
-        <?php bloginfo('name'); ?>
+        <!-- <?php bloginfo('name'); ?> -->
     </title>
 
 
@@ -13,9 +13,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- wordpress header -->
-    <?php wp_head(); ?>
+    <!-- <?php wp_head(); ?> -->
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+
 </head>
 
 <header>
@@ -29,6 +31,17 @@
 
     <!-- nav do menu -->
     <nav class="menu">
+
+        <div class="btn-hamburguer container">
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+
+
+
         <ul class="menu-itens container">
             <li><a href="#">Home</a></li>
             <li><a href="#">Sobre</a></li>
@@ -43,7 +56,7 @@
 
 
     <!-- sub-menu cursos itens -->
-    <nav id="toggle-menu cursos" style="display:block;">
+    <nav id="toggle-menu" style="display:nome ;">
         <!-- container -men -->
         <div class="container sub-menu">
             <!-- 1º First column -->
@@ -86,12 +99,6 @@
                     <a class="see-full-list" href="#">Acesse a lista completa</a>
                 </div>
             </div>
-
-
-
-
-
-
         </div>
     </nav>
 
@@ -102,7 +109,7 @@
 
 
 
-<script>
+<!-- <script>
 
     var over = document.getElementById("sub-item");
     var show = document.getElementById("toggle-menu");
@@ -111,12 +118,12 @@
         show.style.display = "block";
     })
 
-</script>
+</script> -->
 
 
 
 
-
+<script src="assets/js/matchMedia.js"></script>
 
 </body>
 
