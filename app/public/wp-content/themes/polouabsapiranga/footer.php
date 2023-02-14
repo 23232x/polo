@@ -1,14 +1,13 @@
     <footer class="footer">
         <div class="container">
+
             <!-- primeira coluna logo -->
-            <div class="footer-item">
+            <div class="footer-item footer-logo">
                 <a href="">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/logo-polo_footer.svg" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/logo.svg" alt="">
+                    <span>Polo Universitário UAB </br> de Sapiranga</span>
                 </a>
             </div>
-
-
-
             <section class="footer-item">
                 <h4>Técnicos</h4>
                 <ul>

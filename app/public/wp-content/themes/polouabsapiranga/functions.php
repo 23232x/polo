@@ -3,7 +3,7 @@
 <!-- Just another functions files -->
 <?php
 
-// throug this, we remove some s* from the head tag :)
+//through this, we remove some s* from the head tag :)
 remove_action('wp_head', 'rsd_link');
 remove_action('wp_head', 'wlwmanifest_link');
 remove_action('wp_head', 'start_post_rel_link', 10, 0);

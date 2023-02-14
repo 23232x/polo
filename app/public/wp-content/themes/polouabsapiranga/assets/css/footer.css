@@ -21,6 +21,25 @@ footer.footer .container .footer-item {
     margin: 2rem 1rem;
 }
 
+footer.footer .container .footer-item.footer-logo a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer.footer .container .footer-item.footer-logo a img {
+    width: 10rem;
+}
+
+footer.footer .container .footer-item.footer-logo a span {
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1.5rem;
+
+}
+
 footer.footer .container .footer-item h4 {
     font-family: 'Playfair Display', serif;
     margin-bottom: 2rem;

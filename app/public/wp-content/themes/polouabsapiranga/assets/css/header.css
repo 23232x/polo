@@ -5,13 +5,14 @@
 */
 
 
+
+
 /* firt header container */
 .first-column.container {
     padding: 2.75rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .first-column.container ul {
@@ -140,5 +141,12 @@
 
     .first-column.container ul li:first-child {
         margin-right: 1rem;
+    }
+}
+
+
+@media(max-width:532px) {
+    #s {
+        display: none !important;
     }
 }

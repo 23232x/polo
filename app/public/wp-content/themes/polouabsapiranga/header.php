@@ -21,7 +21,7 @@
         <!-- polo UAB Logo -->
         <div class="top-header container">
             <a href="/">
-                <img src="assets/img/header/logo.svg" alt=""> Polo Universitário UAB<br>de Sapiranga
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/logo.svg" alt=""> Polo Universitário UAB<br>de Sapiranga
             </a>
 
 
@@ -36,7 +36,7 @@
         <!-- nav do menu responsivo -->
         <nav class="menu">
             <!--  -->
-            <div class="btn-hamburguer container" style="display:none ;">
+            <div class="btn-hamburguer container" style="display:none;">
                 <span class="menu_">Menu</span>
                 <div class="hole-menu">
                     <span></span>
@@ -48,8 +48,8 @@
 
             <!-- the main menu itens -->
             <ul class="menu-itens container">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
+                <li><a href="/polouabsapiranga/Home">Home</a></li>
+                <li><a href="/polouabsapiranga/sobre">Sobre</a></li>
                 <li id="sub-item"><a href="#">Cursos</a></li>
                 <li><a href="#">Editais</a></li>
                 <li><a href="#">Contato</a></li>
@@ -61,9 +61,9 @@
 
 
         <!-- sub-menu cursos itens -->
-        <nav id="toggle-menu" style="display:block;">
+        <nav id="toggle-menu" class="toggle-menu on" style="display:none;">
             <!-- container -men -->
-            <div class="container sub-menu">
+            <div class=" container sub-menu">
                 <!-- 1º First column -->
                 <div class="column">
                     <h4 class="title-inner-menu">Cursos Polo UAB Sapiranga</h4>
