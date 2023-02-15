@@ -21,7 +21,10 @@
         <!-- polo UAB Logo -->
         <div class="top-header container">
             <a href="/">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/logo.svg" alt=""> Polo Universitário UAB<br>de Sapiranga
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/logo.svg" alt="">
+                <span class="polo">Polo Universitário UAB
+                    <span class="uab">de Sapiranga</span>
+                </span>
             </a>
 
 
@@ -35,7 +38,8 @@
 
         <!-- nav do menu responsivo -->
         <nav class="menu">
-            <!--  -->
+
+            <!--btn-hamburguer  -->
             <div class="btn-hamburguer container" style="display:none;">
                 <span class="menu_">Menu</span>
                 <div class="hole-menu">
@@ -52,9 +56,9 @@
                 <li><a href="/polouabsapiranga/sobre">Sobre</a></li>
                 <li id="sub-item"><a href="#">Cursos</a></li>
                 <li><a href="#">Editais</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">biblioteca</a></li>
-                <li><a href="#">FAQ</a></li>
+                <li><a href="/polouabsapiranga/Contato">Contato</a></li>
+                <li><a href="/polouabsapiranga/Biblioteca">biblioteca</a></li>
+                <li><a href="/polouabsapiranga/FAQ">FAQ</a></li>
                 <li><a href="#">Blog</a></li>
             </ul>
         </nav>
@@ -62,7 +66,7 @@
 
         <!-- sub-menu cursos itens -->
         <nav id="toggle-menu" class="toggle-menu on" style="display:none;">
-            <!-- container -men -->
+            <!-- sub-menu SOBRE -->
             <div class=" container sub-menu">
                 <!-- 1º First column -->
                 <div class="column">
@@ -107,6 +111,41 @@
                     </div>
                 </div>
             </div>
+
+
+            <!-- sub-menu PESQUISAR -->
+
+
+
         </nav>
+
+        <!-- sub-menu PESQUISAR -->
+        <nav id="toggle-menu" class="toggle-menu on" style="display:block;">
+            <!-- sub-menu SOBRE -->
+            <div class=" container sub-menu form">
+                <!-- 1º First column -->
+                <div class="column">
+                    <h4 class="title-inner-menu">O que você deseja pesquisar?</h4>
+                    <p class="desc">Oferecemos mais de 40 cursos entre, técnicos,
+                        graduação e pós gradução.</p>
+                </div>
+
+                <div class="Wrapper-searchform">
+
+                    <?php get_search_form(); ?>
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </nav>
+
+
+
+
 
     </header>

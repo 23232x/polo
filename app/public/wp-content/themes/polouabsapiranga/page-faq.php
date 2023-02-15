@@ -1,5 +1,5 @@
 <?php
-//Template Name:faq
+//Template Name: FAQ
 ?>
 
 

@@ -1,5 +1,5 @@
 <?php
-// Template Name:contato
+// Template Name:Contato
 ?>
 
 <?php get_header(); ?>

@@ -36,23 +36,47 @@ header {
     margin: 2rem auto;
 }
 
-.top-header a {
-    display: block;
+.top-header.container a {
     display: flex;
-    line-height: 17px;
     align-items: center;
+}
+
+.top-header.container a img {
+    width: 8rem;
+    margin-right: 1.6rem;
+}
+
+.top-header a span.polo {
+    display: block;
+
+    line-height: 19px;
+
     font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #002140;
     /* color: #241f20; */
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
 }
 
-.top-header a img {
-    margin-right: 15px;
-    width: 8rem;
+.top-header a span.uab {
+    display: block;
+    line-height: 19px;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #002140;
+    /* color: #241f20; */
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
 }
+
+
+
+
+
+
+
 
 /* main menu */
 nav.menu {
@@ -83,7 +107,7 @@ ul.menu-itens.container li a {
 
 }
 
-/* submenu */
+/* submenu cursos */
 .toggle-menu.on {
     position: sticky;
     z-index: 10;
@@ -166,6 +190,30 @@ a.see-full-list:hover {
     justify-content: space-around;
 
 }
+
+
+
+
+/************ styling the searh menu ************/
+.container.sub-menu.form {}
+
+.Wrapper-searchform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* media queries menu */
