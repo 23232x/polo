@@ -132,7 +132,7 @@
 
                 <div class="Wrapper-searchform">
 
-                    <?php get_search_form(); ?>
+
 
                 </div>
             </div>
