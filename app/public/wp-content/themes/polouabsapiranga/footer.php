@@ -8,6 +8,7 @@
                     <span>Polo Universitário UAB </br> de Sapiranga</span>
                 </a>
             </div>
+
             <section class="footer-item">
                 <h4>Técnicos</h4>
                 <ul>
@@ -18,19 +19,14 @@
                 </ul>
             </section>
 
-
             <!-- segunda coluna - cursos de graduação -->
             <section class="footer-item">
                 <h4>Graduação</h4>
                 <ul>
-
-
                     <li><a href="/graduacao/geografia" title="">Geografia UFSM</a></li>
                     <li><a href="/graduacao/pedagogia" title="">Pedagogia UFPel</a></li>
                     <li><a href="/graduacao/pedagogia" title="">Pedagogia UFRGS</a></li>
                     <li><a href="/graduacao/SistemasParaInternet" title="">Sistemas para internet</a></li>
-
-
                     <!-- repetat here -->
                     <li><a href="/graduacao/">Licenciatura em Letras Espanhol - UFPel</a></li>
                     <li><a href="/graduacao/">Licenciatura em Filosofia - UFPel</a></li>
@@ -58,8 +54,6 @@
                     <li>
                         <h4>mais...</h4>
                     </li>
-
-
                 </ul>
             </section>
 
@@ -97,10 +91,11 @@
         </div>
 
         <nav class="menu-footer container">
-            <ul class="social-medias">
+            <ul class="social-medias-footer">
+
                 <!-- youtube -->
                 <li>
-                    <a href="">
+                    <a href="#">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/social/insta.svg" alt="">
                     </a>
                 </li>
@@ -152,7 +147,9 @@
             <div class="vw-plugin-top-wrapper"></div>
         </div>
     </div>
+
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>

@@ -7,13 +7,35 @@ header {
     z-index: 10 !important;
 }
 
+.search-form {
+    display: flex;
+    align-items: center
+}
+
+.search-form a {
+    display: inline-block
+}
+
+.search-form a img {
+    display: inline-block;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 1.2rem !important;
+    margin-right: 5px !important
+}
+
+.search-form a span {
+    color: #002140;
+    font-size: 1.4rem;
+    font-weight: 650
+}
 
 /* create the hamburguer menu */
 .btn-hamburguer.container span.menu_ {
     display: block;
     color: #ffff;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 1.6rem
 }
 
 .btn-hamburguer .hole-menu {

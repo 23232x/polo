@@ -3,10 +3,6 @@
 
 <head>
     <title><?php bloginfo('name'); ?></title>
-
-
-    <!--<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/responsive.css" media="screen and (max-width:980px)"> -->
-    <!-- <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/menu.css" media="screen and (max-width:694px)"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- wordpress header -->
@@ -14,8 +10,6 @@
 </head>
 
 <body>
-
-
 
     <header>
         <!-- polo UAB Logo -->
@@ -29,8 +23,11 @@
 
 
             <!-- search form -->
-            <div class="search_form">
-                <?php get_search_form(); ?>
+            <div class="search-form">
+                <a href="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/search.svg" alt="">
+                    <span>Pesquisar</span>
+                </a>
             </div>
 
         </div>
@@ -56,10 +53,10 @@
                 <li><a href="/polouabsapiranga/sobre">Sobre</a></li>
                 <li id="sub-item"><a href="#">Cursos</a></li>
                 <li><a href="#">Editais</a></li>
-                <li><a href="/polouabsapiranga/Contato">Contato</a></li>
                 <li><a href="/polouabsapiranga/Biblioteca">biblioteca</a></li>
-                <li><a href="/polouabsapiranga/FAQ">FAQ</a></li>
+                <li><a href="/polouabsapiranga/Contato">Contato</a></li>
                 <li><a href="#">Blog</a></li>
+                <li><a href="/polouabsapiranga/FAQ">FAQ</a></li>
             </ul>
         </nav>
 

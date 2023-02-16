@@ -9,59 +9,10 @@
 
 
         <section class="section container">
-            <!-- all subpages contains this section socials icon on the top page -->
-            <div class="social-medias-top-page">
-
-                <!-- Social medias -->
-                <ul>
-                    <!-- facebook -->
-                    <li>
-                        <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/face.svg" alt="Facebook Polo Universitário UAB - Sapiranga">
-                        </a>
-                    </li>
-
-                    <!-- instagram -->
-                    <li>
-                        <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/insta.svg" alt="Instagram Polo Universitário UAB - Sapiranga">
-                        </a>
-                    </li>
-
-                    <!-- youtube -->
-                    <li>
-                        <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/youtube.svg" alt="Youtube Polo Universitário UAB - Sapiranga">
-                        </a>
-                    </li>
-
-                    <!-- whatsapp -->
-                    <li>
-                        <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/whats.svg" alt="WhatsApp Polo Universitário UAB - Sapiranga">
-                        </a>
-                    </li>
-
-                    <!-- email -->
-                    <li>
-                        <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/email.svg" alt="E-mail Polo Universitário UAB - Sapiranga">
-                        </a>
-                    </li>
-
-                    <!-- print -->
-                    <li>
-                        <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/print.svg" alt=" Versão impressa da página">
-                        </a>
-                    </li>
-
-
-
-
-
-                </ul>
-            </div>
+            <!-- import the social medias template -->
+            <?php
+            get_template_part('template-parts/social-medias');
+            ?>
 
             <!-- tittle -->
             <div class="title-section">
@@ -100,7 +51,7 @@
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
                         <div class="link-title on">
-                            <h4 id="link01">Bibliotecas Universitárias Virtuais</h4>
+                            <h4 class="title-type" id="link01" class="type-repository">Bibliotecas Universitárias Virtuais</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </div>
                         <ul style="display: block;">
@@ -131,7 +82,7 @@
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
                         <div class="link-title on">
-                            <h4 id="link01">REPOSITÓRIOS</h4>
+                            <h4 class="title-type" id="link01">repositórios</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </div>
                         <ul style="display: block;">
@@ -155,7 +106,7 @@
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
                         <div class="link-title on">
-                            <h4 id="link01">bibliotecas digitais</h4>
+                            <h4 class="title-type" id="link01">bibliotecas digitais</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </div>
                         <ul style="display: block;">
@@ -181,7 +132,7 @@
             <!-- PERIODICALS PORTAL -->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
-                    <h4>PORTAL DE PERIÓDICOS</h4>
+                    <h4>portal de periódicos</h4>
                     <p> Descrição desta sessão de links</p>
                 </div>
 
@@ -190,7 +141,7 @@
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
                         <div class="link-title on">
-                            <h4 id="link01">PORTAL DE PERIÓDICOS</h4>
+                            <h4 class="title-type" class="title-type" id="link01">portal de periódicos</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </div>
                         <ul style="display: block;">
@@ -220,7 +171,7 @@
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
                         <div class="link-title on">
-                            <h4 id="link01">Matemática e afins</h4>
+                            <h4 class="title-type" id="link01">Matemática e afins</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </div>
                         <ul style="display: block;">
@@ -246,7 +197,7 @@
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
                         <div class="link-title on">
-                            <h4 id="link01">Matemática e afins</h4>
+                            <h4 class="title-type" id="link01">Matemática e afins</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </div>
                         <ul style="display: block;">
@@ -269,7 +220,7 @@
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
                         <div class="link-title on">
-                            <h4 id="link01">CIÊNCIAS DA INFORMAÇÃO</h4>
+                            <h4 class="title-type" id="link01">ciência da Informação</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </div>
                         <ul style="display: block;">
@@ -296,7 +247,7 @@
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
                         <div class="link-title on">
-                            <h4 id="link01">CIÊNCIAS DA INFORMAÇÃO</h4>
+                            <h4 class="title-type" id="link01">Ciência da informação</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </div>
                         <ul style="display: block;">
@@ -309,53 +260,7 @@
                 </div>
             </div>
 
-
-
-
-
-
-
         </section>
-
-
-
-
-
-
-        <!-- 
-        
-
-      
-       
-
-        PEDAGOGIA
-        http://www.cadernosdapedagogia.ufscar.br/index.php/cp
-
-        EDUCAÇÃO EM SAÚDE
-        http://www.periodicos.fiocruz.br/
-        Recursos Educacionais Abertos:
-        http://www.educapes.capes.gov.br/simple-search?query=info - EDUCAPES -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php endwhile;
 else : endif ?>
