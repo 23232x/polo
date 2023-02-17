@@ -4,7 +4,7 @@
         <!-- facebook -->
         <li>
             <a href="https://pt-br.facebook.com/polouniversitariosapiranga/" target="_blank">
-                <img src="http://localhost:10014/wp-content/themes/polouabsapiranga/assets/img/icons/social-medias-top-page/face.svg" alt="Facebook Polo Universitário UAB - Sapiranga">
+                <img src="<?php get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/face.svg" alt="Facebook Polo Universitário UAB - Sapiranga">
             </a>
         </li>
 

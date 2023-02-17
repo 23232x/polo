@@ -28,7 +28,7 @@
                     <li><a href="/graduacao/pedagogia" title="">Pedagogia UFRGS</a></li>
                     <li><a href="/graduacao/SistemasParaInternet" title="">Sistemas para internet</a></li>
                     <!-- repetat here -->
-                    <li><a href="/graduacao/">Licenciatura em Letras Espanhol - UFPel</a></li>
+
                     <li><a href="/graduacao/">Licenciatura em Filosofia - UFPel</a></li>
                     <li><a href="/graduacao/filosofia" title="Curso de Filosofia">Filosofia UFPel</a></li>
                     <li><a href="/graduacao/historia" title="">História FURG</a></li>
@@ -46,9 +46,7 @@
                     <li><a href="/graduacao">Formação de Professores para a Educação Profissional - UFSM</a>
                     <li><a href="/graducao/">Tecnologia em Sistemas para a Internet - IFSUL</a> -->
 
-                    <li>
-                        <h4>mais...</h4>
-                    </li>
+
                 </ul>
             </section>
 
@@ -76,54 +74,24 @@
                     <li><a href="/polouabsapiranga/biblioteca" title="">Biblioteca</a></li>
                     <li><a href="#" title="">Blog</a></li>
                     <li><a href="/polouabsapiranga/faq" title="">FAQ</a></li>
-                    <!-- <li><a href="#" title="">Acessibilidade</a></li> -->
-                    <!-- <li><a href="#" title="">Atendimento</a></li> -->
 
-                    <li><a href="/polouabsapiranga/termos-de-uso" title="">Termos de uso</a></li>
-                    <li><a href="/polouabsapiranga/politicas-de-privacidade" title="">Políticas de Privacidade</a></li>
                 </ul>
             </section>
         </div>
 
-        <nav class="menu-footer container">
-            <ul class="social-medias-footer">
 
-                <!-- youtube -->
-                <li>
-                    <a href="#">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/social/insta.svg" alt="">
-                    </a>
-                </li>
+        <!-- link to all courses -->
+        <a class="see-all-courses" href="#">Veja todos os cursos disponíveis</a>
 
-                <!-- facebook -->
-                <li>
-                    <a href="">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/social/face.svg" alt="">
-                    </a>
-                </li>
 
-                <!-- youtube -->
-                <li>
-                    <a href="">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/social/youtube.svg" alt="">
-                    </a>
-                </li>
+        <ul class="medias-footer">
+            <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets" alt=""></a></li>
 
-                <!-- whatsapp -->
-                <li>
-                    <a href="">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/social/whats.svg" alt="">
-                    </a>
-                </li>
 
-                <!-- twitter -->
-                <li>
-                    <a href="">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/social/twitter.svg" alt="">
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        </ul>
+
+
+
 
         <div class="copy">
             <span class=""><?php echo date('Y'); ?> - Polo Universitário de Sapiranga.</span>
