@@ -33,12 +33,7 @@
                     <li><a href="/graduacao/filosofia" title="Curso de Filosofia">Filosofia UFPel</a></li>
                     <li><a href="/graduacao/historia" title="">História FURG</a></li>
                     <li><a href="/graduacao/">Licenciatura em História - UFPel</a></li>
-                    <li><a href="/graduaco/">Licenciatura em História - IFSUL</a></li>
-                    <li><a href="/graduacao/">Licenciatura em Matemática - UFPel</a></li>
-                    <li><a href="/graducao/">Licenciatura em Pedagogia - FURG</a></li>
-                    <li><a href="/graduacao//matematica" title="">Matemática FURG</a></li>
-                    <li><a href="/graduacao//matematica" title="">Matemática UFPel</a></li>
-                    <li><a href="/graduacao/LetrasEspanhol" title="">Letras espanhol UFPel</a></li>
+
                     <!-- <li><a href="/graducao">Educação do Campo - UFPel</a></li>
                     <li><a href="/graducao/">Física - UFSM</a></li>
                     <li><a href="/graduaco/">Administração - FURG</a></li>
