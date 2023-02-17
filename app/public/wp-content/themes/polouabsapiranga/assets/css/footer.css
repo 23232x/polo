@@ -41,7 +41,6 @@ footer.footer .container .footer-item.footer-logo a span {
     text-align: center;
     font-weight: 500;
     margin-top: 1rem;
-
 }
 
 footer.footer .container .footer-item h4 {
@@ -51,7 +50,6 @@ footer.footer .container .footer-item h4 {
     font-weight: 100;
     font-size: 1.7rem;
 }
-
 
 footer.footer .container .footer-item ul li a {
     font-family: 'Open Sans', sans-serif;
@@ -74,16 +72,25 @@ a.see-all-courses {
 
 /* social medias footer */
 ul.medias-footer {
+    margin: 1rem auto;
     display: flex;
-
+    align-items: center;
 }
 
+ul.medias-footer li {
+    margin: 5px;
+}
+
+ul.medias-footer li a img {
+    padding: 5px;
+}
 
 
 
 
 /* copy rights */
 .copy span {
+    border-top: 1px solid gray;
     font-size: 1.2rem;
     color: #fff;
     padding: 1.5rem 0;

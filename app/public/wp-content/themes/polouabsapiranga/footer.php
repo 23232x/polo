@@ -34,19 +34,6 @@
                     <li><a href="/graduacao/historia" title="">História FURG</a></li>
                     <li><a href="/graduacao/">Licenciatura em História - UFPel</a></li>
 
-                    <!-- <li><a href="/graducao">Educação do Campo - UFPel</a></li>
-                    <li><a href="/graducao/">Física - UFSM</a></li>
-                    <li><a href="/graduaco/">Administração - FURG</a></li>
-                    <li><a href="/graduaco/">Formação de Professores para a Educação Profissional - UFSM</a>
-                    <li><a href="/graduaco/">Tecnologia em Sistemas para a Internet - IFSUL</a></li>
-                    <li><a href="/graduacao">Linguagens/Letras - IFSUL</a></li>
-                    <li><a href="/graduacao/">Letras Inglês - UFRGS</a>
-                    <li><a href="/graduacao/">Licenciatura em Computação - UFSM</a></li>
-                    <li><a href="/graduacao/">Licenciatura em Educação Especial - UFSM</a></li>
-                    <li><a href="/graduacao">Formação de Professores para a Educação Profissional - UFSM</a>
-                    <li><a href="/graducao/">Tecnologia em Sistemas para a Internet - IFSUL</a> -->
-
-
                 </ul>
             </section>
 
@@ -85,8 +72,45 @@
 
 
         <ul class="medias-footer">
-            <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets" alt=""></a></li>
+            <li>
+                <a href="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/face.svg" alt="">
+                </a>
+            </li>
 
+            <li>
+                <a href="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/insta.svg" alt="">
+                </a>
+            </li>
+
+            <li>
+                <a href="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/youtube.svg" alt="">
+                </a>
+            </li>
+
+            <li>
+                <a href="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/wapp.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/email.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/phone.svg" alt="">
+                </a>
+            </li>
+
+            <li>
+                <a href="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/print.svg" alt="">
+                </a>
+            </li>
 
         </ul>
 

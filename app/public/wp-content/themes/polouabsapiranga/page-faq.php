@@ -5,10 +5,8 @@
 
 
 <?php get_header(); ?>
-
 <!-- wordpress loop -->
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
 
 
         <!-- social medias top side bar -->
@@ -37,7 +35,6 @@
 
         <!-- page contend -->
         <section class="main-page bg">
-
             <div class="contend-section">
                 <!--*********** 1° FAQ ************** -->
                 <div class="faq-item">
