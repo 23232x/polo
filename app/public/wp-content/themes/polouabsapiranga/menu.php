@@ -19,15 +19,11 @@
                     </span>
                 </a>
 
-
                 <!-- search form -->
                 <button class="search-form" id="search-form">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/header/search.svg" alt="">
                     <span>Pesquisar</span>
                 </button>
-
-
-
             </div>
 
 
@@ -60,7 +56,7 @@
 
 
             <!-- sub-menu cursos itens -->
-            <nav id="toggle-menu" class="toggle-menu on" style="display:none;">
+            <nav id="toggle-menu" class="toggle-menu" style="display:none;">
                 <!-- sub-menu SOBRE -->
                 <div class=" container sub-menu">
                     <!-- 1º First column -->
@@ -108,8 +104,8 @@
                 </div>
             </nav>
 
-            <!-- sub-menu PESQUISAR -->
-            <nav id="toggle-search-menu" class="toggle-menu on" style="display:none;">
+            <!------------- SUB-MENU SEARCH ----------->
+            <nav id="toggle-search-menu" class="toggle-menu" style="display:none;">
                 <!-- sub-menu SOBRE -->
                 <div class=" container sub-menu form">
                     <!-- 1º First column -->
@@ -127,22 +123,30 @@
             </nav>
         </header>
 
-        <!-- <script src="/assets/js/the_menu.js"></script> -->
-
-
-        <script>
-            var btn_search = document.getElementById("toggle-search-menu");
-
-            btn_search.addEventListener("Click", function() {
-                alert("ola");
-            });
-        </script>
-
-
-
 
 
 <?php
     }
 }
 ?>
+
+<script>
+    var btn_search = document.getElementById("search-form");
+    btn_search.addEventListener("click", function() {
+
+
+
+        if (showMenu.classList.contains('on')) {
+            break;
+        } else {
+            showMenu.classListaskljdskajd lak
+        }
+
+        var showMenu = document.getElementById("toggle-search-menu");
+        showMenu.classList.add("on");
+
+    });
+</script>
+
+<!-- verificando se um elemento tem classe -->
+<!-- https://pt.stackoverflow.com/questions/9605/detectar-se-um-elemento-cont%C3%A9m-uma-classe-com-javascript-puro -->

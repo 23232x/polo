@@ -12,6 +12,13 @@ button.search-form {
     padding: 8px;
 }
 
+
+/* s */
+.toggle-menu.on {
+    display: block !important;
+
+}
+
 button.search-form span {
     display: block;
     color: #002140;
