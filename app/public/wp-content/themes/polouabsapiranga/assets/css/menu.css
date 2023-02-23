@@ -16,16 +16,18 @@ button.search-form {
 /* s */
 .toggle-menu.on {
     display: block !important;
-
+    position: absolute !important;
+    background-color: #ffff;
+    width: 100%;
+    padding: 5rem 0 !important
 }
 
 button.search-form span {
     display: block;
     color: #002140;
     font-weight: 600;
-    margin-left: 8px;
+    margin-left: 8px
 }
-
 
 /* create the hamburguer menu */
 .btn-hamburguer.container span.menu_ {
@@ -90,19 +92,13 @@ button.search-form span {
     text-transform: capitalize;
 }
 
-
-
-
-
-
-
-
 /* main menu */
 nav.menu {
     background-color: #002140;
     display: flex;
     align-items: center;
     height: 6rem;
+    position: relative;
 }
 
 ul.menu-itens.container {
@@ -214,7 +210,6 @@ a.see-full-list:hover {
 
 
 /************ styling the searh menu ************/
-.container.sub-menu.form {}
 
 .Wrapper-searchform {
     display: flex;

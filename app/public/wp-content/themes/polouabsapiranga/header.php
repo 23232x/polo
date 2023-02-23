@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <header>
         <!-- polo UAB Logo -->
         <div class="top-header container">
@@ -21,14 +20,11 @@
                 </span>
             </a>
 
-
             <!-- search form -->
-            <div class="search-form">
-                <a href="">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/search.svg" alt="">
-                    <span>Pesquisar</span>
-                </a>
-            </div>
+            <button class="search-form" id="search-form">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/header/search.svg" alt="">
+                <span>Pesquisar</span>
+            </button>
         </div>
 
 
@@ -46,10 +42,10 @@
             </div>
 
 
-            <!-- the main menu itens -->
+            <!-- ###### MAIN MENU ####### -->
             <ul class="menu-itens container">
                 <li><a href="/polouabsapiranga/Home">Home</a></li>
-                <li><a href="/polouabsapiranga/sobre">Sobre</a></li>
+                <li id="btn_sobre"><a href="/polouabsapiranga/sobre">Sobre</a></li>
                 <li id="sub-item"><a href="#">Cursos</a></li>
                 <li><a href="#">Editais</a></li>
                 <li><a href="/polouabsapiranga/Biblioteca">biblioteca</a></li>
@@ -59,9 +55,56 @@
             </ul>
         </nav>
 
+        <!-- SUB MENU SOBRE -->
+        <nav id="toggle-menu" class="toggle-menu" style="display:block;">
+            <!-- sub-menu SOBRE -->
+            <div class=" container sub-menu">
+                <!-- 1º First column -->
+                <div class="column">
+                    <h4 class="title-inner-menu">Sobre nós</h4>
+                    <p class="desc">Somos um polo educacional de sapiranga.</p>
+                </div>
 
-        <!-- sub-menu cursos itens -->
-        <nav id="toggle-menu" class="toggle-menu on" style="display:none;">
+                <div class="Wrapper-degree">
+
+                    <!-- 2º Tecnicos-->
+                    <div class="column">
+                        <h4 class="degree"><a href="#">Sobre nós</h4>
+                        <ul class="menu-course-list">
+                            <li><a href="#">Filosofia (UFPel)</a></li>
+                            <li><a href="#">Matemática (UFPel)</a></li>
+                            <li><a href="#">Geografia (UFSM)</a></li>
+                        </ul>
+                        <a class="see-full-list" href="#">Acesse a lista completa</a>
+                    </div>
+
+                    <!-- 2º Tecnicos-->
+                    <div class="column">
+                        <h4 class="degree">Graduação</h4>
+                        <ul class="menu-course-list">
+                            <li><a href="#">Filosofia (UFPel)</a></li>
+                            <li><a href="#">Matemática (UFPel)</a></li>
+                            <li><a href="#">Geografia (UFSM)</a></li>
+                        </ul>
+                        <a class="see-full-list" href="#">Acesse a lista completa</a>
+                    </div>
+
+                    <!-- 2º Tecnicos-->
+                    <div class="column">
+                        <h4 class="degree">Pós Graduação</h4>
+                        <ul class="menu-course-list">
+                            <li><a href="#">Filosofia (UFPel)</a></li>
+                            <li><a href="#">Matemática (UFPel)</a></li>
+                            <li><a href="#">Geografia (UFSM)</a></li>
+                        </ul>
+                        <a class="see-full-list" href="#">Acesse a lista completa</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- SUB MENU CURSOS -->
+        <nav id="toggle-menu" class="toggle-menu" style="display:block;">
             <!-- sub-menu SOBRE -->
             <div class=" container sub-menu">
                 <!-- 1º First column -->
@@ -107,16 +150,10 @@
                     </div>
                 </div>
             </div>
-
-
-            <!-- sub-menu PESQUISAR -->
-
-
-
         </nav>
 
-        <!-- sub-menu PESQUISAR -->
-        <nav id="toggle-menu" class="toggle-menu on" style="display:block;">
+        <!-- SUB MENU PESQUISAR ----------->
+        <nav id="toggle-search-menu" class="toggle-menu" style="display:none;">
             <!-- sub-menu SOBRE -->
             <div class=" container sub-menu form">
                 <!-- 1º First column -->
@@ -127,7 +164,46 @@
                 </div>
 
                 <div class="Wrapper-searchform">
+                    <?php get_search_form(); ?>
+
                 </div>
             </div>
         </nav>
     </header>
+
+    <script>
+        // ###################################################################
+        //######### This functions show and hide the search submenu ##########
+        // ###################################################################
+        var btn_search = document.getElementById("search-form");
+        // btn_search.addEventListener("mouseover", function() {
+        btn_search.addEventListener("click", function() {
+
+            var showMenu = document.getElementById("toggle-search-menu");
+
+            if (showMenu.classList.contains('on')) {
+                showMenu.classList.remove("on");
+            } else {
+                showMenu.classList.add("on");
+            }
+        });
+
+        //##################################################################### 
+        //########### This functions show and hide the 'sobre' submenu ########
+        //##################################################################### 
+        var sub_btn_sobre = document.getElementById("btn_sobre");
+
+        sub_btn_sobre.addEventListener("click", function() {
+
+            var sobre = document.getElementById("toggle-search-menu");
+
+            if (showMenu.classList.contains('on')) {
+                showMenu.classList.remove("on");
+            } else {
+                showMenu.classList.add("on");
+            }
+        });
+    </script>
+
+    <!-- verificando se um elemento tem classe -->
+    <!-- https://pt.stackoverflow.com/questions/9605/detectar-se-um-elemento-cont%C3%A9m-uma-classe-com-javascript-puro -->
