@@ -1,118 +1,129 @@
     <footer class="footer">
+
+
+
+        <!-- primeira coluna logo -->
         <div class="container">
 
-            <!-- primeira coluna logo -->
-            <div class="footer-item footer-logo">
-                <a href="">
+            <!-- contains the logo and little description -->
+            <div class="footer-logo">
+                <a href="/">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/logo.svg" alt="">
                     <span>Polo Universitário UAB </br> de Sapiranga</span>
                 </a>
+
+                <p class="desc-polo-footer">
+                    O Polo universitário UAB de Sapiranga
+                    oferece mais de XX cursos.
+                    Veja todos os cursos disponíveis.
+                </p>
             </div>
 
-            <section class="footer-item">
-                <h4>Técnicos</h4>
-                <ul>
-                    <li><a href="/tecnicos/AlimentacaoEscolar" title="Curso de Filosofia">Alimentação escolar</a></li>
-                    <li><a href="/tecnicos/infraestruturaEscolar" title="">Infraestrutura escolar</a></li>
-                    <li><a href="/tecnicos/secretariaEscolar" title="">Secretaria escolar</a></li>
-                    <li><a href="/tecnicos/MultimeiosDidaticos" title="">Multimeios didáticos</a></li>
-                </ul>
-            </section>
 
-            <!-- segunda coluna - cursos de graduação -->
-            <section class="footer-item">
-                <h4>Graduação</h4>
-                <ul>
-                    <li><a href="/graduacao/geografia" title="">Geografia UFSM</a></li>
-                    <li><a href="/graduacao/pedagogia" title="">Pedagogia UFPel</a></li>
-                    <li><a href="/graduacao/pedagogia" title="">Pedagogia UFRGS</a></li>
-                    <li><a href="/graduacao/SistemasParaInternet" title="">Sistemas para internet</a></li>
-                    <!-- repetat here -->
+            <div class="footer-courses">
 
-                    <li><a href="/graduacao/">Licenciatura em Filosofia - UFPel</a></li>
-                    <li><a href="/graduacao/filosofia" title="Curso de Filosofia">Filosofia UFPel</a></li>
-                    <li><a href="/graduacao/historia" title="">História FURG</a></li>
-                    <li><a href="/graduacao/">Licenciatura em História - UFPel</a></li>
+                <!-- TÉCNICOS -->
+                <section class="footer-course">
+                    <h4>Técnicos</h4>
+                    <ul>
+                        <li><a href="/tecnicos/AlimentacaoEscolar" title="Curso de Filosofia">Alimentação escolar</a></li>
+                        <li><a href="/tecnicos/infraestruturaEscolar" title="">Infraestrutura escolar</a></li>
+                        <li><a href="/tecnicos/secretariaEscolar" title="">Secretaria escolar</a></li>
+                        <li><a href="/tecnicos/MultimeiosDidaticos" title="">Multimeios didáticos</a></li>
+                    </ul>
+                </section>
 
-                </ul>
-            </section>
+                <!-- GRADUAÇÃO -->
+                <section class="footer-course">
+                    <h4>Graduação</h4>
+                    <ul>
+                        <li><a href="/graduacao/geografia" title="">Geografia UFSM</a></li>
+                        <li><a href="/graduacao/pedagogia" title="">Pedagogia UFPel</a></li>
+                        <li><a href="/graduacao/pedagogia" title="">Pedagogia UFRGS</a></li>
+                        <li><a href="/graduacao/SistemasParaInternet" title="">Sistemas para internet</a></li>
+                        <!-- repetat here -->
 
-            <!-- segunda coluna - cursos de pós-graduação -->
-            <section class="footer-item">
-                <h4>Pós-Graduação</h4>
-                <ul>
-                    <li><a href="/pos-graduacao/GestaoDaEducacao" title="">Gestão da educação</a></li>
-                    <li><a href="/pos-graduacao/educacao-em-direitos-humanos" title="">Educação em direitos humanos</a></li>
-                    <li><a href="/pos-graduacao/filosofia" title="">Filosofia</a></li>
-                    <li><a href="/pos-graduacao/ciencias-e-10" title="">Ciências é 10</a></li>
-                    <li><a href="/pos-graduacao/artes" title="">Artes</a></li>
-                    <li><a href="/pos-graduacao/EducacaoFisicaEscolar" title="">Educação física escolar</a></li>
-                    <li><a href="/pos-graduacao/EPPEC" title="">Espaços e possibilidades para a educação continuada</a></li>
-                </ul>
-            </section>
+                        <li><a href="/graduacao/">Licenciatura em Filosofia - UFPel</a></li>
+                        <li><a href="/graduacao/filosofia" title="Curso de Filosofia">Filosofia UFPel</a></li>
+                        <li><a href="/graduacao/historia" title="">História FURG</a></li>
+                        <li><a href="/graduacao/">Licenciatura em História - UFPel</a></li>
 
-            <!-- segunda coluna - cursos de pós-graduação -->
-            <section class="footer-item">
-                <h4>Acesso Rápido</h4>
-                <ul>
-                    <li><a href="/polouabsapiranga/home" title="">Home</a></li>
-                    <li><a href="/polouabsapiranga/contato" title="">Contato</a></li>
-                    <li><a href="/polouabsapiranga/editais" title="">Editais</a></li>
-                    <li><a href="/polouabsapiranga/biblioteca" title="">Biblioteca</a></li>
-                    <li><a href="#" title="">Blog</a></li>
-                    <li><a href="/polouabsapiranga/faq" title="">FAQ</a></li>
+                    </ul>
+                </section>
 
-                </ul>
-            </section>
+                <!-- PÓS GRADUAÇÃO -->
+                <section class="footer-course">
+                    <h4>Pós-Graduação</h4>
+                    <ul>
+                        <li><a href="/pos-graduacao/GestaoDaEducacao" title="">Gestão da educação</a></li>
+                        <li><a href="/pos-graduacao/educacao-em-direitos-humanos" title="">Educação em direitos humanos</a></li>
+                        <li><a href="/pos-graduacao/filosofia" title="">Filosofia</a></li>
+                        <li><a href="/pos-graduacao/ciencias-e-10" title="">Ciências é 10</a></li>
+                        <li><a href="/pos-graduacao/artes" title="">Artes</a></li>
+                        <li><a href="/pos-graduacao/EducacaoFisicaEscolar" title="">Educação física escolar</a></li>
+
+                    </ul>
+                </section>
+
+            </div>
+
+
         </div>
 
 
-        <!-- link to all courses -->
-        <a class="see-all-courses" href="#">Veja todos os cursos disponíveis</a>
+
+        <!-- this div contains the footers menu and social medias-->
+        <div class="medias&menu">
+
+            <ul class="menu-footer">
+
+            </ul>
+
+            <ul class="medias-footer">
+                <li>
+                    <a href="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/face.svg" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/insta.svg" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/youtube.svg" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/wapp.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/email.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/phone.svg" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/print.svg" alt="">
+                    </a>
+                </li>
+
+            </ul>
 
 
-        <ul class="medias-footer">
-            <li>
-                <a href="">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/face.svg" alt="">
-                </a>
-            </li>
-
-            <li>
-                <a href="">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/insta.svg" alt="">
-                </a>
-            </li>
-
-            <li>
-                <a href="">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/youtube.svg" alt="">
-                </a>
-            </li>
-
-            <li>
-                <a href="">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/wapp.svg" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/email.svg" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/phone.svg" alt="">
-                </a>
-            </li>
-
-            <li>
-                <a href="">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/print.svg" alt="">
-                </a>
-            </li>
-
-        </ul>
+        </div>
 
 
 
