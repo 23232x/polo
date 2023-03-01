@@ -38,8 +38,9 @@
     display: inline-block;
     text-align: center;
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin: 1.2rem 0;
+    font-weight: 450;
 }
 
 .desc-polo-footer {
@@ -48,7 +49,7 @@
     text-align: left;
     margin-top: 2rem;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 2.2rem;
 }
 
@@ -57,10 +58,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 4rem;
+    margin: 5 4rem;
     /* flex: 2 1 auto; */
     flex: 2 1 40%;
-
+    max-width: 60%;
 }
 
 .footer-course {
@@ -79,16 +80,62 @@
     display: block;
     color: #fff;
     font-weight: 400;
-    font-size: 1.4rem;
-    margin: 5px 0;
-    padding: 5px 0;
+    font-size: 1.3rem;
+    margin: 4px 0;
+    padding: 3px 0;
+}
+
+/* ################# FOOTER MENU ################*/
+.medias-menu.container {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
+ul.menu-footer {
+    display: flex;
+}
+
+ul.menu-footer li a {
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 0 1.25rem;
+}
+
+ul.medias-footer {
+    display: flex;
+}
+
+ul.medias-footer li a img {
+    display: inline-block;
+    margin: 0 1.25rem;
+
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+    margin: 1.25rem auto;
+}
+
+span.copy {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffff;
+    font-weight: 200;
+    margin-bottom: 0.25rem;
+
+}
+
 @media screen and (max-width:978px) {
-    .footer .container {
+    .footer.container {
         flex-direction: column;
-        align-items: center;
+
     }
 
     .footer-logo {
@@ -105,13 +152,38 @@
     }
 
     .footer-courses {
-        width: 100%;
+        min-width: 100% !important;
+
+    }
+}
+
+@media screen and (max-width:978px) {
+    .menu-footer {
+        margin-bottom: 2rem;
     }
 }
 
 
-@media screen and (max-width:419px) {
+
+@media screen and (max-width:512px) {
     .footer-courses {
-        justify-content: center;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-content: center;
+        margin: 2.5rem 0;
+    }
+
+    .footer-course {
+        margin: 1.5rem 0;
+    }
+
+    .footer-course h4 {
+        margin-bottom: 1.8rem;
+    }
+}
+
+@media screen and (max-width:722px) {
+    .medias-menu.container {
+        flex-direction: column;
     }
 }

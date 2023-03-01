@@ -64,21 +64,26 @@
 
                     </ul>
                 </section>
-
             </div>
-
-
         </div>
 
 
 
         <!-- this div contains the footers menu and social medias-->
-        <div class="medias&menu">
+        <div class="medias-menu container">
 
+            <!--the main menu  -->
             <ul class="menu-footer">
-
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Sobre</a></li>
+                <li><a href="/">Cursos</a></li>
+                <li><a href="/">Editais</a></li>
+                <li><a href="/">Biblioteca</a></li>
+                <li><a href="/">Contato</a></li>
+                <li><a href="/">FAQ</a></li>
             </ul>
 
+            <!-- social medias -->
             <ul class="medias-footer">
                 <li>
                     <a href="">
@@ -122,15 +127,14 @@
 
             </ul>
 
-
         </div>
 
+        <div class="line"></div>
 
 
+        <!-- copy-rigths php function -->
+        <span class="copy"><?php echo date('Y'); ?> - Polo Universitário UAB de Sapiranga.</span>
 
-        <div class="copy">
-            <span class=""><?php echo date('Y'); ?> - Polo Universitário de Sapiranga.</span>
-        </div>
     </footer>
 
 
