@@ -127,3 +127,8 @@
 [01-Mar-2023 18:13:58] NOTICE: exiting, bye-bye!
 [02-Mar-2023 12:32:54] NOTICE: fpm is running, pid 28239
 [02-Mar-2023 12:32:54] NOTICE: ready to handle connections
+[02-Mar-2023 14:25:18] NOTICE: Terminating ...
+[02-Mar-2023 14:25:18] NOTICE: Terminating ...
+[02-Mar-2023 14:25:18] NOTICE: exiting, bye-bye!
+[02-Mar-2023 14:30:05] NOTICE: fpm is running, pid 7242
+[02-Mar-2023 14:30:05] NOTICE: ready to handle connections

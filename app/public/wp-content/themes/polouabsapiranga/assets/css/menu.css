@@ -197,46 +197,44 @@ a.see-full-list:hover {
     border-bottom: 2px dotted #4D4D4D;
 }
 
-/* styling the Wrapper-degree */
+/*##### Styling the Wrapper-degree ########## */
 
 .Wrapper-degree {
     width: 65%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around
+}
 
+.Wrapper-degree.sobre {
+    align-items: center;
 }
 
 
-
-
 /************ styling the searh menu ************/
-
 .Wrapper-searchform {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-
 }
 
 
 /* media queries menu */
-
-
 @media screen and (max-width:415px) {
     .search-form span {
         display: none !important;
     }
 }
 
-
-
-
 @media screen and (max-width:776px) {
 
     /* disable the desktop menu */
     ul.menu-itens.container {
         display: none
+            /*????????????? atention: added a new query to desable desktop submenu ?????? */
+
+
+
     }
 
     /* enable mobile menu */
@@ -290,6 +288,3 @@ a.see-full-list:hover {
     }
 
 }
-
-
-https: //www.youtube.com/watch?v=QyMHAs1Wu6s

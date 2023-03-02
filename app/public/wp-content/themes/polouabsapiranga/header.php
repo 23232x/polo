@@ -55,50 +55,60 @@
             </ul>
         </nav>
 
-        <!-- SUB MENU SOBRE -->
-        <nav id="toggle-menu" class="toggle-menu" style="display:none;">
+        <!--######### SOBRE #########-->
+        <nav id="toggle-menu " class="toggle-menu on" style="display:block;">
 
             <!-- sub-menu SOBRE -->
-            <div class=" container sub-menu">
+            <div class="container sub-menu">
                 <!-- 1º First column -->
                 <div class="column">
                     <h4 class="title-inner-menu">Sobre nós</h4>
-                    <p class="desc">Somos um polo educacional de sapiranga.</p>
+                    <p class="desc">Somos um polo Educacional localizado na cidade de Sapiranga.</p>
                 </div>
 
-                <div class="Wrapper-degree">
+                <div class="Wrapper-degree sobre">
 
                     <!-- 2º Tecnicos-->
                     <div class="column">
-                        <h4 class="degree"><a href="#">Sobre nós</h4>
-                        <ul class="menu-course-list">
+                        <h4 class="degree">Sobre nós</h4>
+                        <!-- <ul class="menu-course-list">
                             <li><a href="#">Filosofia (UFPel)</a></li>
                             <li><a href="#">Matemática (UFPel)</a></li>
                             <li><a href="#">Geografia (UFSM)</a></li>
-                        </ul>
-                        <a class="see-full-list" href="#">Acesse a lista completa</a>
+                        </ul> -->
+                        <!-- <a class="see-full-list" href="#">Acesse a lista completa</a> -->
                     </div>
 
                     <!-- 2º Tecnicos-->
                     <div class="column">
-                        <h4 class="degree">Graduação</h4>
-                        <ul class="menu-course-list">
+                        <h4 class="degree">Nossa História</h4>
+                        <!-- <ul class="menu-course-list">
                             <li><a href="#">Filosofia (UFPel)</a></li>
                             <li><a href="#">Matemática (UFPel)</a></li>
                             <li><a href="#">Geografia (UFSM)</a></li>
-                        </ul>
-                        <a class="see-full-list" href="#">Acesse a lista completa</a>
+                        </ul> -->
+                        <!-- <a class="see-full-list" href="#">Acesse a lista completa</a> -->
                     </div>
 
                     <!-- 2º Tecnicos-->
                     <div class="column">
-                        <h4 class="degree">Pós Graduação</h4>
-                        <ul class="menu-course-list">
+                        <h4 class="degree">Galeria de Imagens</h4>
+                        <!-- <ul class="menu-course-list">
                             <li><a href="#">Filosofia (UFPel)</a></li>
                             <li><a href="#">Matemática (UFPel)</a></li>
                             <li><a href="#">Geografia (UFSM)</a></li>
-                        </ul>
-                        <a class="see-full-list" href="#">Acesse a lista completa</a>
+                        </ul> -->
+                        <!-- <a class="see-full-list" href="#">Acesse a lista completa</a> -->
+                    </div>
+
+                    <div class="column">
+                        <h4 class="degree">Localização</h4>
+                        <!-- <ul class="menu-course-list">
+                            <li><a href="#">Filosofia (UFPel)</a></li>
+                            <li><a href="#">Matemática (UFPel)</a></li>
+                            <li><a href="#">Geografia (UFSM)</a></li>
+                        </ul> -->
+                        <!-- <a class="see-full-list" href="#">Acesse a lista completa</a> -->
                     </div>
                 </div>
             </div>
