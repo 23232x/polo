@@ -38,7 +38,13 @@ button.search-form span {
 }
 
 .btn-hamburguer .hole-menu {
-    cursor: pointer;
+    cursor: pointer !important;
+    border: none !important;
+    background-color: transparent !important;
+    color: none !important;
+    margin: 0;
+    padding: 0;
+
 }
 
 .btn-hamburguer .hole-menu span {
@@ -123,12 +129,6 @@ ul.menu-itens.container li a {
 }
 
 /* submenu cursos */
-.toggle-menu.on {
-    position: sticky;
-    z-index: 10;
-    padding: 2.5rem 0;
-}
-
 .column p.desc {
     width: 35rem;
     font-size: 1.6rem;
@@ -220,17 +220,16 @@ a.see-full-list:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* media queries menu */
+
+
+@media screen and (max-width:415px) {
+    .search-form span {
+        display: none !important;
+    }
+}
+
+
 
 
 @media screen and (max-width:776px) {
@@ -246,6 +245,51 @@ a.see-full-list:hover {
         justify-content: space-between;
         align-items: center;
     }
+}
 
+/* #### change the directions for 'column" */
+@media screen and (max-width:587px) {
+    .container.sub-menu.form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Wrapper-searchform {
+        margin-top: 5rem;
+    }
+}
+
+
+/* styling for main mobile menu */
+@media screen and (max-width:776px) {
+    .top-header.container.on {
+        position: relative;
+    }
+
+    .menu-itens.container.on {
+        width: 100vw;
+        display: block !important;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        margin-top: 79rem;
+        padding-left: 2.5rem;
+    }
+
+    .menu-itens.container.on li {
+        border-bottom: 0.25px solid #dadada;
+        padding: 2rem 0 !important;
+    }
+
+    .menu-itens.container.on li a {
+        color: #241F20 !important;
+    }
+
+
+    .menu-itens.container.on li:last-child {
+        border: none;
+    }
 
 }
+
+
+https: //www.youtube.com/watch?v=QyMHAs1Wu6s

@@ -34,16 +34,16 @@
             <!--btn-hamburguer  -->
             <div class="btn-hamburguer container" style="display:none;">
                 <span class="menu_">Menu</span>
-                <div class="hole-menu">
+                <button class="hole-menu" id="btn-hamburguer">
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </button>
             </div>
 
 
             <!-- ###### MAIN MENU ####### -->
-            <ul class="menu-itens container">
+            <ul class="menu-itens container" id="mobile-menu">
                 <li><a href="/polouabsapiranga/Home">Home</a></li>
                 <li id="btn_sobre"><a href="/polouabsapiranga/sobre">Sobre</a></li>
                 <li id="sub-item"><a href="#">Cursos</a></li>
@@ -56,7 +56,8 @@
         </nav>
 
         <!-- SUB MENU SOBRE -->
-        <nav id="toggle-menu" class="toggle-menu" style="display:block;">
+        <nav id="toggle-menu" class="toggle-menu" style="display:none;">
+
             <!-- sub-menu SOBRE -->
             <div class=" container sub-menu">
                 <!-- 1º First column -->
@@ -104,7 +105,7 @@
         </nav>
 
         <!-- SUB MENU CURSOS -->
-        <nav id="toggle-menu" class="toggle-menu" style="display:block;">
+        <nav id="toggle-menu" class="toggle-menu" style="display:none;">
             <!-- sub-menu SOBRE -->
             <div class=" container sub-menu">
                 <!-- 1º First column -->
@@ -155,7 +156,7 @@
         <!-- SUB MENU PESQUISAR ----------->
         <nav id="toggle-search-menu" class="toggle-menu" style="display:none;">
             <!-- sub-menu SOBRE -->
-            <div class=" container sub-menu form">
+            <div class="container sub-menu form">
                 <!-- 1º First column -->
                 <div class="column">
                     <h4 class="title-inner-menu">O que você deseja pesquisar?</h4>
@@ -168,12 +169,14 @@
 
                 </div>
             </div>
+
+
         </nav>
     </header>
 
     <script>
         // ###################################################################
-        //######### This functions show and hide the search submenu ##########
+        //######### This functions show and hide the SEARCH submenu ##########
         // ###################################################################
         var btn_search = document.getElementById("search-form");
         // btn_search.addEventListener("mouseover", function() {
@@ -189,18 +192,18 @@
         });
 
         //##################################################################### 
-        //########### This functions show and hide the 'sobre' submenu ########
+        //########### This functions show the MAIN mobile menu ########
         //##################################################################### 
-        var sub_btn_sobre = document.getElementById("btn_sobre");
+        var btnHamburguer = document.getElementById("btn-hamburguer");
 
-        sub_btn_sobre.addEventListener("click", function() {
+        btnHamburguer.addEventListener("click", function() {
 
-            var sobre = document.getElementById("toggle-search-menu");
+            var showMainMenu = document.getElementById("mobile-menu");
 
-            if (showMenu.classList.contains('on')) {
-                showMenu.classList.remove("on");
+            if (showMainMenu.classList.contains('on')) {
+                showMainMenu.classList.remove("on");
             } else {
-                showMenu.classList.add("on");
+                showMainMenu.classList.add("on");
             }
         });
     </script>
