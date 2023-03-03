@@ -44,9 +44,76 @@
 
             <!-- ###### MAIN MENU ####### -->
             <ul class="menu-itens container" id="mobile-menu">
-                <li><a href="/polouabsapiranga/Home">Home</a></li>
-                <li id="btn_sobre"><a href="/polouabsapiranga/sobre">Sobre</a></li>
-                <li id="sub-item"><a href="#">Cursos</a></li>
+                <!-- home -->
+                <li> <a href="/polouabsapiranga/Home">Home</a></li>
+
+                <li><a href="/polouabsapiranga/sobre">Sobre</a>
+                    <div class="sub-menu">
+                        <div class="column">
+                            <h4 class="title-inner-menu">Sobre nós</h4>
+                            <p class="desc">Somos um polo Educacional localizado na cidade de Sapiranga.</p>
+                        </div>
+                        <div class="Wrapper-degree sobre">
+                            <div class="column">
+                                <h4 class="degree">Sobre nós</h4>
+                            </div>
+                            <div class="column">
+                                <h4 class="degree">Nossa História</h4>
+                            </div>
+                            <div class="column">
+                                <h4 class="degree">Galeria de Imagens</h4>
+                            </div>
+                            <div class="column">
+                                <h4 class="degree">Localização</h4>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+
+
+                <!-- <li><a href="#">Cursos</a>
+                    <div class="container sub-menu">
+                        <div class="column">
+                            <h4 class="title-inner-menu">Cursos Polo UAB Sapiranga</h4>
+                            <p class="desc">Oferecemos mais de 40 cursos entre, técnicos,
+                                graduação e pós gradução.</p>
+                        </div>
+                        <div class="Wrapper-degree">
+                            <div class="column">
+                                <h4 class="degree">Técnicos</h4>
+                                <ul class="menu-course-list">
+                                    <li><a href="#">Filosofia (UFPel)</a></li>
+                                    <li><a href="#">Matemática (UFPel)</a></li>
+                                    <li><a href="#">Geografia (UFSM)</a></li>
+                                </ul>
+                                <a class="see-full-list" href="#">Acesse a lista completa</a>
+                            </div>
+                            <div class="column">
+                                <h4 class="degree">Graduação</h4>
+                                <ul class="menu-course-list">
+                                    <li><a href="#">Filosofia (UFPel)</a></li>
+                                    <li><a href="#">Matemática (UFPel)</a></li>
+                                    <li><a href="#">Geografia (UFSM)</a></li>
+                                </ul>
+                                <a class="see-full-list" href="#">Acesse a lista completa</a>
+                            </div>
+                            <div class="column">
+                                <h4 class="degree">Pós Graduação</h4>
+                                <ul class="menu-course-list">
+                                    <li><a href="#">Filosofia (UFPel)</a></li>
+                                    <li><a href="#">Matemática (UFPel)</a></li>
+                                    <li><a href="#">Geografia (UFSM)</a></li>
+                                </ul>
+                                <a class="see-full-list" href="#">Acesse a lista completa</a>
+                            </div>
+                        </div>
+                    </div>
+                </li> -->
+
+
+
                 <li><a href="#">Editais</a></li>
                 <li><a href="/polouabsapiranga/Biblioteca">biblioteca</a></li>
                 <li><a href="/polouabsapiranga/Contato">Contato</a></li>
@@ -55,133 +122,32 @@
             </ul>
         </nav>
 
-        <!--######### SOBRE #########-->
-        <nav id="toggle-menu " class="toggle-menu on" style="display:block;">
 
-            <!-- sub-menu SOBRE -->
-            <div class="container sub-menu">
-                <!-- 1º First column -->
-                <div class="column">
-                    <h4 class="title-inner-menu">Sobre nós</h4>
-                    <p class="desc">Somos um polo Educacional localizado na cidade de Sapiranga.</p>
-                </div>
 
-                <div class="Wrapper-degree sobre">
 
-                    <!-- 2º Tecnicos-->
-                    <div class="column">
-                        <h4 class="degree">Sobre nós</h4>
-                        <!-- <ul class="menu-course-list">
-                            <li><a href="#">Filosofia (UFPel)</a></li>
-                            <li><a href="#">Matemática (UFPel)</a></li>
-                            <li><a href="#">Geografia (UFSM)</a></li>
-                        </ul> -->
-                        <!-- <a class="see-full-list" href="#">Acesse a lista completa</a> -->
-                    </div>
 
-                    <!-- 2º Tecnicos-->
-                    <div class="column">
-                        <h4 class="degree">Nossa História</h4>
-                        <!-- <ul class="menu-course-list">
-                            <li><a href="#">Filosofia (UFPel)</a></li>
-                            <li><a href="#">Matemática (UFPel)</a></li>
-                            <li><a href="#">Geografia (UFSM)</a></li>
-                        </ul> -->
-                        <!-- <a class="see-full-list" href="#">Acesse a lista completa</a> -->
-                    </div>
 
-                    <!-- 2º Tecnicos-->
-                    <div class="column">
-                        <h4 class="degree">Galeria de Imagens</h4>
-                        <!-- <ul class="menu-course-list">
-                            <li><a href="#">Filosofia (UFPel)</a></li>
-                            <li><a href="#">Matemática (UFPel)</a></li>
-                            <li><a href="#">Geografia (UFSM)</a></li>
-                        </ul> -->
-                        <!-- <a class="see-full-list" href="#">Acesse a lista completa</a> -->
-                    </div>
 
-                    <div class="column">
-                        <h4 class="degree">Localização</h4>
-                        <!-- <ul class="menu-course-list">
-                            <li><a href="#">Filosofia (UFPel)</a></li>
-                            <li><a href="#">Matemática (UFPel)</a></li>
-                            <li><a href="#">Geografia (UFSM)</a></li>
-                        </ul> -->
-                        <!-- <a class="see-full-list" href="#">Acesse a lista completa</a> -->
-                    </div>
-                </div>
-            </div>
-        </nav>
 
-        <!-- SUB MENU CURSOS -->
-        <nav id="toggle-menu" class="toggle-menu" style="display:none;">
-            <!-- sub-menu SOBRE -->
-            <div class=" container sub-menu">
-                <!-- 1º First column -->
-                <div class="column">
-                    <h4 class="title-inner-menu">Cursos Polo UAB Sapiranga</h4>
-                    <p class="desc">Oferecemos mais de 40 cursos entre, técnicos,
-                        graduação e pós gradução.</p>
-                </div>
-
-                <div class="Wrapper-degree">
-
-                    <!-- 2º Tecnicos-->
-                    <div class="column">
-                        <h4 class="degree">Técnicos</h4>
-                        <ul class="menu-course-list">
-                            <li><a href="#">Filosofia (UFPel)</a></li>
-                            <li><a href="#">Matemática (UFPel)</a></li>
-                            <li><a href="#">Geografia (UFSM)</a></li>
-                        </ul>
-                        <a class="see-full-list" href="#">Acesse a lista completa</a>
-                    </div>
-
-                    <!-- 2º Tecnicos-->
-                    <div class="column">
-                        <h4 class="degree">Graduação</h4>
-                        <ul class="menu-course-list">
-                            <li><a href="#">Filosofia (UFPel)</a></li>
-                            <li><a href="#">Matemática (UFPel)</a></li>
-                            <li><a href="#">Geografia (UFSM)</a></li>
-                        </ul>
-                        <a class="see-full-list" href="#">Acesse a lista completa</a>
-                    </div>
-
-                    <!-- 2º Tecnicos-->
-                    <div class="column">
-                        <h4 class="degree">Pós Graduação</h4>
-                        <ul class="menu-course-list">
-                            <li><a href="#">Filosofia (UFPel)</a></li>
-                            <li><a href="#">Matemática (UFPel)</a></li>
-                            <li><a href="#">Geografia (UFSM)</a></li>
-                        </ul>
-                        <a class="see-full-list" href="#">Acesse a lista completa</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
 
         <!-- SUB MENU PESQUISAR ----------->
-        <nav id="toggle-search-menu" class="toggle-menu" style="display:none;">
-            <!-- sub-menu SOBRE -->
-            <div class="container sub-menu form">
-                <!-- 1º First column -->
-                <div class="column">
-                    <h4 class="title-inner-menu">O que você deseja pesquisar?</h4>
-                    <p class="desc">Oferecemos mais de 40 cursos entre, técnicos,
-                        graduação e pós gradução.</p>
-                </div>
+        <!-- <nav id="toggle-search-menu" class="toggle-menu" style="display:none;"> -->
+        <!-- sub-menu SOBRE -->
+        <!-- <div class="container sub-menu form"> -->
+        <!-- 1º First column -->
+        <!-- <div class="column">
+                        <h4 class="title-inner-menu">O que você deseja pesquisar?</h4>
+                        <p class="desc">Oferecemos mais de 40 cursos entre, técnicos,
+                            graduação e pós gradução.</p>
+                    </div> -->
 
-                <div class="Wrapper-searchform">
-                    <?php get_search_form(); ?>
+        <div class="Wrapper-searchform" style="display:none;">
+            <!-- <?php get_search_form(); ?> -->
 
-                </div>
-            </div>
+        </div> <!-- </div> -->
 
 
-        </nav>
+        <!-- </nav> -->
     </header>
 
     <script>
