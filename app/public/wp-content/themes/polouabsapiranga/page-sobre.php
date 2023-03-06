@@ -35,9 +35,13 @@
                 </div>
 
 
-                <?php get_search_form(); ?>
+
             </div>
 
+
+            <div class="search-on-page">
+                <?php get_search_form(); ?>
+            </div>
 
         </section>
 

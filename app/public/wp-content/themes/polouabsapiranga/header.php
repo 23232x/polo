@@ -47,8 +47,8 @@
                 <!-- home -->
                 <li> <a href="/polouabsapiranga/Home">Home</a></li>
 
-                <li><a href="/polouabsapiranga/sobre">Sobre</a>
-                    <div class="sub-menu">
+                <li><a href="/polouabsapiranga/Sobre">Sobre</a>
+                    <!-- <div class="sub-menu">
                         <div class="column">
                             <h4 class="title-inner-menu">Sobre nós</h4>
                             <p class="desc">Somos um polo Educacional localizado na cidade de Sapiranga.</p>
@@ -67,14 +67,15 @@
                                 <h4 class="degree">Localização</h4>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </li>
 
 
 
 
-                <!-- <li><a href="#">Cursos</a>
-                    <div class="container sub-menu">
+                <!-- menu cursos -->
+                <li><a href="/polouabsapiranga/sobre">Cursos</a>
+                    <!-- <div class="container sub-menu">
                         <div class="column">
                             <h4 class="title-inner-menu">Cursos Polo UAB Sapiranga</h4>
                             <p class="desc">Oferecemos mais de 40 cursos entre, técnicos,
@@ -109,12 +110,12 @@
                                 <a class="see-full-list" href="#">Acesse a lista completa</a>
                             </div>
                         </div>
-                    </div>
-                </li> -->
+                    </div> -->
+                </li>
 
 
 
-                <li><a href="#">Editais</a></li>
+                <li><a href="/polouabsapiranga/Editais">Editais</a></li>
                 <li><a href="/polouabsapiranga/Biblioteca">biblioteca</a></li>
                 <li><a href="/polouabsapiranga/Contato">Contato</a></li>
                 <li><a href="#">Blog</a></li>

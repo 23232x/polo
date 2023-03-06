@@ -13,6 +13,17 @@
     border-bottom: 1px solid rgb(223, 223, 223);
 }
 
+.faq-title {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+.faq-title h4 {
+    margin-left: 2.5rem;
+}
+
+
 .faq-title,
 .link-title {
     display: flex;
@@ -61,6 +72,11 @@
     font-weight: 400;
     padding: 1rem 2rem;
     margin: 2rem 0
+}
+
+.swanw {
+    display: block !important;
+
 }
 
 .faq-item ul.list-faq li p {

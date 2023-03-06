@@ -9,6 +9,7 @@
 
 
         <section class="section container">
+
             <!-- import the social medias template -->
             <?php
             get_template_part('template-parts/social-medias');

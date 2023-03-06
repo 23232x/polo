@@ -249,6 +249,10 @@ span.address-description {
     display: block;
 }
 
+.search-on-page {
+    background-color: red;
+    margin: 5rem 0;
+}
 
 
 

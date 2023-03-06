@@ -75,12 +75,12 @@
             <!--the main menu  -->
             <ul class="menu-footer">
                 <li><a href="/">Home</a></li>
-                <li><a href="/">Sobre</a></li>
-                <li><a href="/">Cursos</a></li>
-                <li><a href="/">Editais</a></li>
-                <li><a href="/">Biblioteca</a></li>
-                <li><a href="/">Contato</a></li>
-                <li><a href="/">FAQ</a></li>
+                <li><a href="/polouabsapiranga/Sobre">Sobre</a></li>
+                <li><a href="/polouabsapiranga/Cursos">Cursos</a></li>
+                <li><a href="/polouabsapiranga/Editais">Editais</a></li>
+                <li><a href="/polouabsapiranga/Biblioteca">Biblioteca</a></li>
+                <li><a href="/polouabsapiranga/Contato">Contato</a></li>
+                <li><a href="/polouabsapiranga/FAQ">FAQ</a></li>
             </ul>
 
             <!-- social medias -->

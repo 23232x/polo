@@ -34,7 +34,6 @@ button.search-form span {
     color: none !important;
     margin: 0;
     padding: 0;
-
 }
 
 .btn-hamburguer .hole-menu span {
@@ -92,14 +91,16 @@ button.search-form span {
 nav.menu {
     background-color: #002140;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 6rem;
-    /* position: relative; */
+    position: relative;
 }
 
 ul.menu-itens.container {
     display: flex;
-    position: relative !important;
+    width: 100%;
+
 }
 
 ul.menu-itens.container li {
@@ -236,6 +237,7 @@ a.see-full-list:hover {
     .container.sub-menu.form {
         display: flex;
         flex-direction: column;
+
     }
 
     .Wrapper-searchform {
@@ -248,15 +250,18 @@ a.see-full-list:hover {
 @media screen and (max-width:776px) {
     .top-header.container.on {
         position: relative;
+        position: fixed;
+        overflow: hidden;
+
     }
 
     .menu-itens.container.on {
-        width: 100vw;
         display: block !important;
         position: absolute;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(223, 223, 223);
         margin-top: 79rem;
         padding-left: 2.5rem;
+
     }
 
     .menu-itens.container.on li {
@@ -267,7 +272,6 @@ a.see-full-list:hover {
     .menu-itens.container.on li a {
         color: #241F20 !important;
     }
-
 
     .menu-itens.container.on li:last-child {
         border: none;
