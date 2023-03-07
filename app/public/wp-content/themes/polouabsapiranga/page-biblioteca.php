@@ -29,16 +29,13 @@
             <div class="contend-section">
                 <p class="text wrapper"></p>
             </div>
-
-
         </section>
 
 
         <!-- page contend -->
         <section class="main-page bg library">
 
-
-            <!-- Virtual libraries -->
+            <!--########## vt libraty 01 #########-->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
                     <h4>Bibliotecas Universitárias</h4>
@@ -51,11 +48,12 @@
                 <div class="contend-section container">
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
-                        <div class="link-title on">
-                            <h4 class="title-type" id="link01" class="type-repository">Bibliotecas Universitárias Virtuais</h4>
+                        <button class="link-title" id="link1">
+                            <h4 class="title-type">Bibliotecas Universitárias Virtuais</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
-                        </div>
-                        <ul style="display: block;">
+                        </button>
+
+                        <ul id="listlk1" style="display:none;">
                             <li><a href="https://argo.furg.br/" target="_blank">Consulta ao acervo FURG</a></li>
                             <li><a href="http://www.biblioteca.furg.br/" target="_blank">Biblioteca FURG</a></li>
                             <li><a href="https://pergamum.ufpel.edu.br/pergamum/biblioteca/" target="_blank">Consulta ao acervo UFPEL</a></li>
@@ -66,12 +64,13 @@
                             <li><a href="http://w3.ufsm.br/biblioteca/" target="_blank">Biblioteca UFSM</a></li>
                             <li><a href="https://portal.fiocruz.br/pt-br/content/bibliotecas-virtuais-em-sa%C3%BAde" target="_blank">Consulta ao acervo Fiocruz</a></li>
                         </ul>
+
                     </div>
                 </div>
             </div>
 
 
-            <!-- List of repositories  -->
+            <!-- ########## List of repositories 02  #######-->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
                     <h4>Repositórios Institucionais</h4>
@@ -82,11 +81,11 @@
                 <div class="contend-section container">
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
-                        <div class="link-title on">
-                            <h4 class="title-type" id="link01">repositórios</h4>
+                        <button class="link-title" id="link2">
+                            <h4 class="title-type">repositórios</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
-                        </div>
-                        <ul style="display: block;">
+                        </button>
+                        <ul id="listlk2" style="display: none;">
                             <li><a href="http://www.ibict.br/informacao-para-ciencia-tecnologia-e-inovacao%20/repositorios-digitais/repositorios-brasileiros" target="_blank">Respositórios</a></li>
 
                         </ul>
@@ -95,7 +94,7 @@
             </div>
 
 
-            <!-- Digital library -->
+            <!--############# Digital library 03 #############-->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
                     <h4>Bibliotecas Digitais</h4>
@@ -106,11 +105,11 @@
                 <div class="contend-section container">
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
-                        <div class="link-title on">
-                            <h4 class="title-type" id="link01">bibliotecas digitais</h4>
+                        <button class="link-title" id="link3">
+                            <h4 class="title-type">bibliotecas digitais</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
-                        </div>
-                        <ul style="display: block;">
+                        </button>
+                        <ul id="listlk3" style="display: none;">
                             <li><a href="https://www.wdl.org/pt/" target="_blank">Library of congress</a></li>
                             <li><a href="http://www.dominiopublico.gov.br/pesquisa/PesquisaObraForm.jsp" target="_blank">Domínio Público</a></li>
                             <li><a href="http://www.scielo.org/php/index.php" target="_blank">Scielo</a></li>
@@ -130,7 +129,7 @@
 
 
 
-            <!-- PERIODICALS PORTAL -->
+            <!-- ########### PERIODICALS PORTAL 04 ##########-->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
                     <h4>portal de periódicos</h4>
@@ -141,11 +140,12 @@
                 <div class="contend-section container">
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
-                        <div class="link-title on">
-                            <h4 class="title-type" class="title-type" id="link01">portal de periódicos</h4>
+                        <button class="link-title" id="link4">
+                            <h4 class="title-type">portal de periódicos</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
-                        </div>
-                        <ul style="display: block;">
+                        </button>
+
+                        <ul id="listlk4" style="display:none;">
                             <li><a href="http://www.periodicos.capes.gov.br/" target="_blank">CAPES periódicos </a></li>
                             <li><a href="http://www.ufrgs.br/periodicos/periodicos-1" target="_blank">UFRGS periódicos</a></li>
                             <li><a href="https://periodicos.ufsm.br/index.php" target="_blank">UFSM periódicos</a></li>
@@ -160,7 +160,7 @@
 
 
 
-            <!-- Maths -->
+            <!--######## Maths 05 ###########-->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
                     <h4>Matemática</h4>
@@ -171,22 +171,19 @@
                 <div class="contend-section container">
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
-                        <div class="link-title on">
-                            <h4 class="title-type" id="link01">Matemática e afins</h4>
+                        <button class="link-title" id="link5">
+                            <h4 class="title-type">Matemática e afins</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
-                        </div>
-                        <ul style="display: block;">
+                        </button>
+                        <ul id="listlk5" style="display: none;">
                             <li><a href="https://uniso.br/biblioteca/base_de_dados/periodicos_eletronicos/Matematica.pdf" target="_blank">UNISO</a></li>
-
                         </ul>
                     </div>
                 </div>
             </div>
 
 
-
-
-            <!-- PHILOSOPHY -->
+            <!--########## PHILOSOPHY 06 ############-->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
                     <h4>Filosofia</h4>
@@ -197,11 +194,11 @@
                 <div class="contend-section container">
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
-                        <div class="link-title on">
-                            <h4 class="title-type" id="link01">Matemática e afins</h4>
+                        <button class="link-title" id="link6">
+                            <h4 class="title-type">Matemática e afins</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
-                        </div>
-                        <ul style="display: block;">
+                        </button>
+                        <ul id="listlk6" style="display:none;">
                             <li><a href="http://www.emcurso.ufscar.br/index.php/emcurso" target="_blank">UFSCAR</a></li>
                         </ul>
                     </div>
@@ -209,7 +206,7 @@
             </div>
 
 
-            <!-- INFORMATION SCIENCE -->
+            <!--####### INFORMATION SCIENCE 07 #######-->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
                     <h4>Ciência da informação</h4>
@@ -220,11 +217,11 @@
                 <div class="contend-section container">
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
-                        <div class="link-title on">
-                            <h4 class="title-type" id="link01">ciência da Informação</h4>
+                        <button class="link-title" id="link7">
+                            <h4 class="title-type">ciência da Informação</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
-                        </div>
-                        <ul style="display: block;">
+                        </button>
+                        <ul id="listlk7" style="display: none;">
                             <li><a href="https://periodicos.ufmg.br/index.php/pci/issue/view/1929" target="_blank">UFMG periódico</a></li>
                             <li><a href="http://portaldeperiodicos.eci.ufmg.br/index.php/pci" target="_blank">UFMG periódico</a></li>
                             <li><a href="http://revista.ibict.br/ciinf" target="_blank">Revista IBICT</a></li>
@@ -234,9 +231,7 @@
                 </div>
             </div>
 
-
-
-            <!-- pedagogy -->
+            <!--############ PEDAGOGY 08 ###############-->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
                     <h4>Ciência da informação</h4>
@@ -247,11 +242,11 @@
                 <div class="contend-section container">
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
-                        <div class="link-title on">
-                            <h4 class="title-type" id="link01">Ciência da informação</h4>
+                        <button class="link-title" id="link8">
+                            <h4 class="title-type">Ciência da informação</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
-                        </div>
-                        <ul style="display: block;">
+                        </button>
+                        <ul id="listlk8" style="display: none;">
                             <li><a href="https://periodicos.ufmg.br/index.php/pci/issue/view/1929" target="_blank">UFMG periódico</a></li>
                             <li><a href="http://portaldeperiodicos.eci.ufmg.br/index.php/pci" target="_blank">UFMG periódico</a></li>
                             <li><a href="http://revista.ibict.br/ciinf" target="_blank">Revista IBICT</a></li>
@@ -266,3 +261,122 @@
 <?php endwhile;
 else : endif ?>
 <?php get_footer(); ?>
+
+
+
+
+<script>
+    // ########## block links 1 #############
+    var lk1 = document.getElementById("link1");
+    lk1.addEventListener("click", function() {
+        var list1 = document.getElementById("listlk1");
+        if (list1.classList.contains("swanw") && lk1.classList.contains("on")) {
+            list1.classList.remove("swanw");
+            lk1.classList.remove("on");
+        } else {
+            list1.classList.add("swanw");
+            lk1.classList.add("on");
+        }
+    });
+
+
+    // ########## block links 2 #############
+    var lk2 = document.getElementById("link2");
+
+    lk2.addEventListener("click", function() {
+
+        var list2 = document.getElementById("listlk2");
+        if (list2.classList.contains("swanw") && lk2.classList.contains("on")) {
+            list2.classList.remove("swanw");
+            lk2.classList.remove("on");
+        } else {
+            list2.classList.add("swanw");
+            lk2.classList.add("on");
+        }
+    });
+
+
+
+    // ########## block links 3 #############
+    var lk3 = document.getElementById("link3");
+
+    lk3.addEventListener("click", function() {
+
+        var list3 = document.getElementById("listlk3");
+        if (list3.classList.contains("swanw") && lk3.classList.contains("on")) {
+            list3.classList.remove("swanw");
+            lk3.classList.remove("on");
+        } else {
+            list3.classList.add("swanw");
+            lk3.classList.add("on");
+        }
+    });
+
+    // ########## block links 4 #############
+    var lk4 = document.getElementById("link4");
+
+    lk4.addEventListener("click", function() {
+        var list4 = document.getElementById("listlk4");
+        if (list4.classList.contains("swanw") && lk4.classList.contains("on")) {
+            list4.classList.remove("swanw");
+            lk4.classList.remove("on");
+        } else {
+            list4.classList.add("swanw");
+            lk4.classList.add("on");
+        }
+    });
+
+
+    // ########## block links 5 #############
+    var lk5 = document.getElementById("link5");
+    lk5.addEventListener("click", function() {
+        var list5 = document.getElementById("listlk5");
+        if (list5.classList.contains("swanw") && lk5.classList.contains("on")) {
+            list5.classList.remove("swanw");
+            lk5.classList.remove("on");
+        } else {
+            list5.classList.add("swanw");
+            lk5.classList.add("on");
+        }
+    });
+
+
+    // ########## block links 6 #############
+    var lk6 = document.getElementById("link6");
+    lk6.addEventListener("click", function() {
+        var list6 = document.getElementById("listlk6");
+        if (list6.classList.contains("swanw") && lk6.classList.contains("on")) {
+            list6.classList.remove("swanw");
+            lk6.classList.remove("on");
+        } else {
+            list6.classList.add("swanw");
+            lk6.classList.add("on");
+        }
+    });
+
+    // ########## block links 7 #############
+    var lk7 = document.getElementById("link7");
+    lk7.addEventListener("click", function() {
+        var list7 = document.getElementById("listlk7");
+        if (list7.classList.contains("swanw") && lk7.classList.contains("on")) {
+            list7.classList.remove("swanw");
+            lk7.classList.remove("on");
+        } else {
+            list7.classList.add("swanw");
+            lk7.classList.add("on");
+        }
+    });
+
+    // ########## block links 8 #############
+    var lk8 = document.getElementById("link8");
+    lk8.addEventListener("click", function() {
+        var list8 = document.getElementById("listlk8");
+        if (list8.classList.contains("swanw") && lk8.classList.contains("on")) {
+            list8.classList.remove("swanw");
+            lk8.classList.remove("on");
+        } else {
+            list8.classList.add("swanw");
+            lk8.classList.add("on");
+        }
+    });
+</script>

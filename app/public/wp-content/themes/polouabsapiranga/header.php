@@ -45,8 +45,7 @@
             <!-- ###### MAIN MENU ####### -->
             <ul class="menu-itens container" id="mobile-menu">
                 <!-- home -->
-                <li> <a href="/polouabsapiranga/Home">Home</a></li>
-
+                <li><a href="/polouabsapiranga/Home">Home</a></li>
                 <li><a href="/polouabsapiranga/Sobre">Sobre</a>
                     <!-- <div class="sub-menu">
                         <div class="column">
@@ -70,11 +69,8 @@
                     </div> -->
                 </li>
 
-
-
-
                 <!-- menu cursos -->
-                <li><a href="/polouabsapiranga/sobre">Cursos</a>
+                <li><a href="/polouabsapiranga/cursos">Cursos</a>
                     <!-- <div class="container sub-menu">
                         <div class="column">
                             <h4 class="title-inner-menu">Cursos Polo UAB Sapiranga</h4>

@@ -99,8 +99,8 @@ nav.menu {
 
 ul.menu-itens.container {
     display: flex;
-    width: 100%;
-
+    /* width: 100%; */
+    justify-content: flex-start
 }
 
 ul.menu-itens.container li {
@@ -227,7 +227,7 @@ a.see-full-list:hover {
     .btn-hamburguer.container {
         display: flex !important;
         justify-content: space-between;
-        align-items: center;
+        align-items: center
     }
 }
 
@@ -236,45 +236,42 @@ a.see-full-list:hover {
 @media screen and (max-width:587px) {
     .container.sub-menu.form {
         display: flex;
-        flex-direction: column;
-
+        flex-direction: column
     }
 
     .Wrapper-searchform {
-        margin-top: 5rem;
+        margin-top: 5rem
     }
 }
-
 
 /* styling for main mobile menu */
 @media screen and (max-width:776px) {
     .top-header.container.on {
         position: relative;
         position: fixed;
-        overflow: hidden;
-
+        overflow: hidden
     }
 
     .menu-itens.container.on {
         display: block !important;
-        position: absolute;
         background-color: rgb(223, 223, 223);
         margin-top: 79rem;
         padding-left: 2.5rem;
-
+        width: 100%;
+        position: absolute
     }
 
     .menu-itens.container.on li {
         border-bottom: 0.25px solid #dadada;
-        padding: 2rem 0 !important;
+        padding: 2rem 0 !important
     }
 
     .menu-itens.container.on li a {
-        color: #241F20 !important;
+        color: #241F20 !important
     }
 
     .menu-itens.container.on li:last-child {
-        border: none;
+        border: none
     }
 
 }

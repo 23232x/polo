@@ -33,6 +33,15 @@ span.vertical {
     transform: rotate(180deg);
 }
 
+
+
+.link-item ul li span {
+    display: block !important;
+}
+
+
+
+
 @media screen and (max-width:1033px) {
     .title-section.courses {
         margin-left: 7rem;
