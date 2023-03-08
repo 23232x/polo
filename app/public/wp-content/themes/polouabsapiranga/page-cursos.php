@@ -54,35 +54,31 @@
                         <ul id="listlk1" style="display:none;">
                             <li><a href="/polouabsapiranga/licenciatura-em-letras-espanhol-ufpel">Licenciatura em Letras Espanhol-UFPel</a><span class="status">Em andamento</span></li>
                             <li><a href="/polouabsapiranga/licenciatura-em-filosofia-ufpel">Licenciatura em Filosofia-UFPel</a><span class="status">Em andamento</span></li>
-                            <li><a href="">Licenciatura em História-UFPel</a><span class="status">Em andamento</span></li>
-                            <li><a href="">Licenciatura em Matemática-UFPel</a><span class="status">Em andamento</span></li>
-                            <li><a href="">Licenciatura em Matemática-UFPel</a><span class="status">Em andamento</span></li>
-                            <li><a href="">Licenciatura em Pedagogia-FURG</a><span class="status">Em andamento</span></li>
-
+                            <li><a href="/polouabsapiranga/licenciatura-em-historia-ufpel">Licenciatura em História-UFPel</a><span class="status">Em andamento</span></li>
+                            <li><a href="/polouabsapiranga/licenciatura-em-matematica-ufpel">Licenciatura em Matemática-UFPel</a><span class="status">Em andamento</span></li>
+                            <li><a href="/polouabsapiranga/licenciatura-em-pedagogia-furg">Licenciatura em Pedagogia-FURG</a><span class="status">Em andamento</span></li>
                             <!-- Encerrados -->
-                            <li><a href="#">Pedagogia-UFRGS</a><span class="status">Encerrado</span></li>
-                            <li><a href="#">Pedagogia-UFPel</a><span class="status">Encerrado</span></li>
-                            <li><a href="#">Matemática-FURG</a><span class="status">Encerrado</span></li>
-                            <li><a href="#">Matemática-UFPel</a><span class="status">Encerrado</span></li>
-                            <li><a href="#">Letras Espanhol-UFPel</a><span class="status">Encerrado</span></li>
-                            <li><a href="#">Educação do Campo-UFPel</a><span class="status">Encerrado</span></li>
-                            <li><a href="#">Física-UFSM</a><span class="status">Encerrado</span></li>
-                            <li><a href="#">Administração-FURG</a><span class="status">Encerrado</span></li>
-                            <li><a href="#">Formação de Professores para a Educação Profissional-UFSM </a><span class="status">Encerrado</span></li>
-                            <li><a href="#">História-FURG</a><span class="status">Encerrado</span></li>
-                            <li><a href="#">Filosofia-UFPel</a><span class="status">Encerrado</span></li>
-                            <li><a href="#">Geografia-UFSM</a><span class="status">Encerrado</span></li>
-                            <li><a href="#">Tecnologia em Sistemas para a Internet-IFSUL</a><span class="status">Encerrado</span></li>
-
-
+                            <li><a href="/polouabsapiranga/pedagogia-ufrgs">Pedagogia - UFRGS</a><span class="status">Encerrado</span></li>
+                            <li><a href="/polouabsapiranga/pedagogia-ufpel">Pedagogia-UFPel</a><span class="status">Encerrado</span></li>
+                            <li><a href="/polouabsapiranga/matematica-furg">Matemática-FURG</a><span class="status">Encerrado</span></li>
+                            <li><a href="/polouabsapiranga/matematica-ufpel">Matemática-UFPel</a><span class="status">Encerrado</span></li>
+                            <li><a href="/polouabsapiranga/letras-espanhol-ufpel">Letras Espanhol-UFPel</a><span class="status">Encerrado</span></li>
+                            <li><a href="/polouabsapiranga/educacao-do-campo-ufpel">Educação do Campo-UFPel</a><span class="status">Encerrado</span></li>
+                            <li><a href="/polouabsapiranga/fisica-ufsm">Física-UFSM</a><span class="status">Encerrado</span></li>
+                            <li><a href="/polouabsapiranga/administracao-furg">Administração-FURG</a><span class="status">Encerrado</span></li>
+                            <li><a href="/polouabsapiranga/formacao-de-professores-para-a-educacao-profissional-ufsm">Formação de Professores para a Educação Profissional-UFSM </a><span class="status">Encerrado</span></li>
+                            <li><a href="/polouabsapiranga/historia-furg">História-FURG</a><span class="status">Encerrado</span></li>
+                            <li><a href="/polouabsapiranga/filosofia-ufpel">Filosofia-UFPel</a><span class="status">Encerrado</span></li>
+                            <li><a href="/polouabsapiranga/geografia-ufsm">Geografia-UFSM</a><span class="status">Encerrado</span></li>
+                            <li><a href="/polouabsapiranga/tecnologia-em-sistemas-para-a-internet-ifsul">Tecnologia em Sistemas para a Internet-IFSUL</a><span class="status">Encerrado</span></li>
                             <!-- Previstos -->
-                            <li><a href="">Licenciatura em História-IFSUL</a><span class="status">Previsto</span></li>
-                            <li><a href=""> Linguagens/Letras - IFSUL</a><span class="status">Previsto</span></li>
-                            <li><a href=""> Letras Inglês - UFRGS</a><span class="status">Previsto</span></li>
-                            <li><a href=""> Licenciatura em Computação - UFSM</a><span class="status">Previsto</span></li>
-                            <li><a href=""> Licenciatura em Educação Especial - UFSM</a><span class="status">Previsto</span></li>
-                            <li><a href=""> Formação de Professores para a Educação Profissional - UFSM</a><span class="status">Previsto</span></li>
-                            <li><a href=""> Tecnologia em Sistemas para a Internet - IFSUL</a><span class="status">Previsto</span></li>
+                            <li><a href="/polouabsapiranga/licenciatura-em-historia-ifsul">Licenciatura em História-IFSUL</a><span class="status">Previsto</span></li>
+                            <li><a href="/polouabsapiranga/linguagens-letras-ifsul"> Linguagens/Letras - IFSUL</a><span class="status">Previsto</span></li>
+                            <li><a href="/polouabsapiranga/letras-ingles-ufrgs">Letras Inglês - UFRGS</a><span class="status">Previsto</span></li>
+                            <li><a href="/polouabsapiranga/licenciatura-em-computacao-ufsm">Licenciatura em Computação - UFSM</a><span class="status">Previsto</span></li>
+                            <li><a href="/polouabsapiranga/licenciatura-em-educacao-especial-ufsm">Licenciatura em Educação Especial - UFSM</a><span class="status">Previsto</span></li>
+                            <li><a href="/polouabsapiranga/formacao-de-professores-para-a-educacao-profissional-ufsm">Formação de Professores para a Educação Profissional - UFSM</a><span class="status">Previsto</span></li>
+
                         </ul>
 
                     </div>
@@ -108,36 +104,36 @@
                         <ul id="listlk2" style="display: none;">
 
                             <!-- Em andamento -->
-                            <li><a href="https://argo.furg.br/">Licenciatura em Letras Espanhol-UFPel</a><span class="status">Em andamento</span></li>
-                            <li><a href="https://argo.furg.br/">Especialização em Artes - UFPel</a><span class="status">Em andamento</span></li>
-                            <li><a href="https://argo.furg.br/">Alfabetização - FURG</a><span class="status">Em andamento</span></li>
+                            <li><a href="/polouabsapiranga/licenciatura-em-letras-espanhol-ufpel">Licenciatura em Letras Espanhol-UFPel</a><span class="status">Em andamento</span></li>
+                            <li><a href="/polouabsapiranga/especializacao-em-artes-ufpel">Especialização em Artes - UFPel</a><span class="status">Em andamento</span></li>
+                            <li><a href="/polouabsapiranga/alfabetizacao-furg">Alfabetização - FURG</a><span class="status">Em andamento</span></li>
 
 
                             <!-- Encerrados -->
-                            <li><a href="">Matemática, Mídias Digitais e Didática - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Educação Ambiental - UFSM</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Informática Instrumental para Professores da Educação Básica - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Gestão Pública - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Gestão em Saúde - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Gestão Pública Municipal - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Gestão de Polos - UFPel</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Mídias na Educação - IFSUL</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Gestão Educacional - UFSM</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Educação de jovens e adultos na diversidade - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Tecnologias da Informação e da Comunicação na Educação - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Rio Grande do Sul: sociedade, política e cultura - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Matemática - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Educação Física e Anos Iniciais - UFSM</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Aplicações para a Web - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Ensino de Sociologia no Ensino Médio - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Psicopedagogia - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Filosofia - UFPel</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Educação em Direitos Humanos - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Gestão da Educação - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Ciências é 10! - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Artes - UFPel</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Educação Física Escolar - UFPel</a><span class="status">Encerrados</span></li>
-                            <li><a href="">Espaços e possibilidades para a educação continuada - IFSUL</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/matematica-midias-digitais-e-didatica-ufrgs">Matemática, Mídias Digitais e Didática - UFRGS</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/educacao-ambiental-ufsm">Educação Ambiental - UFSM</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/informatica-instrumental-para-professores-da-educacao-basica-ufrgs">Informática Instrumental para Professores da Educação Básica - UFRGS</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/gestao-publica-ufrgs">Gestão Pública - UFRGS</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/gestao-em-saude-ufrgs">Gestão em Saúde - UFRGS</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/gestao-publica-municipal-ufrgs">Gestão Pública Municipal - UFRGS</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/gestao-de-polos-ufpel">Gestão de Polos - UFPel</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/midias-na-educacao-ifsul">Mídias na Educação - IFSUL</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/gestao-educacional-ufsm">Gestão Educacional - UFSM</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/educacao-de-jovens-e-adultos-na-diversidade-furg">Educação de jovens e adultos na diversidade - FURG</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/tecnologias-da-informacao-e-da-comunicacao-na-educacao-furg">Tecnologias da Informação e da Comunicação na Educação - FURG</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/rio-grande-do-sul-sociedade-politica-e-cultura-furg">Rio Grande do Sul: sociedade, política e cultura - FURG</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/matematica-furg">Matemática - FURG</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/educacao-fisica-e-anos-iniciais-ufsm">Educação Física e Anos Iniciais - UFSM</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/aplicacoes-para-a-web-furg">Aplicações para a Web - FURG</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/ensino-de-sociologia-no-ensino-medio-furg">Ensino de Sociologia no Ensino Médio - FURG</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/psicopedagogia-ufrgs">Psicopedagogia - UFRGS</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/filosofia-ufpel">Filosofia - UFPel</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/educacao-em-direitos-humanos-furg">Educação em Direitos Humanos - FURG</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/gestao-da-educacao-ufrgs">Gestão da Educação - UFRGS</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/ciencias-e-10-furg">Ciências é 10! - FURG</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/">Artes - UFPel</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/">Educação Física Escolar - UFPel</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/">Espaços e possibilidades para a educação continuada - IFSUL</a><span class="status">Encerrados</span></li>
 
                             <!-- previstos -->
                             <li><a href="">Ensino de Filosofia no ensino Médio - UFSM</a><span class="status">Previsto</span></li>
