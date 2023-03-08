@@ -100,15 +100,15 @@
                     <?php the_field('titulo_instituicoes_parceiras'); ?>
                 </h4>
                 <ul>
-                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/capes-uab.png" alt=""></a></li>
+                    <li><a href="https://www.gov.br/capes/pt-br" target="_blank" title="CAPES"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/capes-uab.png" alt=""></a></li>
                     <li><a href="https://www.furg.br/en/" target="_blank" title="Universidade Federal do Rio Grande"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/furg.png" alt="Universidade Federal do Rio Grande"></a></li>
                     <li><a href="http://www.ifsul.edu.br/" target="_blank" title="IFSUL"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ifsul.png" alt=""></a></li>
-                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/pms.png" alt=""></a></li>
-                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/uab.png" alt=""></a></li>
-                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ufpel.png" alt=""></a></li>
-                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ufrgs.png" alt=""></a></li>
-                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ufsm.png" alt=""></a></li>
-                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/unipampa.png" alt=""></a></li>
+                    <li><a href="https://sapiranga.atende.net/" target="_blank" title="Prefeitura Municipal de Sapiranga"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/pms.png" alt=""></a></li>
+                    <li><a href="http://portal.mec.gov.br/politica-de-educacao-inclusiva?id=12265" target="_blank" title="Universidade aberta do Brasil (UAB)"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/uab.png" alt=""></a></li>
+                    <li><a href="https://portal.ufpel.edu.br/" target="_blank" title="Universidade Federal de Pelotas"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ufpel.png" alt=""></a></li>
+                    <li><a href="http://www.ufrgs.br/ufrgs/inicial" target="_blank" title="Universidade Federal do Rio Grande do Sul"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ufrgs.png" alt=""></a></li>
+                    <li><a href="https://www.ufsm.br/" target="_blank" title="Universidade Federal de Santa Maria"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ufsm.png" alt=""></a></li>
+                    <li><a href="https://unipampa.edu.br/portal/" target="_blank" title="Universidade Federal do Pampa"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/unipampa.png" alt=""></a></li>
                 </ul>
             </section>
 

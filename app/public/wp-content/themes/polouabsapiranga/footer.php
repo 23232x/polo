@@ -13,9 +13,8 @@
                 </a>
 
                 <p class="desc-polo-footer">
-                    O Polo universitário UAB de Sapiranga
-                    oferece mais de XX cursos.
-                    Veja todos os cursos disponíveis <a href="/polouabsapiranga/cursos"></a>
+                    Oferecemos mais de 30 cursos, nos níveis técnico,
+                    graduação e pós-graduação. Veja a listagem de cursos completa <a href="/polouabsapiranga/cursos">aqui</a>.
                 </p>
             </div>
 
