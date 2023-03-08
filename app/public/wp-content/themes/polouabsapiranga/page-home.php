@@ -100,11 +100,15 @@
                     <?php the_field('titulo_instituicoes_parceiras'); ?>
                 </h4>
                 <ul>
-                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/furg.png" alt=""></a></li>
-                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ifsul.png" alt=""></a></li>
+                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/capes-uab.png" alt=""></a></li>
+                    <li><a href="https://www.furg.br/en/" target="_blank" title="Universidade Federal do Rio Grande"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/furg.png" alt="Universidade Federal do Rio Grande"></a></li>
+                    <li><a href="http://www.ifsul.edu.br/" target="_blank" title="IFSUL"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ifsul.png" alt=""></a></li>
                     <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/pms.png" alt=""></a></li>
+                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/uab.png" alt=""></a></li>
                     <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ufpel.png" alt=""></a></li>
                     <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ufrgs.png" alt=""></a></li>
+                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ufsm.png" alt=""></a></li>
+                    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/unipampa.png" alt=""></a></li>
                 </ul>
             </section>
 

@@ -10,10 +10,11 @@
 
         <section class="section container">
 
+            <!-- breadcrumb -->
+            <div class="breadcrumb "><?php get_breadcrumb(); ?></div>
+
             <!-- import the social medias template -->
-            <?php
-            get_template_part('template-parts/social-medias');
-            ?>
+            <?php get_template_part('template-parts/social-medias'); ?>
 
             <!-- tittle -->
             <div class="title-section">
@@ -131,14 +132,14 @@
                             <li><a href="/polouabsapiranga/educacao-em-direitos-humanos-furg">Educação em Direitos Humanos - FURG</a><span class="status">Encerrados</span></li>
                             <li><a href="/polouabsapiranga/gestao-da-educacao-ufrgs">Gestão da Educação - UFRGS</a><span class="status">Encerrados</span></li>
                             <li><a href="/polouabsapiranga/ciencias-e-10-furg">Ciências é 10! - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/">Artes - UFPel</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/">Educação Física Escolar - UFPel</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/">Espaços e possibilidades para a educação continuada - IFSUL</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/artes-ufpel">Artes - UFPel</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/educacao-fisica-escolar-ufpel">Educação Física Escolar - UFPel</a><span class="status">Encerrados</span></li>
+                            <li><a href="/polouabsapiranga/espacos-e-possibilidades-para-a-educacao-continuada-ifsul">Espaços e possibilidades para a educação continuada - IFSUL</a><span class="status">Encerrados</span></li>
 
                             <!-- previstos -->
-                            <li><a href="">Ensino de Filosofia no ensino Médio - UFSM</a><span class="status">Previsto</span></li>
-                            <li><a href="">Atendimento Educacional Especializado - FURG</a><span class="status">Previsto</span></li>
-                            <li><a href=""> Mídia e Educação - UNIPAMPA</a><span class="status">Previsto</span></li>
+                            <li><a href="/polouabsapiranga/ensino-de-filosofia-no-ensino-medio-ufsm">Ensino de Filosofia no ensino Médio - UFSM</a><span class="status">Previsto</span></li>
+                            <li><a href="/polouabsapiranga/atendimento-educacional-especializado-furg">Atendimento Educacional Especializado - FURG</a><span class="status">Previsto</span></li>
+                            <li><a href="/polouabsapiranga/midia-e-educacao-unipampa"> Mídia e Educação - UNIPAMPA</a><span class="status">Previsto</span></li>
                         </ul>
                     </div>
                 </div>
@@ -161,7 +162,7 @@
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </button>
                         <ul id="listlk3" style="display: none;">
-                            <li><a href="https://argo.furg.br/">Licenciatura em Letras Espanhol-UFPel</a><span class="status">Em andamento</span></li>
+                            <li><a href="/polouabsapiranga/licenciatura-em-letras-espanhol-ufpel">Licenciatura em Letras Espanhol-UFPel</a><span class="status">Em andamento</span></li>
                         </ul>
                     </div>
                 </div>
@@ -185,7 +186,7 @@
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </button>
                         <ul id="listlk4" style="display: none;">
-                            <li><a href="http://ead.ifsul.edu.br/index.php/cursos">Lista de Cursos FIC - IFSUL</a><span class="status">Em andamento</span></li>
+                            <li><a href="cursos-fic-ifsul" title="Lista de Cursos FIC - IFSUL">Lista de Cursos FIC - IFSUL</a><span class="status">Em andamento</span></li>
                         </ul>
                     </div>
                 </div>

@@ -23,8 +23,9 @@ h4.title-section {
 .partners ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center
+    justify-content: center;
+    align-items: center;
+
 }
 
 .partners ul li {
@@ -37,6 +38,9 @@ h4.title-section {
     margin: 2rem;
     padding: 2rem
 }
+
+.partners ul li:last-of-type {}
+
 
 .partners ul li a img {
     -webkit-filter: grayscale(100%);

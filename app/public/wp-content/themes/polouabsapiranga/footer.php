@@ -15,7 +15,7 @@
                 <p class="desc-polo-footer">
                     O Polo universitário UAB de Sapiranga
                     oferece mais de XX cursos.
-                    Veja todos os cursos disponíveis.
+                    Veja todos os cursos disponíveis <a href="/polouabsapiranga/cursos"></a>
                 </p>
             </div>
 
@@ -26,10 +26,10 @@
                 <section class="footer-course">
                     <h4>Técnicos</h4>
                     <ul>
-                        <li><a href="/tecnicos/AlimentacaoEscolar" title="Curso de Filosofia">Alimentação escolar</a></li>
-                        <li><a href="/tecnicos/infraestruturaEscolar" title="">Infraestrutura escolar</a></li>
-                        <li><a href="/tecnicos/secretariaEscolar" title="">Secretaria escolar</a></li>
-                        <li><a href="/tecnicos/MultimeiosDidaticos" title="">Multimeios didáticos</a></li>
+                        <li><a href="/alimentacao-escolar-ifsul" title="Curso de Filosofia">Alimentação Escolar - IFSUL</a></li>
+                        <li><a href="/tecnicos/infraestrutura-escolar-ifsul" title="Infraestrutura Escolar - IFSUL">Infraestrutura Escolar - IFSUL</a></li>
+                        <li><a href="/tecnicos/secretaria-escolar-ifsul" title="Secretaria Escolar - IFSUL">Secretaria Escolar - IFSUL</a></li>
+                        <li><a href="/tecnicos/multimeios-didaticos-ifsul" title="Multimeios didáticos - IFSUL">Multimeios didáticos - IFSUL</a></li>
                     </ul>
                 </section>
 
@@ -37,16 +37,16 @@
                 <section class="footer-course">
                     <h4>Graduação</h4>
                     <ul>
-                        <li><a href="/graduacao/geografia" title="">Geografia UFSM</a></li>
-                        <li><a href="/graduacao/pedagogia" title="">Pedagogia UFPel</a></li>
-                        <li><a href="/graduacao/pedagogia" title="">Pedagogia UFRGS</a></li>
-                        <li><a href="/graduacao/SistemasParaInternet" title="">Sistemas para internet</a></li>
+                        <li><a href="/graduacao/geografia-ufsm" title="Geografia UFSM">Geografia UFSM</a></li>
+                        <li><a href="/graduacao/pedagogia-ufpel" title="Pedagogia UFPel">Pedagogia UFPel</a></li>
+                        <li><a href="/graduacao/pedagogia-ufrgs" title="Pedagogia UFRGS">Pedagogia UFRGS</a></li>
+                        <li><a href="/graduacao/tecnologia-em-sistemas-para-a-internet-ifsul" title="Tecnologia em Sistemas para a Internet - IFSUL">Tecnologia em Sistemas para a Internet - IFSUL</a></li>
                         <!-- repetat here -->
 
-                        <li><a href="/graduacao/">Licenciatura em Filosofia - UFPel</a></li>
-                        <li><a href="/graduacao/filosofia" title="Curso de Filosofia">Filosofia UFPel</a></li>
-                        <li><a href="/graduacao/historia" title="">História FURG</a></li>
-                        <li><a href="/graduacao/">Licenciatura em História - UFPel</a></li>
+                        <li><a href="/graduacao/licenciatura-em-filosofia-ufpel" title="icenciatura em Filosofia - UFPel">Licenciatura em Filosofia - UFPel</a></li>
+                        <li><a href="/graduacao/filosofia" title="Filosofia UFPel">Filosofia UFPel</a></li>
+                        <li><a href="/historia-furg" title="História FURG">História FURG</a></li>
+                        <li><a href="/licenciatura-em-historia-ufpel" title="Licenciatura em História - UFPel">Licenciatura em História - UFPel</a></li>
 
                     </ul>
                 </section>
@@ -55,12 +55,12 @@
                 <section class="footer-course">
                     <h4>Pós-Graduação</h4>
                     <ul>
-                        <li><a href="/pos-graduacao/GestaoDaEducacao" title="">Gestão da educação</a></li>
-                        <li><a href="/pos-graduacao/educacao-em-direitos-humanos" title="">Educação em direitos humanos</a></li>
-                        <li><a href="/pos-graduacao/filosofia" title="">Filosofia</a></li>
-                        <li><a href="/pos-graduacao/ciencias-e-10" title="">Ciências é 10</a></li>
-                        <li><a href="/pos-graduacao/artes" title="">Artes</a></li>
-                        <li><a href="/pos-graduacao/EducacaoFisicaEscolar" title="">Educação física escolar</a></li>
+                        <li><a href="/gestao-da-educacao-ufrgs" title="Gestão da Educação - UFRGS">Gestão da Educação - UFRGS</a></li>
+                        <li><a href="/educacao-em-direitos-humanos-furg" title="Educação em direitos humanos">Educação em direitos humanos</a></li>
+                        <li><a href="/filosofia-ufpel" title="Filosofia - UFPel">Filosofia - UFPel</a></li>
+                        <li><a href="/ciencias-e-10-furg" title="Ciências é 10">Ciências é 10</a></li>
+                        <li><a href="/artes-ufpel" title="Artes - UFPel">Artes - UFPel</a></li>
+                        <li><a href="/educacao-fisica-escolar-ufpel" title="Educação Física Escolar - UFPel">Educação Física Escolar - UFPel</a></li>
 
                     </ul>
                 </section>
@@ -86,41 +86,41 @@
             <!-- social medias -->
             <ul class="medias-footer">
                 <li>
-                    <a href="">
+                    <a href="https://pt-br.facebook.com/polouniversitariosapiranga/" target="_blank">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/face.svg" alt="">
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="https://www.instagram.com/polouniversitario_sapiranga/?igshid=YmMyMTA2M2Y%3D" target="_blank">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/insta.svg" alt="">
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="#">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/youtube.svg" alt="">
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="https://wa.me/5551986780014?text=ola">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/wapp.svg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="mailto:poloead@sapiranga.rs.gov.br?subject=ola%20polo">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/email.svg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="tel:+555135999616">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/phone.svg" alt="">
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="#" onclick="window.print();">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/print.svg" alt="">
                     </a>
                 </li>

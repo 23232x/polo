@@ -1,5 +1,5 @@
 <?php
-// Template Name: MultimeiosDidaticos
+// Template Name: MultimeiosDidaticos-IFSUL
 ?>
 <?php get_header(); ?>
 
@@ -9,56 +9,11 @@
 
         <!-- social medias top side bar -->
         <div class="section container">
-            <!-- all subpages contains this section socials icon on the top page -->
-            <div class="social-medias-top-page">
-                <!-- Social medias -->
-                <ul>
-                    <!-- facebook -->
-                    <li>
-                        <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/face.svg" alt="Facebook Polo Universitário UAB - Sapiranga">
-                        </a>
-                    </li>
-
-                    <!-- instagram -->
-                    <li>
-                        <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/insta.svg" alt="Instagram Polo Universitário UAB - Sapiranga">
-                        </a>
-                    </li>
-
-                    <!-- youtube -->
-                    <li>
-                        <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/youtube.svg" alt="Youtube Polo Universitário UAB - Sapiranga">
-                        </a>
-                    </li>
-
-                    <!-- whatsapp -->
-                    <li>
-                        <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/whats.svg" alt="whatsapp Polo Universitário UAB - Sapiranga">
-                        </a>
-                    </li>
-
-                    <!-- email -->
-                    <li>
-                        <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/email.svg" alt="email Polo Universitário UAB - Sapiranga">
-                        </a>
-                    </li>
-
-                    <!-- print -->
-                    <li>
-                        <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/print.svg" alt="Polo Universitário UAB - Sapiranga">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
             <!-- breadcrumb -->
             <div class="breadcrumb "><?php get_breadcrumb(); ?></div>
+
+            <!-- import the social medias template -->
+            <?php get_template_part('template-parts/social-medias'); ?>
 
             <!-- tittle -->
             <div class="title-section courses">

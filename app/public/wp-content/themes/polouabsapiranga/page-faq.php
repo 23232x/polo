@@ -11,12 +11,11 @@
 
         <!-- social medias top side bar -->
         <div class="section container">
-            <!-- all subpages contains this section socials icon on the top page -->
+            <!-- breadcrumb -->
+            <div class="breadcrumb "><?php get_breadcrumb(); ?></div>
 
             <!-- import the social medias template -->
-            <?php
-            get_template_part('template-parts/social-medias');
-            ?>
+            <?php get_template_part('template-parts/social-medias'); ?>
 
 
             <!-- tittle -->

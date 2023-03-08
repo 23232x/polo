@@ -10,10 +10,11 @@
 
         <section class="section container">
 
+            <!-- breadcrumb -->
+            <div class="breadcrumb "><?php get_breadcrumb(); ?></div>
+
             <!-- import the social medias template -->
-            <?php
-            get_template_part('template-parts/social-medias');
-            ?>
+            <?php get_template_part('template-parts/social-medias'); ?>
 
 
             <!-- tittle -->
