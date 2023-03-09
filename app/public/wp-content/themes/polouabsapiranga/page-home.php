@@ -1,6 +1,4 @@
-<?php
-// Template Name:Home
-
+<?php // Template Name:Home 
 ?>
 
 <!-- importa o header -->
@@ -19,17 +17,19 @@
                 <div class="container">
                     <p class="text-intro">
                         <?php the_field('texto_intro'); ?>
-
-
+                        Polo Universitário UAB de sapiranga.
                     </p>
 
                     <div class="pesquisa">
                         <span>Encontre um curso</span>
                         <!-- this div contais the search form -->
                         <div class="search_form">
-                            <?php get_search_form(); ?>
 
+                            <?php get_search_form(); ?>
                         </div>
+                        <span class="ou">ou</span>
+                        <a href="/Cursos" class="see-all-courses" id="right-hover">veja todos os cursos disponíveis <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hero/right-thin.svg" alt=""></a>
+
                     </div>
                 </div>
             </section>
@@ -111,17 +111,7 @@
                     <li><a href="https://unipampa.edu.br/portal/" target="_blank" title="Universidade Federal do Pampa"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/unipampa.png" alt=""></a></li>
                 </ul>
             </section>
-
-
-
-
-
-
-
-
-
         </main>
-
 
         <!-- fim do loope principal -->
 <?php
@@ -150,3 +140,11 @@
         },
     });
 </script>
+
+
+<!-- <script>
+    var seta = document.getElementById("right-hover");
+    seta.addEventListener("mouseover", function() {
+if)
+});
+</script> -->

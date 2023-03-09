@@ -197,17 +197,7 @@
                     </p>
                 </div>
             </div>
-
         </section>
-
-
-
-
-
-
-
-
-
 
 
 <?php endwhile;

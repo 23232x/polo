@@ -39,9 +39,6 @@ h4.title-section {
     padding: 2rem
 }
 
-.partners ul li:last-of-type {}
-
-
 .partners ul li a img {
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
@@ -61,7 +58,7 @@ h4.title-section {
 
     height: 100vh;
     /* width: 100vw; */
-    background-image: url('../img/hero/hero-bg.png');
+    background-image: url('../img/hero/hero-bg-1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -88,7 +85,7 @@ p.text-intro {
 }
 
 .pesquisa {
-    margin-top: 15rem;
+    margin-top: 32rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -112,4 +109,25 @@ p.text-intro {
 
 .busca #s {
     border: 2px solid #fff
+}
+
+.see-all-courses {
+    display: inline-block;
+    margin-left: 2rem;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: #002140;
+    padding: 1rem 2rem;
+    display: flex;
+    /* align-items: center; */
+}
+
+.see-all-courses img {
+    margin-left: 2rem;
+}
+
+.ou {
+    margin-left: 5rem;
 }
