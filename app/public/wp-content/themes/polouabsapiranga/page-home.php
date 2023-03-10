@@ -17,7 +17,9 @@
                 <div class="container">
                     <p class="text-intro">
                         <?php the_field('texto_intro'); ?>
-                        Polo Universitário UAB de sapiranga.
+                        Polo Universitário UAB de sapiranga
+                        Transformando a educação,
+                        criando futuros!
                     </p>
 
                     <div class="pesquisa">
@@ -38,7 +40,7 @@
             <div class="swiper mySwiper">
                 <!-- <div class="swiper-pagination"></div> -->
 
-
+                <?php echo the_date(); ?>
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">

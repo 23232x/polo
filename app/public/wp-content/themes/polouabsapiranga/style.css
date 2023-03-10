@@ -1,9 +1,9 @@
 /*
 Theme Name: Polo UAB Sapiranga
 Theme URI: --
-Author: Adriano Scheffer Amado
+Author: Adriano Amado
 Author URI: ----
-phone of author: +5551997498703
+phone of author: +5551992394694
 Description: this theme was created for POlo UAB Sapiranga
 Version: 1.0
 License: GNU General Public License v2 or later
@@ -30,6 +30,7 @@ License: GNU General Public License v2 or later
 @import url(assets/css/page-home.css);
 @import url(assets/css/page-section.css);
 @import url(assets/css/page-cursos.css);
+@import url(assets/css/page-editais.css);
 @import url(assets//css/biblioteca.css);
 @import url(assets/css/page-graduacao.css);
 @import url(assets/css/page-faq.css);

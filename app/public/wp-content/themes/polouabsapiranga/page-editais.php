@@ -18,22 +18,37 @@
 
                         <!-- tittle -->
                         <div class="title-section">
-                                <h4><?php the_field('titulo_sobre'); ?></h4>
+                                <h4>Editais Polo UAB Sapiranga</h4>
                                 <ul>
                                         <li>
-                                                <span><?php the_field('subtitulo_sobre'); ?></span>
-
+                                                <span>
+                                                        Nesta sessão você encontra, todos os editais relacionados ao cursos do polo UAB de sapiranga.
+                                                        <a href="/polouabsapiranga/faq" target="_blank" rel="noopener noreferrer">FAQ</a>.
+                                                </span>
                                         </li>
                                 </ul>
                         </div>
 
+                        <section class="main-page editais">
 
-                        <div class="contend-section">
+                                <div class="edital-item">
+                                        <button class="edital-title">Edital de seleção para tutor presencial de pedagogia. <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/general/edital-arrow.png" alt=""></button>
 
-                                <div class="text-wrapper">
-                                        <?php the_field('texto_sobre'); ?>
+                                        <div class="edital-contente" style>
+                                                <span class="data-title">Dada da publicação:
+                                                        <span class="data-day">
+                                                                <?php echo date(get_option('date_format')); ?>
+                                                        </span>
+                                                </span>
+                                                <p class="contente-description">
+                                                        A Universidade Federal do Rio Grande – FURG, por meio da Secretaria de Educação a Distância - SEaD, no uso de suas atribuições, torna pública a abertura das inscrições para a seleção de bolsista UAB/CAPES, para TUTORIA no âmbito do Sistema Universidade Aberta do Brasil – UAB. Os bolsistas selecionados atuarão no apoio ao curso LICENCIATURA EM PEDAGOGIA.
+                                                </p>
+                                                <span class="inscricao-data">Inscrições: <span class="data-day"> 10/02/2023 a 14/02/2023</span></span>
+                                                <span class="mais-info"></span>
+                                                <img id="getinfo" title="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons">
+                                        </div>
                                 </div>
-                        </div>
+                        </section>
 
 
                         <div class="search-on-page">
