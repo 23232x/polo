@@ -16,10 +16,8 @@
             <section class="main-hero">
                 <div class="container">
                     <p class="text-intro">
-                        <?php the_field('texto_intro'); ?>
-                        Polo Universitário UAB de sapiranga
-                        Transformando a educação,
-                        criando futuros!
+                        <?php echo get_post_meta(get_the_ID(), 'texto_introdutorio', true); ?>
+
                     </p>
 
                     <div class="pesquisa">

@@ -78,3 +78,24 @@ Stack trace:
 #2 /home/TI/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/TI/adrian...')
 #3 {main}
   thrown in /home/TI/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/menu.php on line 5
+[13-Mar-2023 20:10:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php:51
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-blog-header.php(19): require_once('/home/PMSAPIRAN...')
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
+#3 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php on line 51
+[13-Mar-2023 20:11:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php:49
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-blog-header.php(19): require_once('/home/PMSAPIRAN...')
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
+#3 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php on line 49
+[13-Mar-2023 20:19:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php:49
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-blog-header.php(19): require_once('/home/PMSAPIRAN...')
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
+#3 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php on line 49
