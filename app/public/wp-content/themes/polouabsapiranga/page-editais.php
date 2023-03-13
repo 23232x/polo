@@ -30,10 +30,8 @@
                         </div>
 
                         <section class="main-page editais">
-
                                 <div class="edital-item">
-                                        <button class="edital-title">Edital de seleção para tutor presencial de pedagogia. <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/general/edital-arrow.png" alt=""></button>
-
+                                        <button class="edital-title">Edital de seleção para tutor presencial de pedagogia. <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/general/edital-arrow.svg" alt=""></button>
                                         <div class="edital-contente" style>
                                                 <span class="data-title">Dada da publicação:
                                                         <span class="data-day">

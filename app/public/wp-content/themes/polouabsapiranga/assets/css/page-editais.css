@@ -1,4 +1,5 @@
 .main-page.editais {
+    margin: 5rem 0;
     width: 100%;
     /* background-color: brown; */
 }
@@ -15,7 +16,7 @@
 .edital-title {
     width: 100%;
     background-color: #002140;
-    padding: 2rem;
+    padding: 1.8rem;
     color: #ffff;
     font-family: 'Source Serif Pro', serif;
     font-weight: 400;
@@ -43,17 +44,16 @@
     font-weight: 400;
 }
 
-
-
-
 .data-day {
     display: inline-block;
     font-weight: 400;
-
-
 }
 
-
+.inscricao-data {
+    display: inline-block;
+    margin-bottom: 4rem;
+    font-weight: 550;
+}
 
 
 
