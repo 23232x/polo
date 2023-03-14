@@ -15,8 +15,12 @@
         <main>
             <section class="main-hero">
                 <div class="container">
+
+
                     <p class="text-intro">
-                        <?php echo get_post_meta(get_the_ID(), 'texto_introdutorio', true); ?>
+                        <!-- CMB2 get Field  -->
+                        <?php the_cmb2field('text_intro'); ?>
+
 
                     </p>
 
@@ -46,18 +50,22 @@
                             <!-- 1º colunm -->
                             <div class="slide-item-left">
                                 <h4>
-                                    <?php the_field('titulo_slide1'); ?>
+                                    <?php the_cmb2field('title_swiper1'); ?>
                                 </h4>
-                                <h2><?php the_field('subtitulo_slide1') ?></h2>
+
+                                <h2>
+                                    <?php the_cmb2field('subtitle_swiper1'); ?>
+                                </h2>
+
                                 <p>
-                                    <?php the_field('descricao_slide_1') ?>
+                                    <?php the_cmb2field('desc_swiper1'); ?>
                                 </p>
                                 <a class="btn-hero" href="">Saiba mais</a>
                             </div>
 
                             <!-- 2º colunm -->
                             <div class="slide-item-right">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hero/hero1.jpg" alt="">
+                                <?php the_cmb2field('swiper_photo1'); ?>
                             </div>
                         </div>
                     </div>
@@ -97,7 +105,7 @@
 
             <section class="partners container">
                 <h4 class="title-section">
-                    <?php the_field('titulo_instituicoes_parceiras'); ?>
+                    Instituiçoes parceiras
                 </h4>
                 <ul>
                     <li><a href="https://www.gov.br/capes/pt-br" target="_blank" title="CAPES"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/capes-uab.png" alt=""></a></li>

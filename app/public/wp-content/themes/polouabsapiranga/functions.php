@@ -144,4 +144,96 @@ function get_breadcrumb()
 }
 
 
+
+// #### customized functions to get cmb2 fields ####
+function get_cmb2field($key, $page_id = 0)
+{
+  $id = $page_id !== 0 ? $page_id : get_the_ID();
+  return get_post_meta($id, $key, true);
+}
+
+function the_cmb2field($key, $page_id = 0)
+{
+  echo get_cmb2field($key, $page_id);
+}
+
+
+
+
+//########## CMB2 Settings ############
+// CMB2 -> Fields Home - intro text
+add_action('cmb2_admin_init', 'cmb2_fields_home');
+
+function cmb2_fields_home()
+{
+  $home_cmb2 =  new_cmb2_box([
+    'id' => 'home_box',
+    'title' => 'Campos personalizados da Home',
+    'object_types' => ['page'],
+    'show_on' => [
+      'key' => 'page-template',
+      'value' => 'page-home.php',
+    ],
+  ]);
+  // add the intro texto to polo uab Sapiranga
+  $home_cmb2->add_field([
+    'name' => 'Texto intro',
+    'id' => 'text_intro',
+    'type' => 'textarea',
+  ]);
+}
+
+// CMB2 -> Fields Home - Slide swiper
+add_action('cmb2_admin_init', 'cmb2_fields_home_swiper');
+
+function cmb2_fields_home_swiper()
+{
+  $swiper_cmb2 =  new_cmb2_box([
+    'id' => 'home_box_swiper',
+    'title' => 'Campos personalizados Slide',
+    'object_types' => ['page'],
+    'show_on' => [
+      'key' => 'page-template',
+      'value' => 'page-home.php',
+    ],
+  ]);
+
+  // add the swiper title
+  $swiper_cmb2->add_field([
+    'name' => 'Titulo',
+    'id' => 'title_swiper1',
+    'type' => 'text',
+  ]);
+
+  // add the swiper sub-title
+  $swiper_cmb2->add_field([
+    'name' => 'Subtítulo',
+    'id' => 'subtitle_swiper1',
+    'type' => 'text',
+  ]);
+
+  // add the swiper description
+  $swiper_cmb2->add_field([
+    'name' => 'Descricao',
+    'id' => 'desc_swiper1',
+    'type' => 'textarea',
+  ]);
+
+  // add the swiper photo
+  $swiper_cmb2->add_field([
+    'name' => 'Imagem do slide 1',
+    'id' => 'swiper_photo1',
+    'type' => 'file',
+    'options' => [
+      'url' => true,
+    ],
+  ]);
+}
+
+
+
+
+
+
+
 ?>

@@ -99,3 +99,62 @@ Stack trace:
 #2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
 #3 {main}
   thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php on line 49
+[14-Mar-2023 15:54:36 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/functions.php on line 175
+[14-Mar-2023 15:54:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 372
+[14-Mar-2023 15:54:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 373
+[14-Mar-2023 15:54:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_field() on string in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/functions.php:169
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(308): cmb2_fields_home('')
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/bootstrap.php(26): do_action('cmb2_admin_init')
+#4 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/init.php(165): cmb2_bootstrap()
+#5 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(308): CMB2_Bootstrap_2101->include_cmb('')
+#6 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-settings.php(617): do_action('init')
+#9 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php(91): require_once('/home/PMSAPIRAN...')
+#10 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-load.php(50): require_once('/home/PMSAPIRAN...')
+#11 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/admin.php(34): require_once('/home/PMSAPIRAN...')
+#12 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/post.php(12): require_once('/home/PMSAPIRAN...')
+#13 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/functions.php on line 169
+[14-Mar-2023 16:04:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php:53
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-blog-header.php(19): require_once('/home/PMSAPIRAN...')
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
+#3 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php on line 53
+[14-Mar-2023 16:05:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php:53
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-blog-header.php(19): require_once('/home/PMSAPIRAN...')
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
+#3 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php on line 53
+[14-Mar-2023 16:09:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php:105
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-blog-header.php(19): require_once('/home/PMSAPIRAN...')
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
+#3 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-home.php on line 105
+[14-Mar-2023 16:52:12 UTC] PHP Parse error:  Unclosed '{' on line 193 in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/functions.php on line 208
+[14-Mar-2023 16:54:12 UTC] PHP Warning:  Undefined variable $home_cmb2 in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/functions.php on line 205
+[14-Mar-2023 16:54:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_field() on null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/functions.php:205
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(308): cmb2_fields_home_swiper('')
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/bootstrap.php(26): do_action('cmb2_admin_init')
+#4 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/init.php(165): cmb2_bootstrap()
+#5 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(308): CMB2_Bootstrap_2101->include_cmb('')
+#6 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-settings.php(617): do_action('init')
+#9 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php(91): require_once('/home/PMSAPIRAN...')
+#10 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-load.php(50): require_once('/home/PMSAPIRAN...')
+#11 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/admin-ajax.php(22): require_once('/home/PMSAPIRAN...')
+#12 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/functions.php on line 205
