@@ -5,48 +5,43 @@
 <?php get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <!-- conteúdo da página vai aqui -->
+<!-- conteúdo da página vai aqui -->
 
+<section class="section container">
+  <!-- breadcrumb -->
+  <div class="breadcrumb"><?php get_breadcrumb(); ?></div>
 
-        <section class="section container">
+  <!-- import the social medias template -->
+  <?php get_template_part('template-parts/social-medias'); ?>
 
-            <!-- breadcrumb -->
-            <div class="breadcrumb "><?php get_breadcrumb(); ?></div>
+  <!-- tittle -->
+  <div class="title-section">
+    <h4><?php the_cmb2field('title_sobre'); ?></h4>
+    <ul>
+      <li>
+        <span>
+          <?php the_cmb2field('subtitle_sobre');?>
+          <a href="/polouabsapiranga/faq"
+            target="_blank"
+            rel="noopener noreferrer"
+            >FAQ</a>.
+        </span>
+      </li>
+    </ul>
+  </div>
 
-            <!-- import the social medias template -->
-            <?php get_template_part('template-parts/social-medias'); ?>
+  <section class="main-page sobre">
+    <div class="text-wrapper">
+      <p>
+        <?php the_cmb2field('text_about');?>
+      </p>
+    </div>
+  </section>
 
-
-            <!-- tittle -->
-            <div class="title-section">
-                <h4><?php the_field('titulo_sobre'); ?></h4>
-                <ul>
-                    <li>
-                        <span><?php the_field('subtitulo_sobre'); ?></span>
-
-                    </li>
-                </ul>
-            </div>
-
-
-            <div class="contend-section">
-
-                <div class="text-wrapper">
-                    <?php the_field('texto_sobre'); ?>
-                </div>
-
-
-
-            </div>
-
-
-            <div class="search-on-page">
-                <?php get_search_form(); ?>
-            </div>
-
-        </section>
-
-
+  <div class="search-on-page">
+    <?php get_search_form(); ?>
+  </div>
+</section>
 
 <?php endwhile;
 else : endif ?>
