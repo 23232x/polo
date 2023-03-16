@@ -16,10 +16,9 @@
             <section class="main-hero">
                 <div class="container">
 
-
                     <p class="text-intro">
                         <!-- CMB2 get Field  -->
-                        <?php the_cmb2field('text_intro'); ?>
+                        <?php the_cmb2field('intro_text'); ?>
 
 
                     </p>
@@ -42,54 +41,32 @@
             <div class="swiper mySwiper">
                 <!-- <div class="swiper-pagination"></div> -->
 
-                <?php echo the_date(); ?>
                 <div class="swiper-wrapper">
 
+                    <?php $slides = get_cmb2field('slides');
+                    if(isset($slides)){ foreach($slides as $slide){?>
+                    
                     <div class="swiper-slide">
-                        <div class="slide-item">
+                    <div class="slide-item">
                             <!-- 1º colunm -->
-                            <div class="slide-item-left">
-                                <h4>
-                                    <?php the_cmb2field('title_swiper1'); ?>
-                                </h4>
-
-                                <h2>
-                                    <?php the_cmb2field('subtitle_swiper1'); ?>
-                                </h2>
-
-                                <p>
-                                    <?php the_cmb2field('desc_swiper1'); ?>
-                                </p>
-                                <a class="btn-hero" href="">Saiba mais</a>
+                            <div class="slide-item-left">                                
+                            <h4><?php echo $slide['titulo'];?></h4>
+                            <h2><?php echo $slide['subtitulo'];?></h2>
+                            <p><?php echo $slide['descricao'];?></p>
+                            <a class="btn-hero" href="">Saiba mais</a>
                             </div>
 
                             <!-- 2º colunm -->
-                            <div class="slide-item-right">
-                                <?php the_cmb2field('swiper_photo1'); ?>
+                            <div class="slide-item-right">                                                            
+                            <!-- photo goes here -->                            
                             </div>
-                        </div>
-                    </div>
+                        </div>                       
+                  </div>
+                    
+                  <?php
+                        }
+                    }?>
 
-                    <div class="swiper-slide">
-
-                        <div class="slide-item">
-                            <div class="slide-item-left">
-                                <h4>Título</h4>
-                                <h2>Escolha um curso e venha estudar no Polo UAB</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident numquam eaque, nesciunt
-                                    mollitia repellendus saepe error amet fuga molestiae magnam quod nihil enim atque,
-                                    doloremque facere maxime dolorem aut cumque?
-                                </p>
-                                <a class="btn-hero" href="">Saiba mais</a>
-                            </div>
-
-                            <!-- 2º colunm -->
-                            <div class="slide-item-right">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hero/hero1.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
 
