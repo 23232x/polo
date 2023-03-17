@@ -18,11 +18,11 @@
 
             <!-- tittle -->
             <div class="title-section">
-                <h4><?php the_field('titulo_pagina_biblioteca'); ?></h4>
+                <h4>titilo página biblioteca</h4>
                 <ul>
                     <li>
                         <span>
-                            <?php the_field('subtitulo_pagina_biblioteca'); ?></span>
+                            subtitulo página biblioteca</span>
                     </li>
                 </ul>
             </div>

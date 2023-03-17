@@ -18,4 +18,5 @@ function the_cmb2field($key, $page_id = 0)
 require_once get_template_directory() . '/assets/cmb2/home.php';
 require_once get_template_directory() . '/assets/cmb2/sobre.php';
 require_once get_template_directory() . '/assets/cmb2/cursos.php';
+require_once get_template_directory() . '/assets/cmb2/contato.php';
 ?>

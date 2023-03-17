@@ -18,21 +18,21 @@
 
             <!-- tittle -->
             <div class="title-section">
-                <h4>Nossos canais de atendimento</h4>
+                <h4> <?php the_cmb2field('title_contact_page'); ?></h4>
                 <ul>
                     <li>
                         <span>
-                            Nesta sessão você encontra, nossas formas de contato e a localização do Polo UAB Sapiranga. Para dúvidas, acesse nossa página de perguntas frequêntes
+                            <?php the_cmb2field('subtitle_contact_page')?>
                             <a href="/polouabsapiranga/faq" target="_blank" rel="noopener noreferrer">FAQ</a>.
                         </span>
                     </li>
                 </ul>
             </div>
-
-
         </div>
 
-        <!-- page contend -->
+
+        
+        <!-- Page contend -->
         <section class="main-page bg-contato">
 
             <div class="wrapper-address">
@@ -42,30 +42,60 @@
                     <!-- Street Name -->
                     <div class="item-address">
                         <span class="address-title">Endereço</span>
-                        <span class="address-description">Rua Padre Réus, 263 - Centro
-                            Sapiranga - RS, 93815-016</span>
+                        <span class="address-description">
+                        <?php the_cmb2field('rua')?>,    
+                        <?php the_cmb2field('numero')?> -
+                         <?php the_cmb2field('bairro')?> 
+                        <?php the_cmb2field('cidade')?> - 
+                        <?php the_cmb2field('uf')?>
+                        CEP: <?php the_cmb2field('cep')?>                                               
+                        </span>
                     </div>
 
                     <!-- opening hours -->
                     <div class="item-address">
                         <span class="address-title">Horários de atendimento</span>
-                        <span class="address-description">Tarde:<br>13h as 18h30 ( Segunda a Sexta ) </span>
-                        <span class="address-description">Noite:<br>18h30 ás 22h ( Segunda a Sexta )</span>
+                        <span class="address-description">
+                            
+                        <!-- iterator loop for opening hours -->
+                        <?php $opening = get_cmb2field('opening');
+                          if(isset($opening)){ foreach($opening as $open){?>
+                            <?php echo $open['turno'];?>:</br>
+                            <?php echo $open['initial_hour'];?>h as <?php echo $open['final_hour'];?>h ( <?php echo $open['service_days'];?>)</span>
+                        <br>
+                        <?php
+                        } }
+                        ?>
+
                     </div>
 
                     <!-- the team -->
                     <div class="item-address">
-                        <span class="address-title">Equipe do Polo UAB Sapiranga</span>
+                        <span class="address-title">Nossa equipe</span>
                         <ul>
+                    
+                       
+                       
+                       
                             <li>
-                                <span class="address-description">Elisabete Bisuti Ceron - Coordenadora do Polo<br>
-                                    <a href="mailto:elisabete.pead@gmail.com">elisabete.pead@gmail.com</a></span>
+                            sadadasdasd:</br>
+                                <span class="address-description">
+                                xxx- xxx
+                                <a href="mailto:elisabete.pead@gmail.com">email </a></span>
                             </li>
-                            <li>
-                                <span class="address-description">Taciano Taschetto - Secretário<br>
-                                    <a href="mailto:taciano@sapiranga.rs.gov.br">taciano@sapiranga.rs.gov.br</a> </span>
-                            </li>
-                        </ul>
+
+                            <?php $opening = get_cmb2field('opening');
+                          if(isset($opening)){ foreach($opening as $open){?>
+                            <?php echo $open['turno'];?>:</br>
+                            <?php echo $open['initial_hour'];?>h as <?php echo $open['final_hour'];?>h ( <?php echo $open['service_days'];?>)</span>
+                        <br>
+                        <?php
+                        } }
+                        ?>
+
+                                            
+                        
+                    </ul>
                     </div>
 
                     <!--phone-->
