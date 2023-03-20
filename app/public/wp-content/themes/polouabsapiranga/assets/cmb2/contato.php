@@ -142,12 +142,11 @@ $opening_cmb2->add_group_field($opening,[
 
 }
 
-
-// Fields destinados ao grupo de pessoas
+//###### Fields grupo de pessoas ###########
 add_action('cmb2_admin_init', 'cmb2_fields_contato_team');
 function cmb2_fields_contato_team()
 {  
-  $cmb =  new_cmb2_box([
+  $cmb_phone =  new_cmb2_box([
     'id' => 'contato_box_team',
     'title' => 'Equipe do Polo',
     'object_types' => ['page'],
@@ -157,9 +156,9 @@ function cmb2_fields_contato_team()
     ],
   ]);
 
-  $equipe = $cmb->add_field([
+  $equipes = $cmb_phone->add_field([
   'name'=>"Equipe",
-  'id' =>'equipe',
+  'id' =>'equipes',
   'type' => 'group',
   'repeatable' => true,
   'options' => [
@@ -171,21 +170,21 @@ function cmb2_fields_contato_team()
 ]);
 
 // People name
-$cmb->add_group_field($equipe,[
+$cmb_phone->add_group_field($equipes,[
   'name'=>"Nome do servidor",
   'id' =>'people_name',
   'type' => 'text',
 ]);
 
 // People function
-$cmb->add_group_field($equipe,[
+$cmb_phone->add_group_field($equipes,[
   'name'=>"Nome função",
   'id' =>'function_name',
   'type' => 'text',
 ]); 
 
 // People email
-$cmb->add_group_field($equipe,[
+$cmb_phone->add_group_field($equipes,[
   'name'=>"E-mail da pessoa",
   'id' =>'people_email',
   'type' => 'text_email',
@@ -194,13 +193,17 @@ $cmb->add_group_field($equipe,[
 
 
 
-// phones and branch
-add_action('cmb2_admin_init', 'cmb2_fields_contato_phone');
-function cmb2_fields_contato_phone()
-{  
-  $phone_cmb2 =  new_cmb2_box([
-    'id' => 'contato_box_phone',
-    'title' => 'Telefone e Ramais do Polo',
+
+
+
+//############# TELEFONES, RAMAIS, CÓDIGO DE ÁREA #############
+add_action('cmb2_admin_init', 'cmb2_fields_contato_telefone');
+// this functions creates a new cmb2 metabox fields
+function cmb2_fields_contato_telefone()
+{
+  $cmb =  new_cmb2_box([
+    'id' => 'telefone_email',
+    'title' => 'Telefone e email página contato',
     'object_types' => ['page'],
     'show_on' => [
       'key' => 'page-template',
@@ -208,44 +211,38 @@ function cmb2_fields_contato_phone()
     ],
   ]);
 
-  $phone = $phone_cmb2->add_field([
-  // 'name'=>"Turno de atendimento POLO",
-  'id' =>'phones',
-  'type' => 'group',
-  'repeatable' => true,
-  'options' => [
-        'group_title' => 'Grupo de contato Telefonico {#}',
-        'add_button' => 'Adicionar telefone',
-        'remove_button' => 'Remover telefone',
-        'sortable' => false,
-  ]
-]);
+  //codigo de área
+  $cmb->add_field([
+    'name' => 'código de área',
+    'id' => 'codigo_area',
+    'type' => 'text',
+  ]);
+  
+  // telefone
+  $cmb->add_field([
+    'name' => 'Telefone',
+    'id' => 'telefone',
+    'type' => 'text',
+  ]);
 
-// area code
-$phone_cmb2->add_group_field($phone,[
-  'name'=>"Código de área",
-  'id' =>'area_code',
-  'type' => 'text',
-]);
+  // ramal
+  $cmb->add_field([
+    'name' => 'Ramal',
+    'id' => 'ramal',
+    'type' => 'text',
+  ]);
 
-// phone
-$phone_cmb2->add_group_field($phone,[
-  'name'=>"Telefone",
-  'id' =>'phone_number',
-  'type' => 'text',
-]);
+  //email 
+  $cmb->add_field([
+    'name' => 'E-mail',
+    'id' => 'email',
+    'type' => 'text',
+  ]);
 
-// branch
-$phone_cmb2->add_group_field($phone,[
-  'name'=>"Ramal",
-  'id' =>'branch_number',
-  'type' => 'text',
-]); 
-
-}
 
 
 
+}
 
 
 
