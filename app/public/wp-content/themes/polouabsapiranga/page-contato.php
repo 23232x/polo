@@ -55,13 +55,15 @@
                     <!-- opening hours -->
                     <div class="item-address">
                         <span class="address-title">Horários de atendimento</span>
-                        <span class="address-description">
+                  
                             
                         <!-- iterator loop for opening hours -->
                         <?php $opening = get_cmb2field('opening');
                           if(isset($opening)){ foreach($opening as $open){?>
-                            <?php echo $open['turno'];?>:</br>
-                            <?php echo $open['initial_hour'];?>h as <?php echo $open['final_hour'];?>h ( <?php echo $open['service_days'];?>)</span>
+                                 <span class="address-description">
+                           <?php echo $open['turno'];?>:</br>
+                            <?php echo $open['initial_hour'];?>h as <?php echo $open['final_hour'];?>h ( <?php echo $open['service_days'];?>)
+                        </span>
                         <br>
                         <?php
                         } }
@@ -69,37 +71,28 @@
 
                     </div>
 
-                    <!-- the team -->
-                    <div class="item-address">
-                        <span class="address-title">Nossa equipe</span>
-                        <ul>
-                    
-                       <?php $equipes = get_cmb2field('equipes');
-                       if(isset($equipes)){ foreach($equipes as $equipe){?>
-                        <li>
-                           
-                        <?php echo $ $equipe['people_name']?>
-                        <?php echo $ $equipe['function_name']?>
-                        <?php echo $ $equipe['people_email']?>
-                        
-                        :</br>
-                                <span class="address-description">
-                                xxx- xxx
-                                <a href="mailto:elisabete.pead@gmail.com">email </a></span>
-                            </li>
-
-                       <?php
-                       }}?>
-
-                                            
-                        
-                    </ul>
+                    <!-- Pessoas que compoem a equipe do polo -->
+                    <div class="item-address">                    
+                        <span class="address-title">Nossa equipe</span>                                                
+                        <ul>                    
+                        <?php $equipes = get_cmb2field('equipes');
+                        if(isset($equipes)){ foreach($equipes as $equipe){?>                         
+                        <li> 
+                            <span class="address-description">                      
+                                 <?php echo $equipe['pessoa_equipe'];?>
+                                 <?php echo $equipe['pessoa_funcao'];?>
+                                <a href="mailto:<?php echo $equipe['pessoa_email'];?>"><?php echo $equipe['pessoa_email'];?></a>
+                            </span>
+                        </li>
+                        <?php
+                          }
+                        }?>                                                                   
+                        </ul>                   
                     </div>
 
                     
+                    <!-- E-mail do polo - ITEM  -->
                     <div class="item-address">                     
-                    
-                    <!-- telefone -->
                     <span class="address-title">Telefone</span>
                         <span class="address-description">
                         (<?php the_cmb2field('codigo_area'); ?>) <?php the_cmb2field('telefone'); ?></br> Ramal: 

@@ -781,3 +781,56 @@ Stack trace:
 [20-Mar-2023 17:06:28 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-contato.php on line 78
 [20-Mar-2023 17:07:11 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-contato.php on line 78
 [20-Mar-2023 17:09:00 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-contato.php on line 78
+[20-Mar-2023 17:23:07 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-contato.php on line 78
+[20-Mar-2023 17:40:14 UTC] PHP Warning:  Undefined variable $telefones in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/contato.php on line 174
+[20-Mar-2023 17:40:14 UTC] PHP Warning:  Undefined variable $telefones in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/contato.php on line 181
+[20-Mar-2023 17:40:14 UTC] PHP Warning:  Undefined variable $telefones in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/contato.php on line 188
+[20-Mar-2023 17:41:59 UTC] PHP Warning:  Undefined variable $telefones in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/contato.php on line 174
+[20-Mar-2023 17:41:59 UTC] PHP Warning:  Undefined variable $telefones in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/contato.php on line 181
+[20-Mar-2023 17:41:59 UTC] PHP Warning:  Undefined variable $telefones in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/contato.php on line 188
+[20-Mar-2023 17:43:00 UTC] PHP Warning:  Undefined variable $telefones in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/contato.php on line 181
+[20-Mar-2023 17:43:00 UTC] PHP Warning:  Undefined variable $telefones in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/contato.php on line 188
+[20-Mar-2023 17:54:33 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-contato.php on line 93
+[20-Mar-2023 18:35:41 UTC] PHP Warning:  Undefined variable $home_cmb2 in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php on line 18
+[20-Mar-2023 18:35:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_field() on null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php:18
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(308): cmb2_fields_editais('')
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/bootstrap.php(26): do_action('cmb2_admin_init')
+#4 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/init.php(165): cmb2_bootstrap()
+#5 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(308): CMB2_Bootstrap_2101->include_cmb('')
+#6 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-settings.php(617): do_action('init')
+#9 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php(91): require_once('/home/PMSAPIRAN...')
+#10 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-load.php(50): require_once('/home/PMSAPIRAN...')
+#11 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/admin.php(34): require_once('/home/PMSAPIRAN...')
+#12 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/post.php(12): require_once('/home/PMSAPIRAN...')
+#13 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php on line 18
+[20-Mar-2023 18:49:08 UTC] PHP Warning:  Undefined variable $swiper_cmb2 in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php on line 71
+[20-Mar-2023 18:49:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_group_field() on null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php:71
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(308): cmb2_fields_edital_item('')
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/bootstrap.php(26): do_action('cmb2_admin_init')
+#4 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/init.php(165): cmb2_bootstrap()
+#5 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(308): CMB2_Bootstrap_2101->include_cmb('')
+#6 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-settings.php(617): do_action('init')
+#9 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php(91): require_once('/home/PMSAPIRAN...')
+#10 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-load.php(50): require_once('/home/PMSAPIRAN...')
+#11 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/admin-ajax.php(22): require_once('/home/PMSAPIRAN...')
+#12 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php on line 71
+[20-Mar-2023 20:07:14 UTC] PHP Fatal error:  Cannot redeclare cmb2_fields_edital_item() (previously declared in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php:42) in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/faq.php on line 9
+[20-Mar-2023 20:09:15 UTC] PHP Fatal error:  Cannot redeclare cmb2_fields_edital_item() (previously declared in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php:42) in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/faq.php on line 9
+[20-Mar-2023 20:11:16 UTC] PHP Fatal error:  Cannot redeclare cmb2_fields_edital_item() (previously declared in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php:42) in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/faq.php on line 9
+[20-Mar-2023 20:11:33 UTC] PHP Fatal error:  Cannot redeclare cmb2_fields_edital_item() (previously declared in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php:42) in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/faq.php on line 9
+[20-Mar-2023 20:11:48 UTC] PHP Fatal error:  Cannot redeclare cmb2_fields_edital_item() (previously declared in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php:42) in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/faq.php on line 9
+[20-Mar-2023 20:12:03 UTC] PHP Fatal error:  Cannot redeclare cmb2_fields_edital_item() (previously declared in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php:42) in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/faq.php on line 9
+[20-Mar-2023 20:12:44 UTC] PHP Fatal error:  Cannot redeclare cmb2_fields_edital_item() (previously declared in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php:42) in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/faq.php on line 9
+[20-Mar-2023 20:12:47 UTC] PHP Fatal error:  Cannot redeclare cmb2_fields_edital_item() (previously declared in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/editais.php:42) in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/assets/cmb2/faq.php on line 9

@@ -17,7 +17,7 @@ function cmb2_fields_contato_title()
     ],
   ]);
 
-  // now, we can add new field inside metabox fields created above
+
   $contato_cmb2->add_field([
     'name' => 'Título página contato',
     'id' => 'title_contact_page',
@@ -143,12 +143,13 @@ $opening_cmb2->add_group_field($opening,[
 }
 
 //###### Fields grupo de pessoas ###########
-add_action('cmb2_admin_init', 'cmb2_fields_contato_team');
-function cmb2_fields_contato_team()
-{  
-  $cmb_phone =  new_cmb2_box([
-    'id' => 'contato_box_team',
-    'title' => 'Equipe do Polo',
+add_action('cmb2_admin_init', 'cmb2_fields_contato_equipe');
+
+function cmb2_fields_contato_equipe()
+{
+  $equipes_cmb2 =  new_cmb2_box([
+    'id' => 'contato_box_telefone',
+    'title' => 'Equipe Polo',
     'object_types' => ['page'],
     'show_on' => [
       'key' => 'page-template',
@@ -156,40 +157,44 @@ function cmb2_fields_contato_team()
     ],
   ]);
 
-  $equipes = $cmb_phone->add_field([
+  $equipes = $equipes_cmb2->add_field([
   'name'=>"Equipe",
   'id' =>'equipes',
   'type' => 'group',
   'repeatable' => true,
   'options' => [
-        'group_title' => 'Equipe {#}',
+        'group_title' => 'Equipe Polo {#}',
         'add_button' => 'Adicionar pessoa',
         'remove_button' => 'Remover pessoa',
-        'sortable' => false,
+        'sortable' => true,
   ]
 ]);
 
-// People name
-$cmb_phone->add_group_field($equipes,[
-  'name'=>"Nome do servidor",
-  'id' =>'people_name',
+// Nome da pessoa integrante da equipe
+$equipes_cmb2->add_group_field($equipes,[
+  'name'=>"Nome",
+  'id' =>'pessoa_equipe',
   'type' => 'text',
 ]);
 
-// People function
-$cmb_phone->add_group_field($equipes,[
-  'name'=>"Nome função",
-  'id' =>'function_name',
+// Funcao da pessoa integrante da equipe
+$equipes_cmb2->add_group_field($equipes,[
+  'name'=>"Função",
+  'id' =>'pessoa_funcao',
   'type' => 'text',
 ]); 
 
-// People email
-$cmb_phone->add_group_field($equipes,[
-  'name'=>"E-mail da pessoa",
-  'id' =>'people_email',
-  'type' => 'text_email',
+// Email da pessoa integrante da equipe
+$equipes_cmb2->add_group_field($equipes,[
+  'name'=>"Email",
+  'id' =>'pessoa_email',
+  'type' => 'text',
 ]); 
+
+ 
 }
+
+
 
 
 

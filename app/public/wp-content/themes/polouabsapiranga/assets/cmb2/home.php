@@ -4,8 +4,6 @@
 // CMB2 -> Fields Home - intro text
 add_action('cmb2_admin_init', 'cmb2_fields_home');
 
-
-// this functions creates a new cmb2 metabox fields
 function cmb2_fields_home()
 {
   $home_cmb2 =  new_cmb2_box([

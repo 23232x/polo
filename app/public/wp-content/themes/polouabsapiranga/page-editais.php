@@ -18,34 +18,53 @@
 
                         <!-- tittle -->
                         <div class="title-section">
-                                <h4>Editais Polo UAB Sapiranga</h4>
+                                <h4><?php the_cmb2field('contact_title')?></h4>
                                 <ul>
-                                        <li>
-                                                <span>
-                                                        Nesta sessão você encontra, todos os editais relacionados ao cursos do polo UAB de sapiranga.
-                                                        <a href="/polouabsapiranga/faq" target="_blank" rel="noopener noreferrer">FAQ</a>.
-                                                </span>
-                                        </li>
+                                    <li>
+                                       <span>
+                                       <?php the_cmb2field('contact_subtitle')?>                                      
+                                        <!-- <a href="/polouabsapiranga/faq" target="_blank" rel="noopener noreferrer">FAQ</a>. -->
+                                        </span>
+                                   </li>
                                 </ul>
                         </div>
 
+                        
+                        
                         <section class="main-page editais">
-                                <div class="edital-item">
-                                        <button class="edital-title">Edital de seleção para tutor presencial de pedagogia. <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/general/edital-arrow.svg" alt=""></button>
+                               
+                        <!-- a iteração inicia aqui -->
+
+                        <?php
+                         $editais = get_cmb2field('editais');
+                         if(isset($editais)){ foreach($editais as $edital){?>
+                                
+                           
+                        
+                            <div class="edital-item">
+                                        <button class="edital-title"><?php echo $edital['edital_title'];?>. <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/general/edital-arrow.svg" alt=""></button>
                                         <div class="edital-contente" style>
                                                 <span class="data-title">Dada da publicação:
                                                         <span class="data-day">
-                                                                <?php echo date(get_option('date_format')); ?>
+                                                           <!-- Data de publicação -->
+                                                        <?php echo date(get_option('date_format')); ?>
                                                         </span>
                                                 </span>
+                                                <!-- Descrição do edital -->
                                                 <p class="contente-description">
-                                                        A Universidade Federal do Rio Grande – FURG, por meio da Secretaria de Educação a Distância - SEaD, no uso de suas atribuições, torna pública a abertura das inscrições para a seleção de bolsista UAB/CAPES, para TUTORIA no âmbito do Sistema Universidade Aberta do Brasil – UAB. Os bolsistas selecionados atuarão no apoio ao curso LICENCIATURA EM PEDAGOGIA.
+                                                <?php echo $edital['edital_description'];?>
                                                 </p>
-                                                <span class="inscricao-data">Inscrições: <span class="data-day"> 10/02/2023 a 14/02/2023</span></span>
-                                                <span class="mais-info"></span>
+
+                                                <span class="inscricao-data">Inscrições: <span class="data-day">  <?php echo $edital['edital_date_start'];?> a <?php echo $edital['edital_date_end']?></span></span>
+                                                <span class="mais-info">Mais informações: <a href="<?php echo $edital['more_info'];?>">Acesse aqui.</a></span>
                                                 <img id="getinfo" title="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons">
                                         </div>
                                 </div>
+                        
+                        <?php
+                        }}
+                        ?>
+                        
                         </section>
 
 
@@ -61,3 +80,12 @@
 <?php endwhile;
 else : endif ?>
 <?php get_footer(); ?>
+
+
+
+
+
+
+
+
+                            

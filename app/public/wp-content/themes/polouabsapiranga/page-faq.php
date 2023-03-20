@@ -20,12 +20,15 @@
 
             <!-- tittle -->
             <div class="title-section">
-                <h4>FAQ - Perguntas Frequêntes.</h4>
+                <h4> 
+                    
+                </h4>
                 <ul>
-                    <li>
+                    
                         <span>
-                            Selecionamos uma lista de perguntas frequêntes para te ajudar
-                            <a href="mailto:adicicionaremail?subject=Pergunta" class="email-link">polouab@polouab.com.br</a>
+                        <?php the_cmb2field('subtitle_page_faq');?>    
+                      
+                            <a href="mailto:<?php the_cmb2field('email_subtitle_page_faq');?>?subject=Pergunta" class="email-link"><?php the_cmb2field('email_subtitle_page_faq')?></a>
                         </span>
                     </li>
                 </ul>
