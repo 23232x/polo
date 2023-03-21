@@ -2,13 +2,13 @@
 
 <?php
 
-add_action('cmb2_admin_init', 'cmb2_fields_faqs');
+add_action('cmb2_admin_init', 'cmb2_fields_faq');
 
-function cmb2_fields_faqs()
+function cmb2_fields_faq()
 {
   $cmb =  new_cmb2_box([
-    'id' => 'faqs_box',
-    'title' => 'PERGUTAS E RESPOSTAS -FAQ',
+    'id' => 'faq_box',
+    'title' => 'TITULO PRINCIPAL DA PÁGINA FAQ',
     'object_types' => ['page'],
     'show_on' => [
       'key' => 'page-template',
@@ -33,28 +33,10 @@ function cmb2_fields_faqs()
   //Email subtitulo 
   $cmb->add_field([
     'name' => 'campo de email do subtitulo',
-    'id' => 'email_subtitle_page_faq',
+    'id' => 'email_subtitle_page_FAQ',
     'type' => 'text',
   ]);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ####Esta função cria o repeat fiel para cada nova FAQ.
 add_action('cmb2_admin_init', 'cmb2_fields_faq_item');
@@ -72,14 +54,14 @@ function cmb2_fields_faq_item()
   ]);
 
   $faqs = $cmb->add_field([
-//   'name'=>"Edital",
+//   'name'=>'Adicione perguntas e respostas nesta seção',
   'id' =>'faqs',
   'type' => 'group',
   'repeatable' => true,
   'options' => [
-        'group_title' => 'FAQ {#}',
-        'add_button' => 'Adicionar nova FAQ',
-        'remove_button' => 'Remover FAQ',
+        'group_title' => 'Pergunta {#}',
+        'add_button' => 'Adicionar Pergunta',
+        'remove_button' => 'Remover Pergunta',
         'sortable' => true,
   ]
 ]);
@@ -97,7 +79,6 @@ $cmb->add_group_field($faqs,[
   'id' =>'faq_answer',
   'type' => 'wysiwyg',
 ]); 
-
 }
 
 ?>

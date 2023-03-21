@@ -18,11 +18,12 @@
 
             <!-- tittle -->
             <div class="title-section">
-                <h4>titulo página biblioteca</h4>
+                <h4><?php the_cmb2field('title_page_cursos');?></h4>
+                    
+                
                 <ul>
                     <li>
-                        <span>
-                            subtitulo página biblioteca</span>
+                        <span><?php the_cmb2field('subtitle_page_cursos');?></span>
                     </li>
                 </ul>
             </div>
@@ -39,8 +40,8 @@
             <!--##########  COURSES: graduacao #########-->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
-                    <h4>Cursos de graduação</h4>
-                    <p>Descrição cursos </p>
+                    <h4><?php the_cmb2field('title_gradu')?></h4>
+                    <p><?php the_cmb2field('subtitle_gradu')?></p>
                 </div>
 
                 <!-- this div contais the hole links for the library -->
@@ -52,35 +53,14 @@
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </button>
 
-                        <ul id="listlk1" style="display:none;">
-                            <li><a href="/polouabsapiranga/licenciatura-em-letras-espanhol-ufpel">Licenciatura em Letras Espanhol-UFPel</a><span class="status">Em andamento</span></li>
-                            <li><a href="/polouabsapiranga/licenciatura-em-filosofia-ufpel">Licenciatura em Filosofia-UFPel</a><span class="status">Em andamento</span></li>
-                            <li><a href="/polouabsapiranga/licenciatura-em-historia-ufpel">Licenciatura em História-UFPel</a><span class="status">Em andamento</span></li>
-                            <li><a href="/polouabsapiranga/licenciatura-em-matematica-ufpel">Licenciatura em Matemática-UFPel</a><span class="status">Em andamento</span></li>
-                            <li><a href="/polouabsapiranga/licenciatura-em-pedagogia-furg">Licenciatura em Pedagogia-FURG</a><span class="status">Em andamento</span></li>
-                            <!-- Encerrados -->
-                            <li><a href="/polouabsapiranga/pedagogia-ufrgs">Pedagogia - UFRGS</a><span class="status">Encerrado</span></li>
-                            <li><a href="/polouabsapiranga/pedagogia-ufpel">Pedagogia-UFPel</a><span class="status">Encerrado</span></li>
-                            <li><a href="/polouabsapiranga/matematica-furg">Matemática-FURG</a><span class="status">Encerrado</span></li>
-                            <li><a href="/polouabsapiranga/matematica-ufpel">Matemática-UFPel</a><span class="status">Encerrado</span></li>
-                            <li><a href="/polouabsapiranga/letras-espanhol-ufpel">Letras Espanhol-UFPel</a><span class="status">Encerrado</span></li>
-                            <li><a href="/polouabsapiranga/educacao-do-campo-ufpel">Educação do Campo-UFPel</a><span class="status">Encerrado</span></li>
-                            <li><a href="/polouabsapiranga/fisica-ufsm">Física-UFSM</a><span class="status">Encerrado</span></li>
-                            <li><a href="/polouabsapiranga/administracao-furg">Administração-FURG</a><span class="status">Encerrado</span></li>
-                            <li><a href="/polouabsapiranga/formacao-de-professores-para-a-educacao-profissional-ufsm">Formação de Professores para a Educação Profissional-UFSM </a><span class="status">Encerrado</span></li>
-                            <li><a href="/polouabsapiranga/historia-furg">História-FURG</a><span class="status">Encerrado</span></li>
-                            <li><a href="/polouabsapiranga/filosofia-ufpel">Filosofia-UFPel</a><span class="status">Encerrado</span></li>
-                            <li><a href="/polouabsapiranga/geografia-ufsm">Geografia-UFSM</a><span class="status">Encerrado</span></li>
-                            <li><a href="/polouabsapiranga/tecnologia-em-sistemas-para-a-internet-ifsul">Tecnologia em Sistemas para a Internet-IFSUL</a><span class="status">Encerrado</span></li>
-                            <!-- Previstos -->
-                            <li><a href="/polouabsapiranga/licenciatura-em-historia-ifsul">Licenciatura em História-IFSUL</a><span class="status">Previsto</span></li>
-                            <li><a href="/polouabsapiranga/linguagens-letras-ifsul"> Linguagens/Letras - IFSUL</a><span class="status">Previsto</span></li>
-                            <li><a href="/polouabsapiranga/letras-ingles-ufrgs">Letras Inglês - UFRGS</a><span class="status">Previsto</span></li>
-                            <li><a href="/polouabsapiranga/licenciatura-em-computacao-ufsm">Licenciatura em Computação - UFSM</a><span class="status">Previsto</span></li>
-                            <li><a href="/polouabsapiranga/licenciatura-em-educacao-especial-ufsm">Licenciatura em Educação Especial - UFSM</a><span class="status">Previsto</span></li>
-                            <li><a href="/polouabsapiranga/formacao-de-professores-para-a-educacao-profissional-ufsm">Formação de Professores para a Educação Profissional - UFSM</a><span class="status">Previsto</span></li>
-
-                        </ul>
+                     <ul id="listlk1" style="display:none;">                                              
+                          <?php $cursos_gradu = get_cmb2field('cursos_gradu');
+                            if(isset($cursos_gradu)){ foreach($cursos_gradu as $gradu){?>
+                            <li><a href="<?php echo $gradu['course_gradu_link'];?>" target="_blank"><?php echo $gradu['course_gradu_name'];?></a><span class="status"><?php echo $gradu['course_gradu_state'];?></span></li>
+                        <?php
+                          }}
+                        ?>
+                    </ul>
 
                     </div>
                 </div>
@@ -90,10 +70,9 @@
             <!-- ########## COURSES: pos-graduacao  #######-->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
-                    <h4>Cursos de Pós-Graduação</h4>
-                    <p>Descrição cursos de Pós-Graduação.</p>
+                    <h4><?php the_cmb2field('title_section_pos')?></h4>
+                    <p><?php the_cmb2field('subtitle_section_pos');?>.</p>
                 </div>
-
                 <!-- this div contais the hole links for the library -->
                 <div class="contend-section container">
                     <div class="link-item">
@@ -103,43 +82,15 @@
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </button>
                         <ul id="listlk2" style="display: none;">
-
-                            <!-- Em andamento -->
-                            <li><a href="/polouabsapiranga/licenciatura-em-letras-espanhol-ufpel">Licenciatura em Letras Espanhol-UFPel</a><span class="status">Em andamento</span></li>
-                            <li><a href="/polouabsapiranga/especializacao-em-artes-ufpel">Especialização em Artes - UFPel</a><span class="status">Em andamento</span></li>
-                            <li><a href="/polouabsapiranga/alfabetizacao-furg">Alfabetização - FURG</a><span class="status">Em andamento</span></li>
-
-
-                            <!-- Encerrados -->
-                            <li><a href="/polouabsapiranga/matematica-midias-digitais-e-didatica-ufrgs">Matemática, Mídias Digitais e Didática - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/educacao-ambiental-ufsm">Educação Ambiental - UFSM</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/informatica-instrumental-para-professores-da-educacao-basica-ufrgs">Informática Instrumental para Professores da Educação Básica - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/gestao-publica-ufrgs">Gestão Pública - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/gestao-em-saude-ufrgs">Gestão em Saúde - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/gestao-publica-municipal-ufrgs">Gestão Pública Municipal - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/gestao-de-polos-ufpel">Gestão de Polos - UFPel</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/midias-na-educacao-ifsul">Mídias na Educação - IFSUL</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/gestao-educacional-ufsm">Gestão Educacional - UFSM</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/educacao-de-jovens-e-adultos-na-diversidade-furg">Educação de jovens e adultos na diversidade - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/tecnologias-da-informacao-e-da-comunicacao-na-educacao-furg">Tecnologias da Informação e da Comunicação na Educação - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/rio-grande-do-sul-sociedade-politica-e-cultura-furg">Rio Grande do Sul: sociedade, política e cultura - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/matematica-furg">Matemática - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/educacao-fisica-e-anos-iniciais-ufsm">Educação Física e Anos Iniciais - UFSM</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/aplicacoes-para-a-web-furg">Aplicações para a Web - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/ensino-de-sociologia-no-ensino-medio-furg">Ensino de Sociologia no Ensino Médio - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/psicopedagogia-ufrgs">Psicopedagogia - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/filosofia-ufpel">Filosofia - UFPel</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/educacao-em-direitos-humanos-furg">Educação em Direitos Humanos - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/gestao-da-educacao-ufrgs">Gestão da Educação - UFRGS</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/ciencias-e-10-furg">Ciências é 10! - FURG</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/artes-ufpel">Artes - UFPel</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/educacao-fisica-escolar-ufpel">Educação Física Escolar - UFPel</a><span class="status">Encerrados</span></li>
-                            <li><a href="/polouabsapiranga/espacos-e-possibilidades-para-a-educacao-continuada-ifsul">Espaços e possibilidades para a educação continuada - IFSUL</a><span class="status">Encerrados</span></li>
-
-                            <!-- previstos -->
-                            <li><a href="/polouabsapiranga/ensino-de-filosofia-no-ensino-medio-ufsm">Ensino de Filosofia no ensino Médio - UFSM</a><span class="status">Previsto</span></li>
-                            <li><a href="/polouabsapiranga/atendimento-educacional-especializado-furg">Atendimento Educacional Especializado - FURG</a><span class="status">Previsto</span></li>
-                            <li><a href="/polouabsapiranga/midia-e-educacao-unipampa"> Mídia e Educação - UNIPAMPA</a><span class="status">Previsto</span></li>
+                        <?php $cursos_pos = get_cmb2field('cursos_pos');
+                            if(isset($cursos_pos)){ foreach($cursos_pos as $pos){?>                           
+                                <li><a href="<?php echo $pos['course_pos_link']?>"target="_blank">
+                                    <?php echo $pos['course_pos_name']?></a>
+                                    <span class="status"><?php echo $pos['course_pos_state']?></span>
+                                </li>                            
+                            <?php
+                                }
+                            }?>
                         </ul>
                     </div>
                 </div>
@@ -149,8 +100,8 @@
             <!-- ########## COURSES: tecnicos  #######-->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
-                    <h4>Cursos Técnicos</h4>
-                    <p>Descrição Cursos técnicos</p>
+                    <h4><?php the_cmb2field('title_section_tec');?></h4>
+                    <p><?php the_cmb2field('subtitle_section_tec');?></p>
                 </div>
 
                 <!-- this div contais the hole links for the library -->
@@ -162,7 +113,16 @@
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </button>
                         <ul id="listlk3" style="display: none;">
-                            <li><a href="/polouabsapiranga/licenciatura-em-letras-espanhol-ufpel">Licenciatura em Letras Espanhol-UFPel</a><span class="status">Em andamento</span></li>
+                        <?php $cursos_tec = get_cmb2field('cursos_tec');
+                            if(isset($cursos_tec)){ foreach($cursos_tec as $tec){?> 
+                        <li>
+                            <a href="<?php echo $tec['course_tec_link']?>" target="_blank"><?php echo $tec['course_tec_name']?></a>
+                            <span class="status"><?php echo $tec['course_tec_state']?></span>
+                        </li>
+                        <?php
+                            }
+                        }
+                        ?>
                         </ul>
                     </div>
                 </div>
@@ -173,8 +133,8 @@
             <!-- ########## COURSES: Cursos FIC - IFSUL:  #######-->
             <div class="container wraper-contend-section">
                 <div class="library-titles">
-                    <h4>Cursos FIC - IFSUL</h4>
-                    <p>Descrição Cursos Cursos FIC - IFSUL:</p>
+                    <h4><?php the_cmb2field('title_section_fic');?></h4>
+                    <p><?php the_cmb2field('subtitle_section_fic')?></p>
                 </div>
 
                 <!-- this div contais the hole links for the library -->
@@ -182,12 +142,23 @@
                     <div class="link-item">
                         <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
                         <button class="link-title" id="link4">
-                            <h4 class="title-type">técnicos</h4>
+                            <h4 class="title-type">Cursos Fic</h4>
                             <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                         </button>
-                        <ul id="listlk4" style="display: none;">
-                            <li><a href="cursos-fic-ifsul" title="Lista de Cursos FIC - IFSUL">Lista de Cursos FIC - IFSUL</a><span class="status">Em andamento</span></li>
-                        </ul>
+                        <ul id="listlk4" style="display: none;">                            
+                        <?php $cursos_fic = get_cmb2field('cursos_fic');
+                            if(isset($cursos_fic)){ foreach($cursos_fic as $fic){?>                        
+                        <li>
+                            <a href="<?php echo $fic['course_fic_link']?>" target="_blank" title="<?php echo $fic['course_fic_name']?>">
+                                 <?php echo $fic['course_fic_name']?>
+                            </a>
+                            <span class="status"><?php echo $fic['course_fic_state'] ?></span>
+                        </li>                        
+                        <?php
+                        }
+                       }?>
+                    
+                    </ul>
                     </div>
                 </div>
             </div>
