@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
 .contend-section {
 
@@ -37,111 +38,67 @@
     padding-left: 2rem
 }
 
-.faq-title img.cross,
-.link-title img.cross {
-    padding: 0.7rem
+
+/* the acordion starts here */
+.ul-accordion li{
+    margin-bottom: 0.25rem;
 }
 
-/* disable background  */
-.faq-title.on img.cross,
-.link-title.on img.cross {
-    background-color: #241f20;
-}
-
-.faq-title:hover img.cross,
-.link-title:hover img.cross {
-    background-color: #241f20;
-}
-
-.faq-title h4,
-.link-title h4 {
-    font-family: 'Playfair Display', serif;
-    /* font-family: 'Open Sans', sans-serif; */
-    font-size: 1.6rem;
-    font-weight: 200;
-    color: #241f20;
-    /* letter-spacing: 1px; */
-}
-
-.faq-title img,
-.link-title img {
-    background-color: #002140;
-    padding: 12px;
-}
-
-.faq-item p.faq-answer {
-    font-size: 1.6rem;
-    line-height: 28px;
-    color: #241f20;
-    font-weight: 400;
-    padding: 1rem 2rem;
-    margin: 2rem 0
-}
-
-.swanw {
-    display: block !important;
-
-}
-
-.faq-item ul.list-faq li p {
-    padding: 1rem;
-    font-size: 1.6rem;
-    line-height: 28px;
-    color: #241F20;
-    font-weight: 500
-}
-
-/* when user clicon the question, the class 'on' is added and turn blue the question background.*/
-.faq-title.on,
-.link-title.on {
-    background-color: #002140;
-    color: #fff;
-    font-weight: 400
-}
-
-.faq-title.on h4,
-.link-title.on h4 {
-    color: #fff
-}
-
-ul.list-faq {
-    margin-left: 2rem;
-    margin-right: 2rem
-}
-
-ul.list-faq li p {
-    margin: 0;
-    padding: 0;
+.accordion {
+    height: 4rem;
     display: flex;
     align-items: center;
-    font-size: 1.6rem;
-    padding: 0rem 2rem;
+    justify-content: space-between;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .accordion h3{
     color: #241F20;
-    font-weight: 500;
-}
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400; 
+    margin-left: 2.5rem;
+    transform: 4.5s;
+    
+  }
 
-ul.list-faq p::before {
-    content: '';
-    display: block;
-    background-color: #241f20;
-    padding: 0.2rem;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-@media (max-width:826px) {
-    .main-page.bg {
-        justify-content: center !important;
-    }
-
-    .contend-section.container {
-        max-width: 90%;
-        margin-right: 0rem;
-    }
-}
-
-@media(max-width:650px) {
-    .contend-section {
-        max-width: 85%;
-    }
-}
+   .accordion img{
+    display: inline-block;
+    width: 4rem;
+    height: 100%; 
+    /* padding: 2px !important; */
+    background-color: #241F20; 
+    transition: 0.2s ease;
+    
+  }
+  
+  .active, .accordion:hover {
+    background-color: #002140; 
+  }
+  .active, .accordion:hover h3{
+    color: #fff;
+  }
+  .active.accordion h3{
+    color: #fff;
+  } 
+  .active.accordion img{
+    rotate: 90deg;
+   
+    
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden; 
+    margin: 2rem 0;
+  }
