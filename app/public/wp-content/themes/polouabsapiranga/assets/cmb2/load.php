@@ -19,6 +19,7 @@ require_once get_template_directory() . '/assets/cmb2/home.php';
 require_once get_template_directory() . '/assets/cmb2/sobre.php';
 require_once get_template_directory() . '/assets/cmb2/cursos.php';
 require_once get_template_directory() . '/assets/cmb2/editais.php';
+require_once get_template_directory() . '/assets/cmb2/biblioteca.php';
 require_once get_template_directory() . '/assets/cmb2/faq.php';
 require_once get_template_directory() . '/assets/cmb2/contato.php';
 ?>
