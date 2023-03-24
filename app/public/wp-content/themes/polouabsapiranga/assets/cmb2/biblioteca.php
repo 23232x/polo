@@ -26,7 +26,7 @@ function cmb2_fields_biblioteca_title()
 
 $cmb2->add_field([
     'name' => 'Subtítulo',
-    'id' => 'Subtitle_library_page',
+    'id' => 'subtitle_library_page',
     'type' => 'text',
   ]);
 }

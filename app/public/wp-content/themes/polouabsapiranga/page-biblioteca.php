@@ -21,7 +21,7 @@
                 <h4><?php the_cmb2field('title_library_page')?></h4>
                 <ul>
                     <li>
-                        <span><?php the_cmb2field('subtitle_library_page')?></span>
+                        <span><?php the_cmb2field('subtitle_library_page'); ?></span>
                     </li>
                 </ul>
             </div>
@@ -93,8 +93,9 @@
 
                                    foreach ($repos as $repo) { ?>
                                    
-                                   <a href="<?php echo $repo['repo_item_link']?>" target="_blank"> <p title="<?php echo $repo['repo_item_title'] ?>"><?php echo $repo['repo_item_title']?></p>
-                                    </a>
+                                   <a href="<?php echo $repo['repo_item_link']?>" target="_blank">
+                                      <p title="<?php echo $repo['repo_item_title'] ?>"><?php echo $repo['repo_item_title']?></p>
+                                   </a>
                                     <?php
                                      }
                                     }
@@ -117,10 +118,10 @@
                 </div>
 
                 <!-- this div contais the hole links for the library -->
-                <div class="contend-section container">
+                <div class="contend-section container teste">
                 <ul class="ul-accordion">
                             <li>
-                            <button class="accordion">
+                            <button class="accordion library">
                                 <h3><?php the_cmb2field('digi_bible_title');?></h3>
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/plus-thin1.svg">
                              </button>
@@ -136,8 +137,7 @@
                                     <?php
                                      }
                                     }
-                                     ?>   
-                                
+                                ?>                               
                             </div>                               
                             </li>
                  
