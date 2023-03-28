@@ -39,65 +39,69 @@ add_action('cmb2_admin_init', 'cmb2_fields_edital_item');
 
 function cmb2_fields_edital_item()
 {
-  $cmb =  new_cmb2_box([
+  $cmb2 =  new_cmb2_box([
     'id' => 'edital_box_item',
     'title' => 'ADICIONAR NOVO EDITAL',
     'object_types' => ['page'],
     'show_on' => [
       'key' => 'page-template',
       'value' => 'page-editais.php',
+      'sortable' => false,
+      
     ],
   ]);
 
-  $editais = $cmb->add_field([
+  $editais = $cmb2->add_field([
 //   'name'=>"Edital",
   'id' =>'editais',
   'type' => 'group',
-  'repeatable' => true,
+  'repeatable' => true, 
   'options' => [
         'group_title' => 'Edital {#}',
         'add_button' => 'Adicionar edital',
         'remove_button' => 'Remover edital',
         'sortable' => true,
-  ]
+        
+      ]
 ]);
 
 // Título do edital
-$cmb->add_group_field($editais,[
+$cmb2->add_group_field($editais,[
   'name'=>"Titulo do Edital",
   'id' =>'edital_title',
   'type' => 'text',
+  
 ]);
 
 // Descrição do edital
-$cmb->add_group_field($editais,[
+$cmb2->add_group_field($editais,[
   'name'=>"Descrição do edital",
   'id' =>'edital_description',
   'type' => 'wysiwyg',
+  
 ]); 
 
 // Data final de inscrição
-$cmb->add_group_field($editais,[
+$cmb2->add_group_field($editais,[
   'name'=>"Data de incrição inicial",
   'id' =>'edital_date_start',
   'type' => 'text_date',
+  
 ]); 
 
 // Data final de inscrição
-$cmb->add_group_field($editais,[
+$cmb2->add_group_field($editais,[
   'name'=>"Data de incrição final",
   'id' =>'edital_date_end',
-  'type' => 'text_date',
+  'type' => 'text_date',  
 ]);
 
-
 // link para mais informacoes
-$cmb->add_group_field($editais,[
+$cmb2->add_group_field($editais,[
   'name'=>"URL mais informações",
   'id' =>'more_info',
   'type' => 'text',
+  
 ]);
 }
-
-
 ?>

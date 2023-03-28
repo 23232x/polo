@@ -42,6 +42,77 @@ function cmb2_fields_cursos()
     'type' => 'text',
   ]);
 }
+// ###################################################
+// ############ CMB2 - PÓS-GRADUAÇÃO: ################
+// ###################################################
+add_action('cmb2_admin_init', 'cmb2_fields_pos_item');
+
+function cmb2_fields_pos_item()
+{
+  $cmb =  new_cmb2_box([
+    'id' => 'pos_box_item',
+    'title' => 'CURSOS DE PÓS-GRADUAÇÃO',
+    'object_types' => ['page'],
+    'show_on' => [
+        'key' => 'page-template',
+        'value' => 'page-cursos.php',
+    ],
+  ]);
+
+  $cmb->add_field([
+    'name' => 'Título',
+    'id' => 'title_pos_section',
+    'type' => 'text',
+  ]);
+
+
+  $cmb->add_field([
+    'name' => 'Subitítulo',
+    'id' => 'subtitle_pos_section',
+    'type' => 'text',
+  ]);
+
+  $cursos_pos = $cmb->add_field([
+  'name'=>'Nesta seção é possível adicionar novos cursos de pós-graduação.',
+  'id' =>'cursos_pos',
+  'type' => 'group',
+  'repeatable' => true,
+  'options' => [
+        'group_title' => 'Curso  {#}',
+        'add_button' => 'Adicionar curso',
+        'remove_button' => 'Remover curso',
+        'sortable' => true,
+  ]
+]);
+
+// nome curso
+$cmb->add_group_field($cursos_pos,[
+  'name'=>'Nome do Curso',
+  'id' =>'course_pos_name',
+  'type' => 'text',
+]);
+
+// status curso 
+$cmb->add_group_field($cursos_pos,[
+  'name'=>"Status do curso",
+  'id' =>'course_pos_state',
+  'type' => 'select',
+  'show_option_none' => false,
+  'default'          => 'custom',
+  'options'          => array(
+      'standard' => __( 'Encerrado', 'cmb' ),
+      'custom'   => __( 'Em andamento', 'cmb' ),
+      'none'     => __( 'Concluído', 'cmb' ),
+  ),
+]); 
+
+// Link externo curso
+$cmb->add_group_field($cursos_pos,[
+    'name'=>"Link externo do curso de graduação",
+    'id' =>'course_pos_link',
+    'type' => 'text',   
+  ]);
+}
 
 
 //#############################################
@@ -114,81 +185,11 @@ $cmb->add_group_field($cursos_gradu,[
     'id' =>'course_gradu_link',
     'type' => 'text',   
   ]); 
-
 }
 
-// ###################################################
-// ############ CMB2 - PÓS-GRADUAÇÃO: ################
-// ###################################################
-add_action('cmb2_admin_init', 'cmb2_fields_pos_item');
-
-function cmb2_fields_pos_item()
-{
-  $cmb =  new_cmb2_box([
-    'id' => 'pos_box_item',
-    'title' => 'CURSOS DE PÓS-GRADUAÇÃO',
-    'object_types' => ['page'],
-    'show_on' => [
-        'key' => 'page-template',
-        'value' => 'page-cursos.php',
-    ],
-  ]);
-
-  $cmb->add_field([
-    'name' => 'Título',
-    'id' => 'title_pos_section',
-    'type' => 'text',
-  ]);
 
 
-  $cmb->add_field([
-    'name' => 'Subitítulo',
-    'id' => 'subtitle_pos_section',
-    'type' => 'text',
-  ]);
 
-  $cursos_pos = $cmb->add_field([
-  'name'=>'Nesta seção é possível adicionar novos cursos de pós-graduação.',
-  'id' =>'cursos_pos',
-  'type' => 'group',
-  'repeatable' => true,
-  'options' => [
-        'group_title' => 'Curso  {#}',
-        'add_button' => 'Adicionar curso',
-        'remove_button' => 'Remover curso',
-        'sortable' => true,
-  ]
-]);
-
-// nome curso
-$cmb->add_group_field($cursos_pos,[
-  'name'=>'Nome do Curso',
-  'id' =>'course_gradu_name',
-  'type' => 'text',
-]);
-
-// status curso 
-$cmb->add_group_field($cursos_pos,[
-  'name'=>"Status do curso",
-  'id' =>'course_gradu_state',
-  'type' => 'select',
-  'show_option_none' => false,
-  'default'          => 'custom',
-  'options'          => array(
-      'standard' => __( 'Encerrado', 'cmb2' ),
-      'custom'   => __( 'Em andamento', 'cmb2' ),
-      'none'     => __( 'Concluído', 'cmb2' )
-  ),
-]); 
-
-// Link externo curso
-$cmb->add_group_field($cursos_pos,[
-    'name'=>"Link externo do curso de graduação",
-    'id' =>'course_gradu_link',
-    'type' => 'text',   
-  ]); 
-
-}
 
 // ##########################################
 // ############ CMB2 -TÉCNICOS ##############
@@ -260,7 +261,6 @@ $cmb->add_group_field($cursos_tec,[
     'id' =>'course_tec_link',
     'type' => 'text',   
   ]); 
-
 }
 
 ?>
