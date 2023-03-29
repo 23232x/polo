@@ -1,4 +1,4 @@
-<?php // Template Name:Home 
+<?php // Template Name: Pagina-inicial 
 ?>
 
 <!-- importa o header -->

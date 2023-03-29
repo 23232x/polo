@@ -1679,3 +1679,12 @@ Stack trace:
 [28-Mar-2023 20:28:15 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
 [28-Mar-2023 20:28:15 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
 [28-Mar-2023 20:28:15 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[29-Mar-2023 15:38:44 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[29-Mar-2023 15:38:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[29-Mar-2023 15:38:55 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[29-Mar-2023 15:38:55 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[29-Mar-2023 15:38:55 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[29-Mar-2023 15:38:55 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[29-Mar-2023 15:38:55 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[29-Mar-2023 17:16:06 UTC] PHP Parse error:  syntax error, unexpected token "else" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 18
+[29-Mar-2023 19:54:46 UTC] PHP Parse error:  syntax error, unexpected identifier "Polo" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 16

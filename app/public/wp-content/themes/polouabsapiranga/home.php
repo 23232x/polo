@@ -1,8 +1,9 @@
-<?php get_header(); ?>
+<?php
+get_header();
+?>
 
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
- <!-- social medias top side bar -->
- <div class="section container">
+<!-- social medias top side bar -->
+<div class="section container">
       <!-- breadcrumb -->
       <div class="breadcrumb "><?php get_breadcrumb(); ?></div>
 
@@ -12,40 +13,48 @@
 
       <!-- tittle -->
       <div class="title-section">
-        <h4><?php the_title();?></h4>
+        <h4>Notícias Polo Uab Sapiranga</h4>
         <ul>
           <li>
-            <span><?php the_cmb2field('subtitle_page_faq'); ?></span>
+            <span>Notícias polo UAB Sapiranga</span>
           </li>
         </ul>
       </div>
-</div>
+    </div>
 
-    <section class="main-page bg">
+
+<section class="main-page bg">
       <div class="contend-section">
-        <ul class="ul-accordion">       
-             <li>
-                <button class="accordion">
-                  <h3><?php the_title(); ?></h3>
+        <ul class="ul-accordion">   
+            <li>
+                <button class="accordion">			
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 				
+				
+				<h3><?php the_title();?></h3>
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/plus-thin1.svg">
                 </button>
                 <div class="panel">
-                  <p>	<?php the_content(); ?></p>
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h2>
                 </div>
-              </li>     
-        </ul>
-      </div>
-    </section>
-<?php endwhile; else: ?>
-	<section class="introducao-interna introducao-geral">
-		<div class="container">
-			<h1>Página não encontrada.</h1>
-		</div>
-	</section>
-<?php endif; ?>
-<?php get_footer(); ?>
+            </li>
+			<?php endwhile; ?>
 
-<script>
+	<div class="container">
+		<?php next_posts_link( '← Posts Antigos' ); ?>
+		<?php previous_posts_link( 'Posts Novos →' ); ?>
+	</div>
+
+	<?php else: endif; ?>
+
+        </ul>
+
+      </div>
+
+    </section>
+
+
+	<?php get_footer(); ?>
+	<script>
   var acc = document.getElementsByClassName("accordion");
   var i;
 
@@ -61,3 +70,7 @@
     });
   }
 </script>
+
+
+
+
