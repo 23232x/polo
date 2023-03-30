@@ -114,7 +114,7 @@
                 <li><a href="/polouabsapiranga/Editais">Editais</a></li>
                 <li><a href="/polouabsapiranga/Biblioteca">biblioteca</a></li>
                 <li><a href="/polouabsapiranga/Contato">Contato</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="/polouabsapiranga/noticias">Noticias</a></li>
                 <li><a href="/polouabsapiranga/FAQ">FAQ</a></li>
             </ul>
         </nav>

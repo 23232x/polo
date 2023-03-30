@@ -1688,3 +1688,145 @@ Stack trace:
 [29-Mar-2023 15:38:55 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
 [29-Mar-2023 17:16:06 UTC] PHP Parse error:  syntax error, unexpected token "else" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 18
 [29-Mar-2023 19:54:46 UTC] PHP Parse error:  syntax error, unexpected identifier "Polo" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 16
+[30-Mar-2023 18:23:59 UTC] PHP Warning:  Undefined variable $custom_content in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/functions.php on line 158
+[30-Mar-2023 19:02:20 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php:40
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-blog-header.php(19): require_once('/home/PMSAPIRAN...')
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
+#3 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 40
+[30-Mar-2023 19:02:28 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php:40
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-blog-header.php(19): require_once('/home/PMSAPIRAN...')
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
+#3 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 40
+[30-Mar-2023 19:02:30 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php:40
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-blog-header.php(19): require_once('/home/PMSAPIRAN...')
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
+#3 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 40
+[30-Mar-2023 19:02:54 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php:40
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-blog-header.php(19): require_once('/home/PMSAPIRAN...')
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
+#3 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 40
+[30-Mar-2023 19:03:00 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php:40
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-blog-header.php(19): require_once('/home/PMSAPIRAN...')
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
+#3 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 40
+[30-Mar-2023 19:03:16 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php:40
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-blog-header.php(19): require_once('/home/PMSAPIRAN...')
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/index.php(17): require('/home/PMSAPIRAN...')
+#3 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 40
+[30-Mar-2023 20:29:43 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:29:43 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:29:43 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:29:43 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:29:43 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:31:28 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:31:28 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:31:28 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:31:28 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:31:28 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:31:40 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:31:40 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:31:40 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:31:40 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:31:40 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:39:04 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:39:04 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:39:04 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:39:04 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:39:04 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:40:29 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:40:29 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:40:29 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:40:29 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:40:29 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:05 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:05 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:05 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:05 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:05 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:31 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:31 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:31 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:31 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:31 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:55 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:55 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:55 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:55 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:41:55 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:42:20 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:42:20 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:42:20 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:42:20 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:42:20 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:31 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:31 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:31 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:31 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:31 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:43 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:43 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:43 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:43 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:43 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:51 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:51 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:51 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:51 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:45:51 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:46:08 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:46:08 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:46:08 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:46:08 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:46:08 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:46:38 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:46:38 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:46:38 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:46:38 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:46:38 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:50:23 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:50:23 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:50:23 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:50:23 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:50:23 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:50:54 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:50:54 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:50:54 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:50:54 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:50:54 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:51:08 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:51:08 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:51:08 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:51:08 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:51:08 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:51:20 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:51:20 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:51:20 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:51:20 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:51:20 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:54:42 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:54:42 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:54:42 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:54:42 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 20:54:42 UTC] PHP Warning:  Undefined variable $noticia_name in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/home.php on line 41
+[30-Mar-2023 21:27:41 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[30-Mar-2023 21:27:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[30-Mar-2023 21:27:46 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[30-Mar-2023 21:27:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
