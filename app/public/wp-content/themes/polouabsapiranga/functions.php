@@ -15,7 +15,9 @@ remove_action('admin_print_scripts', 'print_emoji_detection_script');
 remove_action('wp_print_styles', 'print_emoji_styles');
 remove_action('admin_print_styles', 'print_emoji_styles');
 
-
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size' , '64M' );
+@ini_set( 'max_execution_time' , '64M' );
 
 
 /**

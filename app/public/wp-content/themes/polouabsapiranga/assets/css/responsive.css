@@ -45,9 +45,11 @@
 @media (max-width:1033px) {
     .title-section {
         align-self: flex-start;
+        margin-top: 6rem !important;
     }
 
     .contend-section .text-wrapper {
+      
         align-self: flex-start;
         max-width: 95%;
     }

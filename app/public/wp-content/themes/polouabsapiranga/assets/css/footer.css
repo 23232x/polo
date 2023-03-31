@@ -50,8 +50,17 @@
     margin-top: 2rem;
     font-weight: 400;
     font-size: 1.2rem;
-    line-height: 2.2rem;
+    line-height: 2.2rem
 }
+
+.desc-polo-footer a{
+    display: inline-block;
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+
 
 /*###################################*/
 .footer-courses {
@@ -96,6 +105,8 @@
 
 ul.menu-footer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 ul.menu-footer li a {
@@ -106,6 +117,8 @@ ul.menu-footer li a {
 
 ul.medias-footer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 ul.medias-footer li a img {
@@ -123,12 +136,13 @@ ul.medias-footer li a img {
 
 span.copy {
     display: inline-block;
+    margin-bottom: 1rem; 
     width: 100%;
     text-align: center;
     font-size: 1.2rem;
     color: #ffff;
     font-weight: 200;
-    margin-bottom: 0.25rem;
+    
 
 }
 
@@ -163,7 +177,11 @@ span.copy {
     }
 }
 
-
+@media screen and (max-width:722px) {
+    .medias-menu.container {
+        flex-direction: column;
+    }
+}
 
 @media screen and (max-width:512px) {
     .footer-courses {
@@ -182,8 +200,11 @@ span.copy {
     }
 }
 
-@media screen and (max-width:722px) {
-    .medias-menu.container {
-        flex-direction: column;
+
+@media screen and (max-width:258px){
+   ul.medias-footer li,ul.menu-footer li{
+    margin: 4px 0;
     }
+
 }
+

@@ -14,7 +14,7 @@
 
                 <p class="desc-polo-footer">
                     Oferecemos mais de 30 cursos, nos níveis técnico,
-                    graduação e pós-graduação. Veja a listagem de cursos completa <a href="/polouabsapiranga/cursos">aqui</a>.
+                    graduação e pós-graduação. Veja a listagem de cursos completa <a href="/polouabsapiranga/cursos">aqui.</a>
                 </p>
             </div>
 
@@ -123,9 +123,7 @@
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/social-footer/print.svg" alt="">
                     </a>
                 </li>
-
             </ul>
-
         </div>
 
         <div class="line"></div>
@@ -154,6 +152,14 @@
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
+
+
+
+
+
+
+
+
 
 
     </body>

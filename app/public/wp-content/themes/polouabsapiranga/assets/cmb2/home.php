@@ -77,7 +77,12 @@ $swiper_cmb2->add_group_field($slides,[
 $swiper_cmb2->add_group_field($slides,[
   'name'=>"Imagem",
   'id' =>'imagem',
-  'type' => 'file',
+  'type' => 'file'
+  // array(
+  //   'image/gif',
+  //   'image/jpeg',
+  //   'image/png',
+  // ),
 ]);  
 }
 ?>

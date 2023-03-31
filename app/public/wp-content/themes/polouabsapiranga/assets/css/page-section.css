@@ -256,8 +256,20 @@ span.address-description {
 
 
 
-@media(max-width:735px) {
+
+
+@media (max-width:735px) {
     .polo-map {
         height: 45rem
+    }
+ }
+
+
+
+
+ @media (max-width:615px){
+    .title-section h4 {
+      font-size: 3rem;
+       
     }
 }

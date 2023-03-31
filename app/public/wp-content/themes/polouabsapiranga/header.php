@@ -111,7 +111,7 @@
 
 
 
-                <li><a href="/polouabsapiranga/Editais">Editais</a></li>
+                <!-- <li><a href="/polouabsapiranga/Editais">Editais</a></li> -->
                 <li><a href="/polouabsapiranga/Biblioteca">biblioteca</a></li>
                 <li><a href="/polouabsapiranga/Contato">Contato</a></li>
                 <li><a href="/polouabsapiranga/noticias">Noticias</a></li>
@@ -119,35 +119,26 @@
             </ul>
         </nav>
 
-
-
-
-
-
-
-
-
         <!-- SUB MENU PESQUISAR ----------->
-        <!-- <nav id="toggle-search-menu" class="toggle-menu" style="display:none;"> -->
+        <nav id="toggle-search-menu" class="toggle-menu" style="display:none;"> 
         <!-- sub-menu SOBRE -->
-        <!-- <div class="container sub-menu form"> -->
+        <div class="container sub-menu form"> 
         <!-- 1º First column -->
-        <!-- <div class="column">
-                        <h4 class="title-inner-menu">O que você deseja pesquisar?</h4>
-                        <p class="desc">Oferecemos mais de 40 cursos entre, técnicos,
-                            graduação e pós gradução.</p>
-                    </div> -->
+            <div class="column">
+                <h4 class="title-inner-menu">O que você deseja pesquisar?</h4>
+                <p class="desc">Oferecemos mais de 40 cursos entre, técnicos, graduação e pós gradução.</p>
+            </div> 
 
-        <div class="Wrapper-searchform" style="display:none;">
-            <!-- <?php get_search_form(); ?> -->
-
-        </div> <!-- </div> -->
-
-
-        <!-- </nav> -->
+            <div class="Wrapper-searchform" style="display:none;">
+                <!-- <?php get_search_form(); ?> -->
+            </div>
+        </div>
+        </nav>
+    
     </header>
 
     <script>
+
         // ###################################################################
         //######### This functions show and hide the SEARCH submenu ##########
         // ###################################################################
@@ -158,11 +149,12 @@
             var showMenu = document.getElementById("toggle-search-menu");
 
             if (showMenu.classList.contains('on')) {
-                showMenu.classList.remove("on");
+                showMenu.classList.remove("on");                
             } else {
                 showMenu.classList.add("on");
             }
         });
+        
 
         //##################################################################### 
         //########### This functions show the MAIN mobile menu ########
@@ -179,6 +171,15 @@
                 showMainMenu.classList.add("on");
             }
         });
+
+     
+
+
+
+
+
+
+
     </script>
 
     <!-- verificando se um elemento tem classe -->

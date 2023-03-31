@@ -64,9 +64,7 @@ button.search-form span {
 
 .top-header a span.polo {
     display: block;
-
     line-height: 19px;
-
     font-size: 1.6rem;
     font-weight: 600;
     color: #002140;
@@ -207,6 +205,13 @@ a.see-full-list:hover {
     width: 100%;
 }
 
+/* **** show the search bar **** */
+.toggle-search-menu.on{
+    display: block;
+}
+
+
+
 
 /* media queries menu */
 @media screen and (max-width:415px) {
@@ -255,7 +260,7 @@ a.see-full-list:hover {
     .menu-itens.container.on {
         display: block !important;
         background-color: rgb(223, 223, 223);
-        margin-top: 79rem;
+        margin-top: 72rem;
         padding-left: 2.5rem;
         width: 100%;
         position: absolute
@@ -273,5 +278,20 @@ a.see-full-list:hover {
     .menu-itens.container.on li:last-child {
         border: none
     }
+}
+
+
+@media screen and (max-width:307px){
+    .top-header a span.polo {
+        font-size: 1.3rem;
+        font-weight: 550;
+    }
+    .top-header a span.uab {
+        font-size: 1.2rem;
+        font-weight: 400;
+     
+    }
 
 }
+
+

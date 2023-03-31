@@ -1830,3 +1830,215 @@ Stack trace:
 [30-Mar-2023 21:27:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
 [30-Mar-2023 21:27:46 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
 [30-Mar-2023 21:27:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 15:36:16 UTC] Erro de evento de reagendamento do cron para o gancho: wp_privacy_delete_old_export_files, código de erro: could_not_set, mensagem de erro: Não foi possível salvar a lista de evento do cron, dados: {"schedule":"hourly","args":[],"interval":3600}
+[31-Mar-2023 16:09:05 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[31-Mar-2023 16:09:05 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[31-Mar-2023 16:09:05 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[31-Mar-2023 16:09:05 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 16:09:05 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 16:09:06 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:09:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:13:15 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:13:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:13:47 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:13:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:14:23 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:14:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:14:47 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:14:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:22:19 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:22:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:22:33 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:22:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:23:01 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:23:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:23:10 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:23:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:23:11 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:23:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:23:19 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:23:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:23:29 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:23:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:34:59 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:34:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:39:50 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:39:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:40:48 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:40:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:41:42 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:41:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:41:52 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:41:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:42:05 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:42:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:42:13 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:42:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:52:42 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:52:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:52:52 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:52:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:52:56 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:52:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:53:39 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:53:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:56:55 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:56:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:57:02 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:57:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:57:11 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:57:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:57:12 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:57:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:57:17 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:57:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:57:30 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:57:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:58:02 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 16:58:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:01:30 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:01:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:01:40 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:01:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:01:53 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:01:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:04:01 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:04:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:04:11 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:04:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:04:25 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:04:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:04:35 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:04:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:04:42 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:04:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:04:54 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:04:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:05:05 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:05:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:05:14 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:05:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:05:19 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:05:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:05:27 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:05:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:05:33 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:05:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:05:44 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:05:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:07:51 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:07:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:11:23 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:11:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[31-Mar-2023 17:11:26 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[31-Mar-2023 17:11:26 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[31-Mar-2023 17:11:26 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[31-Mar-2023 17:11:26 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:11:26 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:25:11 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[31-Mar-2023 17:25:11 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[31-Mar-2023 17:25:11 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[31-Mar-2023 17:25:11 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:25:11 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:25:50 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[31-Mar-2023 17:25:50 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[31-Mar-2023 17:25:50 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[31-Mar-2023 17:25:50 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:25:50 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:26:56 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[31-Mar-2023 17:26:56 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[31-Mar-2023 17:26:56 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[31-Mar-2023 17:26:56 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:26:56 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:27:20 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[31-Mar-2023 17:27:20 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[31-Mar-2023 17:27:20 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[31-Mar-2023 17:27:20 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:27:20 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:27:23 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[31-Mar-2023 17:27:23 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[31-Mar-2023 17:27:23 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[31-Mar-2023 17:27:23 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:27:23 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:28:23 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[31-Mar-2023 17:28:23 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[31-Mar-2023 17:28:23 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[31-Mar-2023 17:28:23 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:28:23 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:28:34 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[31-Mar-2023 17:28:34 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[31-Mar-2023 17:28:34 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[31-Mar-2023 17:28:34 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:28:34 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:28:51 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[31-Mar-2023 17:28:51 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[31-Mar-2023 17:28:51 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[31-Mar-2023 17:28:51 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:28:51 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:29:02 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[31-Mar-2023 17:29:02 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[31-Mar-2023 17:29:02 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[31-Mar-2023 17:29:02 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:29:02 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:42:57 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[31-Mar-2023 17:42:57 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[31-Mar-2023 17:42:57 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[31-Mar-2023 17:42:57 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 17:42:57 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[31-Mar-2023 19:36:03 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php:1395
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php(1395): stripos(Array, '_inline')
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php(148): CMB2_Field->_set_field_defaults(Array)
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(1401): CMB2_Field->__construct(Array)
+#3 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(634): CMB2->get_field(Array, Object(CMB2_Field))
+#4 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(536): CMB2->render_group_row(Object(CMB2_Field))
+#5 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(315): CMB2->render_group_callback(Array, Object(CMB2_Field), NULL)
+#6 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(273): CMB2_Base->do_callback(Array)
+#7 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(249): CMB2_Base->get_param_callback_result('render_row_cb')
+#8 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(490): CMB2_Base->peform_param_callback('render_row_cb')
+#9 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(453): CMB2->render_group(Array)
+#10 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(260): CMB2->render_field(Array)
+#11 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Hookup.php(716): CMB2->show_form(8, 'post')
+#12 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/includes/template.php(1445): CMB2_Hookup->metabox_callback(Object(WP_Post), Array)
+#13 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#14 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/post.php(206): require('/home/PMSAPIRAN...')
+#15 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php on line 1395
+[31-Mar-2023 19:39:02 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php:1395
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php(1395): stripos(Array, '_inline')
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php(148): CMB2_Field->_set_field_defaults(Array)
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(1401): CMB2_Field->__construct(Array)
+#3 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(634): CMB2->get_field(Array, Object(CMB2_Field))
+#4 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(536): CMB2->render_group_row(Object(CMB2_Field))
+#5 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(315): CMB2->render_group_callback(Array, Object(CMB2_Field), NULL)
+#6 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(273): CMB2_Base->do_callback(Array)
+#7 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(249): CMB2_Base->get_param_callback_result('render_row_cb')
+#8 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(490): CMB2_Base->peform_param_callback('render_row_cb')
+#9 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(453): CMB2->render_group(Array)
+#10 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(260): CMB2->render_field(Array)
+#11 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Hookup.php(716): CMB2->show_form(8, 'post')
+#12 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/includes/template.php(1445): CMB2_Hookup->metabox_callback(Object(WP_Post), Array)
+#13 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#14 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/post.php(206): require('/home/PMSAPIRAN...')
+#15 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php on line 1395
+[31-Mar-2023 19:44:03 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php:1395
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php(1395): stripos(Array, '_inline')
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php(148): CMB2_Field->_set_field_defaults(Array)
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(1401): CMB2_Field->__construct(Array)
+#3 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(634): CMB2->get_field(Array, Object(CMB2_Field))
+#4 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(536): CMB2->render_group_row(Object(CMB2_Field))
+#5 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(315): CMB2->render_group_callback(Array, Object(CMB2_Field), NULL)
+#6 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(273): CMB2_Base->do_callback(Array)
+#7 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(249): CMB2_Base->get_param_callback_result('render_row_cb')
+#8 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(490): CMB2_Base->peform_param_callback('render_row_cb')
+#9 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(453): CMB2->render_group(Array)
+#10 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(260): CMB2->render_field(Array)
+#11 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Hookup.php(716): CMB2->show_form(8, 'post')
+#12 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/includes/template.php(1445): CMB2_Hookup->metabox_callback(Object(WP_Post), Array)
+#13 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#14 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/post.php(206): require('/home/PMSAPIRAN...')
+#15 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php on line 1395
