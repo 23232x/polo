@@ -2042,3 +2042,202 @@ Stack trace:
 #14 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/post.php(206): require('/home/PMSAPIRAN...')
 #15 {main}
   thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php on line 1395
+[03-Apr-2023 15:49:32 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[03-Apr-2023 15:49:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[03-Apr-2023 15:49:38 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[03-Apr-2023 15:49:38 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[03-Apr-2023 15:49:38 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[03-Apr-2023 15:49:38 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[03-Apr-2023 15:49:38 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[03-Apr-2023 15:50:09 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[03-Apr-2023 15:50:09 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[03-Apr-2023 15:50:09 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[03-Apr-2023 15:50:09 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[03-Apr-2023 15:50:09 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[03-Apr-2023 16:00:07 UTC] PHP Warning:  A non-numeric value encountered in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/includes/class-wp-debug-data.php on line 1611
+[03-Apr-2023 16:11:57 UTC] PHP Warning:  Attempt to read property "title" on null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[03-Apr-2023 16:12:41 UTC] PHP Warning:  Undefined array key "course_pos_link" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 92
+[03-Apr-2023 16:12:41 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 93
+[03-Apr-2023 16:12:41 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 95
+[03-Apr-2023 16:12:41 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[03-Apr-2023 16:12:41 UTC] PHP Warning:  Undefined array key "course_pos_name" in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-cursos.php on line 136
+[03-Apr-2023 16:12:45 UTC] PHP Warning:  Undefined variable $reco_edu in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[03-Apr-2023 16:12:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/themes/polouabsapiranga/page-biblioteca.php on line 375
+[03-Apr-2023 16:34:47 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php:1395
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php(1395): stripos(Array, '_inline')
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php(148): CMB2_Field->_set_field_defaults(Array)
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(1401): CMB2_Field->__construct(Array)
+#3 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(634): CMB2->get_field(Array, Object(CMB2_Field))
+#4 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(536): CMB2->render_group_row(Object(CMB2_Field))
+#5 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(315): CMB2->render_group_callback(Array, Object(CMB2_Field), NULL)
+#6 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(273): CMB2_Base->do_callback(Array)
+#7 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(249): CMB2_Base->get_param_callback_result('render_row_cb')
+#8 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(490): CMB2_Base->peform_param_callback('render_row_cb')
+#9 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(453): CMB2->render_group(Array)
+#10 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(260): CMB2->render_field(Array)
+#11 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Hookup.php(716): CMB2->show_form(8, 'post')
+#12 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/includes/template.php(1445): CMB2_Hookup->metabox_callback(Object(WP_Post), Array)
+#13 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#14 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/post.php(206): require('/home/PMSAPIRAN...')
+#15 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php on line 1395
+[03-Apr-2023 16:51:53 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php:1395
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php(1395): stripos(Array, '_inline')
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php(148): CMB2_Field->_set_field_defaults(Array)
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(1401): CMB2_Field->__construct(Array)
+#3 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(634): CMB2->get_field(Array, Object(CMB2_Field))
+#4 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(536): CMB2->render_group_row(Object(CMB2_Field))
+#5 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(315): CMB2->render_group_callback(Array, Object(CMB2_Field), NULL)
+#6 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(273): CMB2_Base->do_callback(Array)
+#7 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(249): CMB2_Base->get_param_callback_result('render_row_cb')
+#8 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(490): CMB2_Base->peform_param_callback('render_row_cb')
+#9 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(453): CMB2->render_group(Array)
+#10 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(260): CMB2->render_field(Array)
+#11 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Hookup.php(716): CMB2->show_form(8, 'post')
+#12 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/includes/template.php(1445): CMB2_Hookup->metabox_callback(Object(WP_Post), Array)
+#13 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#14 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/post.php(206): require('/home/PMSAPIRAN...')
+#15 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php on line 1395
+[03-Apr-2023 17:46:29 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php:1395
+Stack trace:
+#0 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php(1395): stripos(Array, '_inline')
+#1 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php(148): CMB2_Field->_set_field_defaults(Array)
+#2 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(1401): CMB2_Field->__construct(Array)
+#3 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(634): CMB2->get_field(Array, Object(CMB2_Field))
+#4 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(536): CMB2->render_group_row(Object(CMB2_Field))
+#5 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(315): CMB2->render_group_callback(Array, Object(CMB2_Field), NULL)
+#6 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(273): CMB2_Base->do_callback(Array)
+#7 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Base.php(249): CMB2_Base->get_param_callback_result('render_row_cb')
+#8 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(490): CMB2_Base->peform_param_callback('render_row_cb')
+#9 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(453): CMB2->render_group(Array)
+#10 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2.php(260): CMB2->render_field(Array)
+#11 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Hookup.php(716): CMB2->show_form(8, 'post')
+#12 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/includes/template.php(1445): CMB2_Hookup->metabox_callback(Object(WP_Post), Array)
+#13 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#14 /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-admin/post.php(206): require('/home/PMSAPIRAN...')
+#15 {main}
+  thrown in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-content/plugins/cmb2/includes/CMB2_Field.php on line 1395
+[03-Apr-2023 19:53:22 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:53:31 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:53:32 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:53:34 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:53:34 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:53:34 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:53:35 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:53:57 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:54:03 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:54:03 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:54:09 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:54:09 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:54:09 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:55:10 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:57:11 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:57:23 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:57:23 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:57:24 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:57:27 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:57:36 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:57:43 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:58:24 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 19:59:24 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:00:24 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:01:00 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:01:00 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:01:03 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:05:20 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:05:21 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:05:21 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:07:57 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:07:57 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:07:57 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:08:04 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:08:05 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:08:08 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:08:08 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:08:08 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:08:10 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:08:15 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:08:20 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:08:27 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:08:34 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:09:19 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:09:19 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:09:20 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:09:24 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:09:24 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:09:54 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:09:54 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:09:57 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:09:57 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:09:57 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:09:58 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:10:02 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:10:08 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:10:15 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:10:59 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:11:59 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:12:59 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:13:59 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:14:59 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:15:28 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:15:35 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:15:59 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:16:59 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:17:59 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:18:56 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:18:56 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:18:57 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:18:59 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:19:01 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:19:07 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:19:07 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:19:07 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:19:57 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:21:57 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:23:57 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:25:58 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:27:59 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:32:01 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:34:02 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:42:59 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:43:59 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:44:07 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:46:08 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:48:09 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:50:10 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:52:11 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:52:11 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:54:12 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:56:13 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 20:58:14 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:00:15 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:00:52 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:00:53 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:00:53 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:00:53 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:00:53 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:01:02 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:01:02 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:01:02 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:01:02 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:01:02 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:01:11 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:01:11 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:01:11 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:01:11 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:01:11 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:01:11 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:02:16 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:04:17 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:06:18 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:08:19 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:10:20 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:12:21 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:14:22 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:16:23 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:18:24 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:20:25 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89
+[03-Apr-2023 21:20:56 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/PMSAPIRANGA/adrianoamado/Local Sites/polo/app/public/wp-config.php on line 89

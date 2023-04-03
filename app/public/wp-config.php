@@ -38,6 +38,19 @@ define( 'DB_CHARSET', 'utf8' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+define ( 'UPLOADS',  'wp-content/uploads' );
+
+// Turn on Debugging
+define('WP_DEBUG', TRUE); 
+
+// Yes, log errors please
+define( 'WP_DEBUG_LOG', TRUE );
+
+// Let's not show errors on the page.
+define( 'WP_DEBUG_DISPLAY', FALSE );
+
+
+
 /**#@+
  * Authentication unique keys and salts.
  *
