@@ -113,9 +113,9 @@
         </section>
 
 
-        <div class="related-itens container">
+        <!-- <div class="related-itens container">
             <h4>Itens relacionados</h4>
-        </div>
+        </div> -->
 
 
 

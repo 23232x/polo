@@ -128,12 +128,10 @@
 
         <div class="line"></div>
 
-
         <!-- copy-rigths php function -->
         <span class="copy"><?php echo date('Y'); ?> - Polo Universitário UAB de Sapiranga.</span>
 
     </footer>
-
 
     <!-- Fires the wp_footer action. This is one of the most important hooks, many plugins will not
      work without it. It needs to be called in the theme footer, in footer.php file. -->

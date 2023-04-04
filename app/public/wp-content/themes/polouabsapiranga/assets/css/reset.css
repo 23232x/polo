@@ -44,15 +44,18 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
+    
 }
 
 html {
     /*  a cada 1rem será considerado 10px */
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
     font-size: 1.6rem;
+   
 }
 
 h1,

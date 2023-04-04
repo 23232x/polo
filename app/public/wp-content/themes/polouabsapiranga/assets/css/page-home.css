@@ -70,25 +70,25 @@ h4.title-section {
 .main-hero .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100%;
+    justify-content: space-evenly;
+    height: 100%    
 }
 
 
 /* intro text */
-p.text-intro {
+p.text-intro {    
     font-family: 'Playfair Display', serif;
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 100;
     color: #fff;
-    width: 65%
+    width: 55%    
 }
 
 .pesquisa {
-    margin-top: 32rem;
+    margin-top: 8rem;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center
 }
 
 .pesquisa span {
@@ -115,11 +115,11 @@ p.text-intro {
     display: inline-block;
     margin-left: 2rem;
     font-family: 'Nanum Myeongjo', serif;
-    font-weight: 500;
+    font-weight: 300 !important;
     font-size: 2.5rem;
     color: #fff;
     background-color: #002140;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     display: flex;
     /* align-items: center; */
 }
@@ -130,4 +130,5 @@ p.text-intro {
 
 .ou {
     margin-left: 5rem;
+    font-style: italic;
 }

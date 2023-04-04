@@ -15,24 +15,19 @@
         <main>
             <section class="main-hero">
                 <div class="container">
-
                     <p class="text-intro">
                         <!-- CMB2 get Field  -->
                         <?php the_cmb2field('intro_text'); ?>
-
-
                     </p>
 
                     <div class="pesquisa">
                         <span>Encontre um curso</span>
                         <!-- this div contais the search form -->
                         <div class="search_form">
-
-                            <?php get_search_form(); ?>
+                            <?php get_template_part('template-parts/searchform_home'); ?>
                         </div>
                         <span class="ou">ou</span>
-                        <a href="/Cursos" class="see-all-courses" id="right-hover">veja todos os cursos disponíveis <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hero/right-thin.svg" alt=""></a>
-
+                        <a href="/Cursos" class="see-all-courses" id="right-hover">veja todos os cursos<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hero/right-thin.svg" alt=""></a>
                     </div>
                 </div>
             </section>

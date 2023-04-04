@@ -92,25 +92,20 @@ nav.menu {
     justify-content: space-between;
     align-items: center;
     height: 8rem;
-    position: relative;
+    /* position: relative !important; */
 }
 
 ul.menu-itens.container {
     display: flex;
     /* width: 100%; */
-    justify-content: flex-start
+    justify-content: flex-start;
+    
+    
 }
 
 ul.menu-itens.container li {
     margin: 1rem;
     margin-left: 0px;
-}
-
-/* turn the menu item to reference to submenu*/
-.sub-menu {
-    background-color: #ffff;
-    position: absolute;
-    margin-top: 6rem;
 }
 
 ul.menu-itens.container li a {
@@ -122,7 +117,6 @@ ul.menu-itens.container li a {
     font-size: 1.4rem;
     font-weight: 500;
 }
-
 
 /*######### SUB MENU COURSES ######### */
 h4.title-inner-menu {
@@ -150,9 +144,6 @@ h4.title-inner-menu::before {
     line-height: 20px;
     margin-top: 2rem
 }
-
-
-
 
 h4.degree {
     font-family: 'Playfair Display', serif;
@@ -198,17 +189,41 @@ a.see-full-list:hover {
 
 
 /************ styling the searh menu ************/
-.Wrapper-searchform {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
 
 /* **** show the search bar **** */
-.toggle-search-menu.on{
-    display: block;
+.toggle-menu.on{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: block !important;   
+    background-color: #ffff !important; 
 }
+
+/* turn the menu item to reference to submenu*/
+ .sub-menu.form {
+    display: flex;      
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color:#DFDFDF;
+    position: absolute;
+    padding: 5rem 8rem;
+    border-bottom: 1px solid gray;
+ }
+
+@media screen and (max-width:655px){
+   .sub-menu.form{
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+   }
+   
+   .Wrapper-searchform {       
+    margin: 2rem 0; 
+    }
+}
+
+
 
 
 
@@ -221,7 +236,6 @@ a.see-full-list:hover {
 }
 
 @media screen and (max-width:776px) {
-
     /* disable the desktop menu */
     ul.menu-itens.container {
         display: none;
@@ -236,18 +250,6 @@ a.see-full-list:hover {
     }
 }
 
-
-/* #### change the directions for 'column" */
-@media screen and (max-width:587px) {
-    .container.sub-menu.form {
-        display: flex;
-        flex-direction: column
-    }
-
-    .Wrapper-searchform {
-        margin-top: 5rem
-    }
-}
 
 /* styling for main mobile menu */
 @media screen and (max-width:776px) {
