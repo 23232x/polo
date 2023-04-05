@@ -85,50 +85,76 @@ p.text-intro {
 }
 
 .pesquisa {
-    margin-top: 8rem;
-    display: flex;
+    margin-top: 8rem; 
+    display: flex;    
     flex-wrap: wrap;
-    align-items: center
+    align-items: center;
 }
 
-.pesquisa span {
+.pesquisa-item.find{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pesquisa-item span.find-course {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 500;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #fff;
     margin-right: 3rem
 }
 
-.busca form {
-    display: grid
+.pesquisa-item.see-all{
+    display: flex;
+    align-items: center;
 }
 
-.hidden {
-    display: none
+.ou {
+    margin-left: 3rem;
+    font-style: italic;
+    color: #fff;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 500;
+    font-size: 2rem
 }
 
-.busca #s {
-    border: 2px solid #fff
-}
 
 .see-all-courses {
     display: inline-block;
     margin-left: 2rem;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 300 !important;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #fff;
     background-color: #002140;
-    padding: 2rem 2rem;
+    padding: 1.6rem 2rem;
     display: flex;
-    /* align-items: center; */
+    align-items: center; 
 }
 
 .see-all-courses img {
     margin-left: 2rem;
 }
 
-.ou {
-    margin-left: 5rem;
-    font-style: italic;
+
+@media screen and (max-width:738px){
+    .pesquisa-item.find{
+     margin-right: 4rem;
+    }
+    .pesquisa-item.see-all .ou{
+        margin-left: 0;
+    }
+    .pesquisa-item.see-all{
+        margin-top: 3rem;
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .find-course{
+        margin-bottom: 1rem;
+    }
+
 }
